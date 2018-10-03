@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hotpot-interface-file>
+  <java>
+    <version>6</version>
+    <windows>
+      <pnl-shared-main>
+        <lbl-exercise-title>
+          <value>Titel der &amp;#x00dc;bung:</value>
+        </lbl-exercise-title>
+        <ta-exercise-title>
+          <tooltip>Hauptitel der &amp;#x00dc;bung hier eingeben.</tooltip>
+        </ta-exercise-title>
+      </pnl-shared-main>
+      <buttonbar-shared-main>
+        <btn-new-data>
+          <tooltip>Neue &amp;#x00dc;bung</tooltip>
+        </btn-new-data>
+        <btn-open-data>
+          <tooltip>Eine bereits bestehende Datendatei &amp;#x00f6;ffnen.</tooltip>
+        </btn-open-data>
+        <btn-save-data>
+          <tooltip>Aktuelle Daten in die bestehende Datendatei sichern.</tooltip>
+        </btn-save-data>
+        <btn-save-as-data>
+          <tooltip>Aktuelle Daten in eine neue Datendatei sichern.</tooltip>
+        </btn-save-as-data>
+        <btn-reading>
+          <tooltip>Lesetext hinzuf&amp;#x00fc;gen.</tooltip>
+        </btn-reading>
+        <btn-make-exercise>
+          <tooltip>Eine Standard-&amp;#x00dc;bung erzeugen.</tooltip>
+        </btn-make-exercise>
+        <btn-cut>
+          <tooltip>Auswahl ausschneiden</tooltip>
+        </btn-cut>
+        <btn-copy>
+          <tooltip>Auswahl kopieren</tooltip>
+        </btn-copy>
+        <btn-paste>
+          <tooltip>Auswahl einsetzen</tooltip>
+        </btn-paste>
+        <btn-delete>
+          <tooltip>Auswahl l&amp;#x00f6;schen/entfernen</tooltip>
+        </btn-delete>
+        <btn-select-all>
+          <tooltip>ALLES ausw&amp;#x00e4;hlen</tooltip>
+        </btn-select-all>
+        <btn-insert-image>
+          <tooltip>Bild einf&amp;#x00fc;gen</tooltip>
+        </btn-insert-image>
+        <btn-insert-link>
+          <tooltip>Link einf&amp;#x00fc;gen</tooltip>
+        </btn-insert-link>
+        <btn-show-config>
+          <tooltip>Konfigurationsfenster zeigen</tooltip>
+        </btn-show-config>
+        <btn-help>
+          <tooltip>Hilfe aufrufen</tooltip>
+        </btn-help>
+      </buttonbar-shared-main>
+      <pnl-jquiz-specific>
+        <btn-question-arrow-up>
+          <tooltip>Klicken, um bei den Fragen um einen Themenpunkt nach oben zu gelangen.</tooltip>
+        </btn-question-arrow-up>
+        <btn-question-arrow-down>
+          <tooltip>Klicken, um bei den Fragen um einen Themenpunkt nach unten zu gelangen.</tooltip>
+        </btn-question-arrow-down>
+        <lbl-question>
+          <value>Frage:</value>
+        </lbl-question>
+        <tf-question-num>
+          <tooltip></tooltip>
+        </tf-question-num>
+        <ta-jquiz-question>
+          <tooltip>Text f&amp;#x00fc;r diese Frage hier eingeben.</tooltip>
+        </ta-jquiz-question>
+        <cmbx-question-type>
+          <tooltip>Gew&amp;#x00fc;nschten Fragetyp ausw&amp;#x00e4;hlen.</tooltip>
+        </cmbx-question-type>
+        <lbl-question-weight>
+          <value>Gewichtung:</value>
+        </lbl-question-weight>
+        <tf-question-weight>
+          <tooltip>Relative Gewichtung dieser Frage festlegen(0 bis 100).</tooltip>
+        </tf-question-weight>
+        <btn-question-weight-arrow-up>
+          <tooltip>Klicken, um relative Gewichtung zu erh&amp;#x00f6;hen (0 bis 100).</tooltip>
+        </btn-question-weight-arrow-up>
+        <btn-question-weight-arrow-down>
+          <tooltip>Klicken, um relative Gewichtung zu reduzieren (100 bis 0).</tooltip>
+        </btn-question-weight-arrow-down>
+        <btn-answer-arrow-up>
+          <tooltip>Klicken, um in der Liste der Antworten zu dieser Frage um einen Punkt nach oben zu gelangen.</tooltip>
+        </btn-answer-arrow-up>
+        <lbl-answers-header>
+          <value>Antworten:</value>
+        </lbl-answers-header>
+        <lbl-feedback-header>
+          <value>Feedback/R&amp;#x00fc;ckmeldung:</value>
+        </lbl-feedback-header>
+        <lbl-settings-header>
+          <value>Einstellungen:</value>
+        </lbl-settings-header>
+        <btn-answer-arrow-down>
+          <tooltip>Klicken, um in der Liste der Antworten zu dieser Frage um einen Punkt nach unten zu gelangen.</tooltip>
+        </btn-answer-arrow-down>
+        <ta-answer>
+          <tooltip>Antworttext hier eingeben.</tooltip>
+        </ta-answer>
+        <ta-feedback>
+          <tooltip>Text f&amp;#x00fc;r die R&amp;#x00fc;ckmeldung zu dieser Antwort hier eingeben.</tooltip>
+        </ta-feedback>
+        <cb-accept-as-correct>
+          <value>als richtig akzeptieren</value>
+          <tooltip>Ankreuzen, falls diese Antwort als richtig akzeptiert werden soll.</tooltip>
+        </cb-accept-as-correct>
+        <tf-pct>
+          <tooltip>Prozentwert f&amp;#x00fc;r diese Antwort eingeben (1-100).</tooltip>
+        </tf-pct>
+        <btn-pct-arrow-up>
+          <tooltip>Klicken, um Prozentwert zu erh&amp;#x00f6;hen (1-100).</tooltip>
+        </btn-pct-arrow-up>
+        <btn-pct-arrow-down>
+          <tooltip>Klicken, um Prozentwert zu reduzieren (100-1).</tooltip>
+        </btn-pct-arrow-down>
+        <cb-include-in-mc>
+          <value></value>
+          <tooltip>Klicken, um Prozentwert zu reduzieren (100-1).</tooltip>
+        </cb-include-in-mc>
+      </pnl-jquiz-specific>
+      <pnl-jcloze-specific>
+        <lbl-jcloze-exercise-text>
+          <value>JCloze-&amp;#x00dc;bungstext:</value>
+        </lbl-jcloze-exercise-text>
+        <btn-jcloze-gap>
+          <value>L&amp;#x00fc;cke erzeugen</value>
+          <tooltip></tooltip>
+        </btn-jcloze-gap>
+        <btn-jcloze-un-gap>
+          <value>L&amp;#x00fc;cke entfernen</value>
+          <tooltip></tooltip>
+        </btn-jcloze-un-gap>
+        <btn-jcloze-show-words>
+          <value>W&amp;#x00f6;rter zeigen</value>
+          <tooltip></tooltip>
+        </btn-jcloze-show-words>
+        <btn-jcloze-gap-auto>
+          <value>L&amp;#x00fc;cken automatisch erzeugen</value>
+          <tooltip></tooltip>
+        </btn-jcloze-gap-auto>
+        <btn-jcloze-un-gap-all>
+          <value>ALLE L&amp;#x00fc;cken entfernen</value>
+          <tooltip></tooltip>
+        </btn-jcloze-un-gap-all>
+      </pnl-jcloze-specific>
+      <wd-jcloze-more>
+        <btn-gap-num-up>
+          <tooltip>Klicken, um in der Themenpunkt-Liste um einen Punkt nach oben zu gelangen.</tooltip>
+        </btn-gap-num-up>
+        <btn-gap-num-down>
+          <tooltip>Klicken, um in der Themenpunkt-Liste um einen Punkt nach unten zu gelangen.</tooltip>
+        </btn-gap-num-down>
+        <lbl-gap-num>
+          <value>L&amp;#x00fc;ckennummer:</value>
+        </lbl-gap-num>
+        <tf-gap-num>
+          <tooltip></tooltip>
+        </tf-gap-num>
+        <lbl-gap-word>
+          <value>Ausgew&amp;#x00e4;hlter L&amp;#x00fc;ckenbereich:</value>
+        </lbl-gap-word>
+        <tf-gap-word>
+          <tooltip></tooltip>
+        </tf-gap-word>
+        <lbl-gap-clue>
+          <value>L&amp;#x00f6;sungshinweis:</value>
+        </lbl-gap-clue>
+        <tf-gap-clue>
+          <tooltip>L&amp;#x00f6;sungshinweis f&amp;#x00fc;r diese L&amp;#x00fc;cke hier eingeben.</tooltip>
+        </tf-gap-clue>
+        <btn-gap-alt-num-up>
+          <tooltip>Klicken, um in der Liste der alternativen Antworten um einen Punkt nach oben zu gelangen.</tooltip>
+        </btn-gap-alt-num-up>
+        <btn-gap-alt-num-down>
+          <tooltip>Klicken, um in der Liste der alternativen Antworten um einen Punkt nach unten zu gelangen.</tooltip>
+        </btn-gap-alt-num-down>
+        <lbl-gap-alt-title>
+          <value>Alternativ richtige L&amp;#x00f6;sungen:</value>
+        </lbl-gap-alt-title>
+        <tf-gap-alt-num>
+          <tooltip>Alternative Antworten zu dieser L&amp;#x00fc;cke hier eingeben.</tooltip>
+        </tf-gap-alt-num>
+        <btn-jcloze-more-close>
+          <tooltip>Klicken, um das Fenster zu schliessen.</tooltip>
+        </btn-jcloze-more-close>
+        <lbl-jcloze-more-window-title>
+          <value>Details zu den einzelnen L&amp;#x00fc;cken</value>
+        </lbl-jcloze-more-window-title>
+      </wd-jcloze-more>
+      <pnl-jcross-main>
+        <btn-jcross-show-clues>
+          <value>Fenster mit den L&amp;#x00f6;sungshinweisen zeigen</value>
+          <tooltip>Klicken, um die L&amp;#x00f6;sungshinweise f&amp;#x00fc;r die W&amp;#x00f6;rter des R&amp;#x00e4;tselgitters einzugeben.</tooltip>
+        </btn-jcross-show-clues>
+        <btn-jcross-chars-up>
+          <tooltip>Klicken, um Buchstaben einer Reihe im R&amp;#x00e4;tselgitter nach oben zu verschieben.</tooltip>
+        </btn-jcross-chars-up>
+        <btn-jcross-chars-left>
+          <tooltip>Klicken, um Buchstaben einer Spalte nach links im R&amp;#x00e4;tselgitter zu verschieben.</tooltip>
+        </btn-jcross-chars-left>
+        <btn-jcross-chars-right>
+          <tooltip>Klicken, um Buchstaben einer Spalte nach rechts im R&amp;#x00e4;tselgitter zu verschieben.</tooltip>
+        </btn-jcross-chars-right>
+        <btn-jcross-chars-down>
+          <tooltip>Klicken, um Buchstaben in einer Reihe im R&amp;#x00e4;tselgitter nach unten zu verschieben.</tooltip>
+        </btn-jcross-chars-down>
+      </pnl-jcross-main>
+      <wd-jcross-more>
+        <lbl-jcross-across>
+          <value>waagrecht:</value>
+        </lbl-jcross-across>
+        <lbl-jcross-down>
+          <value>senkrecht:</value>
+        </lbl-jcross-down>
+        <btn-jcross-more-close>
+          <tooltip>Klicken, um das Fenster zu schliessen.</tooltip>
+        </btn-jcross-more-close>
+        <lbl-jcross-more-window-title>
+          <value>JCross-L&amp;#x00f6;sungshinweise</value>
+        </lbl-jcross-more-window-title>
+      </wd-jcross-more>
+      <wd-jcross-auto-grid>
+        <lbl-auto-grid-max>
+          <value>Maximale Anzahl der Reihen und Spalten:</value>
+        </lbl-auto-grid-max>
+        <tf-auto-grid-max>
+          <tooltip>Maximale Anzahl der Reihen und Spalten</tooltip>
+        </tf-auto-grid-max>
+        <btn-auto-grid-max-up>
+          <tooltip>Maximal erlaubte Gr&amp;#x00f6;sse des R&amp;#x00e4;tselgitters erh&amp;#x00f6;hen.</tooltip>
+        </btn-auto-grid-max-up>
+        <btn-auto-grid-max-down>
+          <tooltip>Maximal erlaubte Gr&amp;#x00f6;sse des R&amp;#x00e4;tselgitters reduzieren.</tooltip>
+        </btn-auto-grid-max-down>
+        <lbl-auto-grid-word-list>
+          <value>W&amp;#x00f6;rterliste: Jedes Wort auf einer eigenen Zeile eingeben.</value>
+        </lbl-auto-grid-word-list>
+        <btn-auto-grid-make-grid>
+          <value>R&amp;#x00e4;tselgitter unter Ber&amp;#x00fc;cksichtigung der W&amp;#x00f6;rterliste erstellen</value>
+          <tooltip>Klicken, um zu versuchen, alle W&amp;#x00f6;rter ins R&amp;#x00e4;tselgitter einzupassen.</tooltip>
+        </btn-auto-grid-make-grid>
+        <btn-auto-grid-stop>
+          <value>Abbrechen</value>
+          <tooltip>Den Versuch, alle W&amp;#x00f6;rter ins R&amp;#x00e4;tselgitter einzupassen, abbrechen.</tooltip>
+        </btn-auto-grid-stop>
+        <lbl-auto-grid-status>
+          <value>Status-Report</value>
+        </lbl-auto-grid-status>
+        <btn-jcross-auto-grid-apply>
+          <tooltip>Klicken, um die &amp;#x00c4;nderungen in die &amp;#x00dc;bung oder das Potato-Programm zu &amp;#x00fc;bernehmen.</tooltip>
+        </btn-jcross-auto-grid-apply>
+        <btn-jcross-auto-grid-close>
+          <tooltip>Klicken, um das Fenster zu schliessen.</tooltip>
+        </btn-jcross-auto-grid-close>
+        <lbl-cross-auto-grid-window-title>
+          <value>R&amp;#x00e4;tsel unter Verwendung der W&amp;#x00f6;rter erzeugen</value>
+        </lbl-cross-auto-grid-window-title>
+      </wd-jcross-auto-grid>
+      <pnl-jmatch-specific>
+        <lbl-num-col-head>
+          <value>Themenpunkt</value>
+        </lbl-num-col-head>
+        <lbl-left-col-head>
+          <value>Linker Themenpunkt (ist fix):</value>
+        </lbl-left-col-head>
+        <lbl-right-col-head>
+          <value>Rechter Themenpunkt:</value>
+        </lbl-right-col-head>
+        <lbl-fix-col-head>
+          <value>Bereits fest zuordnen:</value>
+        </lbl-fix-col-head>
+        <ta-left>
+          <tooltip>Wert f&amp;#x00fc;r den fixen Themenpunkt hier eingeben.</tooltip>
+        </ta-left>
+        <ta-right>
+          <tooltip>Wert f&amp;#x00fc;r den rechten Themenpunkt des Paares hier eingeben.</tooltip>
+        </ta-right>
+        <cb-fix>
+          <tooltip>Ankreuzen, wenn dieses Paar bereits als (Muster-) Beispiel in die fertige Seite aufgenommen werden soll.</tooltip>
+        </cb-fix>
+        <lbl-right-default>
+          <value>Vorgabe f&amp;#x00fc;r die rechte Spalte:</value>
+        </lbl-right-default>
+      </pnl-jmatch-specific>
+      <pnl-jmix-main>
+        <lbl-main-sentence>
+          <value>Referenzsatz/Ausgangssatz:</value>
+        </lbl-main-sentence>
+        <lbl-alt-sentences>
+          <value>Alternativ m&amp;#x00f6;gliche S&amp;#x00e4;tze:</value>
+        </lbl-alt-sentences>
+        <ta-main-sentence>
+          <tooltip>Ausgangssatz, wobei jedes einzelne Wort in einer separaten Zeile stehen muss.</tooltip>
+        </ta-main-sentence>
+        <ta-alt-sentence>
+          <tooltip>Alternativ richtiger Satz, wobei alle W&amp;#x00f6;rter auf derselben Zeile stehen m&amp;#x00fc;ssen.</tooltip>
+        </ta-alt-sentence>
+        <cb-alt-sentence-warn>
+          <value>Warnhinweis geben, falls ein alternativer Satz nicht alle W&amp;#x00f6;rter des Referenzsatzes verwendet.</value>
+          <tooltip>Falls angekreuzt m&amp;#x00fc;ssen die alternativ richtigen L&amp;#x00f6;sungen alle Zeichen/Buchstaben des Ausgangssatzes enthalten.</tooltip>
+        </cb-alt-sentence-warn>
+      </pnl-jmix-main>
+      <wd-config-shared>
+        <lbl-exercise-subtitle>
+          <value>Untertitel der &amp;#x00dc;bung:</value>
+          <tooltip></tooltip>
+        </lbl-exercise-subtitle>
+        <ta-exercise-subtitle>
+          <value></value>
+          <tooltip>Text f&amp;#x00fc;r den Untertitel der &amp;#x00dc;bung hier eingeben.</tooltip>
+        </ta-exercise-subtitle>
+        <lbl-instructions>
+          <value>Anleitung:</value>
+          <tooltip></tooltip>
+        </lbl-instructions>
+        <ta-instructions>
+          <value></value>
+          <tooltip>Anleitung zur &amp;#x00dc;bung hier eingeben.</tooltip>
+        </ta-instructions>
+        <lbl-correct-indicator>
+          <value>Zeichen bei richtiger Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-correct-indicator>
+        <tf-correct-indicator>
+          <value></value>
+          <tooltip>Ein Zeichen eingeben, dass eine richtige Zuordnung anzeigt.</tooltip>
+        </tf-correct-indicator>
+        <lbl-incorrect-indicator>
+          <value>Zeichen bei falscher Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-incorrect-indicator>
+        <tf-incorrect-indicator>
+          <value></value>
+          <tooltip>Ein Zeichen eingeben, dass eine falsche Zuordnung anzeigt.</tooltip>
+        </tf-incorrect-indicator>
+        <lbl-your-score-is>
+          <value>Einleitender Text zu aktuellem Resultat:</value>
+          <tooltip></tooltip>
+        </lbl-your-score-is>
+        <tf-your-score-is>
+          <value></value>
+          <tooltip>Mitteilung, welche das aktuelle Resultat einleitet.</tooltip>
+        </tf-your-score-is>
+        <lbl-guess-correct>
+          <value>R&amp;#x00fc;ckmeldung bei richtiger Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-guess-correct>
+        <tf-guess-correct>
+          <value></value>
+          <tooltip>Mitteilung, die dem Lernenden anzeigt, dass die gegebene Antwort richtig ist.</tooltip>
+        </tf-guess-correct>
+        <lbl-guess-incorrect>
+          <value>R&amp;#x00fc;ckmeldung bei falscher Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-guess-incorrect>
+        <tf-guess-incorrect>
+          <value></value>
+          <tooltip>Mitteilung, die dem Lernenden anzeigt, dass die gegebene Antwort falsch ist.</tooltip>
+        </tf-guess-incorrect>
+        <lbl-correct-first-time>
+          <value>Text f&amp;#x00fc;r &quot;Beim 1. Durchgang richtig beantwortete Fragen&quot;:</value>
+          <tooltip></tooltip>
+        </lbl-correct-first-time>
+        <tf-correct-first-time>
+          <value></value>
+          <tooltip>Text f&amp;#x00fc;r &quot;Beim ersten Versuch richtig gel&amp;#x00f6;ste L&amp;#x00fc;cken&quot;.</tooltip>
+        </tf-correct-first-time>
+        <lbl-next-correct-letter>
+          <value>Text f&amp;#x00fc;r den n&amp;#x00e4;chsten richtigen Buchstaben der Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-next-correct-letter>
+        <tf-next-correct-letter>
+          <value></value>
+          <tooltip>Text f&amp;#x00fc;r &quot;Der n&amp;#x00e4;chste richtige Buchstabe der Antwort ist ...&quot;.</tooltip>
+        </tf-next-correct-letter>
+        <lbl-completed-so-far>
+          <value>Bisher beantwortete Fragen:</value>
+          <tooltip></tooltip>
+        </lbl-completed-so-far>
+        <tf-completed-so-far>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-completed-so-far>
+        <lbl-exercise-completed>
+          <value>Die #x00dc;bung ist beendet.</value>
+          <tooltip></tooltip>
+        </lbl-exercise-completed>
+        <tf-exercise-completed>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-exercise-completed>
+        <cb-next-exercise-caption>
+          <value>Taste: &quot;N&amp;#x00e4;chste &amp;#x00dc;bung&quot;</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-next-exercise-caption>
+        <tf-next-exercise-caption>
+          <value></value>
+          <tooltip>&quot;N&amp;#x00e4;chste &amp;#x00dc;bung&quot;-Taste zeigt die n&amp;#x00e4;chste Seite an.</tooltip>
+        </tf-next-exercise-caption>
+        <tf-next-exercise-caption-url>
+          <value></value>
+          <tooltip>Absolute oder relative URL eingeben.</tooltip>
+        </tf-next-exercise-caption-url>
+        <btn-next-exercise-caption-url>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-next-exercise-caption-url>
+        <cb-index-caption>
+          <value>Taste: &quot;Inhaltsverzeichnis/Index&quot;</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-index-caption>
+        <tf-index-caption>
+          <value></value>
+          <tooltip>&quot;Inhaltsverzeichnis&quot;-Taste zeigt die Inhaltsverzeichnis-Seite an.</tooltip>
+        </tf-index-caption>
+        <tf-index-caption-url>
+          <value></value>
+          <tooltip>Absolute oder relative URL eingeben.</tooltip>
+        </tf-index-caption-url>
+        <btn-index-caption-url>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-index-caption-url>
+        <cb-back-caption>
+          <value>Taste: &quot;Zur&amp;#x00fc;ck&quot;</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-back-caption>
+        <tf-back-caption>
+          <value></value>
+          <tooltip>&quot;Zur&amp;#x00fc;ck&quot;-Taste zeigt die zuletzt aufgerufene Seite an.</tooltip>
+        </tf-back-caption>
+        <lbl-check-caption>
+          <value>Taste: &quot;&amp;#x00dc;berpr&amp;#x00fc;fen&quot;</value>
+          <tooltip></tooltip>
+        </lbl-check-caption>
+        <tf-check-caption>
+          <value></value>
+          <tooltip>&quot;&amp;#x00dc;berpr&amp;#x00fc;fen&quot;-Taste vergleicht die Antwort des Lernenden mit der richtigen L&amp;#x00f6;sung.</tooltip>
+        </tf-check-caption>
+        <lbl-ok-caption>
+          <value>Taste: &quot;OK&quot;</value>
+          <tooltip></tooltip>
+        </lbl-ok-caption>
+        <tf-ok-caption>
+          <value></value>
+          <tooltip>&quot;OK&quot;-Taste verhindert R&amp;#x00fc;ckmeldung/Feedback.</tooltip>
+        </tf-ok-caption>
+        <cb-hint-caption>
+          <value>Taste &quot;L&amp;#x00f6;sungshilfe&quot;</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-hint-caption>
+        <tf-hint-caption>
+          <value></value>
+          <tooltip>&quot;L&amp;#x00f6;sungshilfe&quot;-Taste zeigt n&amp;#x00e4;chsten richtigen Buchstaben der Antwort an.</tooltip>
+        </tf-hint-caption>
+        <lbl-graphic-url>
+          <value>URL der Hintergrundgrafik</value>
+          <tooltip></tooltip>
+        </lbl-graphic-url>
+        <tf-graphic-url>
+          <value></value>
+          <tooltip>URL kann entweder relativer Pfad oder absolute URL sein.</tooltip>
+        </tf-graphic-url>
+        <btn-graphic-url-url>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-graphic-url-url>
+        <lbl-font-face>
+          <value>Schrift in den &amp;#x00dc;bungen</value>
+          <tooltip></tooltip>
+        </lbl-font-face>
+        <tf-font-face>
+          <value></value>
+          <tooltip>Empfohlene Schrift f&amp;#x00fc;r den Browser</tooltip>
+        </tf-font-face>
+        <lbl-font-size>
+          <value>Schriftgr&amp;#x00f6;sse in den &amp;#x00dc;bungen</value>
+          <tooltip></tooltip>
+        </lbl-font-size>
+        <tf-font-size>
+          <value></value>
+          <tooltip>Empfohlene Schriftgr&amp;#x00f6;sse f&amp;#x00fc;r den Browser.</tooltip>
+        </tf-font-size>
+        <lbl-colourable-page-elements>
+          <value>Seitengestaltung</value>
+          <tooltip></tooltip>
+        </lbl-colourable-page-elements>
+        <lbl-preview-appearance>
+          <value>Voransicht der Seite</value>
+          <tooltip></tooltip>
+        </lbl-preview-appearance>
+        <lbl-page-bg-color>
+          <value>Farbe des Hintergrundes der Seite</value>
+          <tooltip></tooltip>
+        </lbl-page-bg-color>
+        <tf-page-bg-color>
+          <value></value>
+          <tooltip>Code f&amp;#x00fc;r die Farbe des Seitenhintergrundes.</tooltip>
+        </tf-page-bg-color>
+        <btn-page-bg-color>
+          <value></value>
+          <tooltip>Klicken, um eine Farbe auszuw&amp;#x00e4;hlen.</tooltip>
+        </btn-page-bg-color>
+        <lbl-title-color>
+          <value>Farbe des Titels</value>
+          <tooltip></tooltip>
+        </lbl-title-color>
+        <tf-title-color>
+          <value></value>
+          <tooltip>Code f&amp;#x00fc;r die Hintergrundfarbe des Titels</tooltip>
+        </tf-title-color>
+        <btn-title-color>
+          <value></value>
+          <tooltip>Klicken, um eine Farbe auszuw&amp;#x00e4;hlen.</tooltip>
+        </btn-title-color>
+        <lbl-ex-bg-color>
+          <value>Farbe der &amp;#x00dc;bungsumgebung</value>
+          <tooltip></tooltip>
+        </lbl-ex-bg-color>
+        <tf-ex-bg-color>
+          <value></value>
+          <tooltip>Code f&amp;#x00fc;r die Farbe der &amp;#x00dc;bungsumgebung (ohne Titel und Anleitungen).</tooltip>
+        </tf-ex-bg-color>
+        <btn-ex-bg-color>
+          <value></value>
+          <tooltip>Klicken, um eine Farbe auszuw&amp;#x00e4;hlen.</tooltip>
+        </btn-ex-bg-color>
+        <lbl-text-color>
+          <value>Farbe des Textes</value>
+          <tooltip></tooltip>
+        </lbl-text-color>
+        <tf-text-color>
+          <value></value>
+          <tooltip>Code der Textfarbe</tooltip>
+        </tf-text-color>
+        <btn-text-color>
+          <value></value>
+          <tooltip>Klicken, um eine Farbe auszuw&amp;#x00e4;hlen.</tooltip>
+        </btn-text-color>
+        <lbl-link-color>
+          <value>Farbe von Links</value>
+          <tooltip></tooltip>
+        </lbl-link-color>
+        <tf-link-color>
+          <value></value>
+          <tooltip>Code f&amp;#x00fc;r die Farbe des Textes, der verlinkt ist.</tooltip>
+        </tf-link-color>
+        <btn-link-color>
+          <value></value>
+          <tooltip>Klicken, um eine Farbe auzuw&amp;#x00e4;hlen.</tooltip>
+        </btn-link-color>
+        <lbl-vlink-color>
+          <value>Farbe von besuchten Links</value>
+          <tooltip></tooltip>
+        </lbl-vlink-color>
+        <tf-vlink-color>
+          <value></value>
+          <tooltip>Code f&amp;#x00fc;r die Farbe eines Textlinks, der bereits besucht worden ist.</tooltip>
+        </tf-vlink-color>
+        <btn-vlink-color>
+          <value></value>
+          <tooltip>Klicken, um eine Farbe auszuw&amp;#x00e4;hlen.</tooltip>
+        </btn-vlink-color>
+        <lbl-nav-bar-color>
+          <value>Farbe des Hintergrunds der Navigationsleiste</value>
+          <tooltip></tooltip>
+        </lbl-nav-bar-color>
+        <tf-nav-bar-color>
+          <value></value>
+          <tooltip>Code f&amp;#x00fc;r die Farbe des Hintergrunds der Navigationsleiste.</tooltip>
+        </tf-nav-bar-color>
+        <btn-nav-bar-color>
+          <value></value>
+          <tooltip>Klicken, um eine Farbe auszuw&amp;#x00e4;hlen.</tooltip>
+        </btn-nav-bar-color>
+        <btn-preview-appearance>
+          <value>Voransicht</value>
+          <tooltip>Klicken, um eine Vorschau der Farben im Browser sehen zu k&amp;#x00f6;nnen.</tooltip>
+        </btn-preview-appearance>
+        <cb-include-timer>
+          <value>Zeitmessung in die &amp;#x00dc;bung einbauen</value>
+          <tooltip>Klicken, um eine Zeitmessung in die &amp;#x00dc;bung aufzunehmen.</tooltip>
+        </cb-include-timer>
+        <lbl-timer-minutes>
+          <value>Anzahl Minuten</value>
+          <tooltip></tooltip>
+        </lbl-timer-minutes>
+        <combo-timer-minutes>
+          <value></value>
+          <tooltip>Anzahl Minuten f&amp;#x00fc;r den Zeitmesser w&amp;#x00e4;hlen (0 - 59).</tooltip>
+        </combo-timer-minutes>
+        <lbl-timer-seconds>
+          <value>Anzahl Sekunden</value>
+          <tooltip></tooltip>
+        </lbl-timer-seconds>
+        <combo-timer-seconds>
+          <value></value>
+          <tooltip>Anzahl Sekunden f&amp;#x00fc;r den Zeitmesser w&amp;#x00e4;hlen (0 - 59).</tooltip>
+        </combo-timer-seconds>
+        <lbl-times-up>
+          <value>Diese Mitteilung erscheint, wenn zur Verf&amp;#x00fc;gung stehende Zeit abgelaufen ist:</value>
+          <tooltip></tooltip>
+        </lbl-times-up>
+        <tf-times-up>
+          <value></value>
+          <tooltip>Mitteilung, wenn Zeitmessung abgelaufen ist.</tooltip>
+        </tf-times-up>
+        <cb-separate-js-file>
+          <value>Javascript in eine separate .js-Datei sichern</value>
+          <tooltip>Klicken, um Javascript in eine separate .js-Datei zu sichern (und nicht innerhalb der Seite)</tooltip>
+        </cb-separate-js-file>
+        <cb-process-for-rtl>
+          <value>Spezielle Verarbeitung von Skripten ausf&amp;#x00fc;hren, die f&amp;#x00fc;r rechts nach links verlaufende Schriften gelten</value>
+          <tooltip>Klicken, um die spezielle Verarbeitung von Skripten zuzulassen, die f&amp;#x00fc;r rechts nach links verlaufende Schriften gelten (z.B. Arabisch).</tooltip>
+        </cb-process-for-rtl>
+        <cb-show-limited-questions>
+          <value>Nur beschr&amp;#x00e4;nkte Anzahl von Fragen anzeigen</value>
+          <tooltip>Ankreuzen, um die Anzahl der Fragen, die bei jedem Neuladen der Seite angezeigt werden, zu beschr&amp;#x00e4;nken.</tooltip>
+        </cb-show-limited-questions>
+        <tf-questions-to-show>
+          <value></value>
+          <tooltip>Anzahl der anzuzeigenden Fragen eingeben.</tooltip>
+        </tf-questions-to-show>
+        <cb-shuffle-questions>
+          <value>Reihenfolge der Themenpunkte bei jedem Laden der Seite neu erstellen</value>
+          <tooltip>Ankreuzen, falls die Themenpunkte bei jedem Laden der Seite in einer neuen Reihenfolge angezeigt werden sollen.</tooltip>
+        </cb-shuffle-questions>
+        <cb-case-sensitive>
+          <value>Beim &amp;#x00dc;berpr&amp;#x00fc;fen der Antwort die Gross-/Kleinschreibung ber&amp;#x00fc;cksichtigen</value>
+          <tooltip>Ankreuzen, wenn die Gross-/Kleinschreibung bei der Antwort ber&amp;#x00fc;cksichtigt werden soll.</tooltip>
+        </cb-case-sensitive>
+        <cb-show-also-correct>
+          <value>Weitere richtige Antworten anzeigen</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-show-also-correct>
+        <cb-include-keypad>
+          <value>Tastatur soll in die &amp;#x00dc;bung eingebaut werden f&amp;#x00fc;r spezielle lateinische Buchstaben, Sonderzeichen sowie nicht lateinische Schriftzeichen</value>
+          <tooltip>Ankreuzen, wenn eine Tastatur f&amp;#x00fc;r spezielle Schriftzeichen in die &amp;#x00dc;bung eingebaut werden soll.</tooltip>
+        </cb-include-keypad>
+        <lbl-keypad-characters>
+          <value>Diese Buchstaben immer in die Tastatur aufnehmen:</value>
+          <tooltip></tooltip>
+        </lbl-keypad-characters>
+        <tf-keypad-characters>
+          <value></value>
+          <tooltip>Buchstaben, die immer in die Tastatur aufgenommen werden sollen, hier eingeben.</tooltip>
+        </tf-keypad-characters>
+        <lbl-cgi-warning>
+          <value>F&amp;#x00fc;r dieses Feature wird kein Support geboten.</value>
+          <tooltip></tooltip>
+        </lbl-cgi-warning>
+        <cb-include-cgi>
+          <value>&amp;#x00dc;bermitteln der Resultate an ein CGI-Programm</value>
+          <tooltip>Ankreuzen, um Resultate zur Auswertung an ein CGI-Programm auf einem Server zu schicken.</tooltip>
+        </cb-include-cgi>
+        <lbl-formmail-url>
+          <value>URL der &quot;FormMail&quot; oder anderer CGI</value>
+          <tooltip></tooltip>
+        </lbl-formmail-url>
+        <tf-formmail-url>
+          <value></value>
+          <tooltip>URL der CGI-Programmseite, welche f&amp;#x00fc;r die Auswertung zust&amp;#x00e4;ndig ist.</tooltip>
+        </tf-formmail-url>
+        <lbl-email>
+          <value>E-Mail-Adresse f&amp;#x00fc;r das Senden der Resultate</value>
+          <tooltip></tooltip>
+        </lbl-email>
+        <tf-email>
+          <value></value>
+          <tooltip>Email-Adresse f&amp;#x00fc;r FormMail CGI, an welche die Resultate geschickt werden.</tooltip>
+        </tf-email>
+        <lbl-name-please>
+          <value>Sch&amp;#x00fc;lername</value>
+          <tooltip></tooltip>
+        </lbl-name-please>
+        <tf-name-please>
+          <value></value>
+          <tooltip>Mitteilung, welche den Sch&amp;#x00fc;ler auffordert, seinen Namen einzugeben, falls er seine Resultate auf einem CGI-Server auswerten lassen will.</tooltip>
+        </tf-name-please>
+        <lbl-user-string-1>
+          <value>Text, um die Stelle im [userstring1] zu ersetzen</value>
+          <tooltip></tooltip>
+        </lbl-user-string-1>
+        <lbl-user-string-2>
+          <value>Text, um die Stelle im [userstring2] zu ersetzen</value>
+          <tooltip></tooltip>
+        </lbl-user-string-2>
+        <lbl-user-string-3>
+          <value>Text, um die Stelle im [userstring3] zu ersetzen</value>
+          <tooltip></tooltip>
+        </lbl-user-string-3>
+        <lbl-header-code>
+          <value>Text, der in der Kopfzeile der &amp;#x00dc;bungen eingef&amp;#x00fc;gt werden soll</value>
+          <tooltip></tooltip>
+        </lbl-header-code>
+        <btn-open-config-file>
+          <value></value>
+          <tooltip>Klicken, um den passenden Dateityp zu &amp;#x00f6;ffnen.</tooltip>
+        </btn-open-config-file>
+        <btn-save-config-file>
+          <value></value>
+          <tooltip>Die aktuellen Konfigurationswerte des ge&amp;#x00f6;ffneten Fensters sollen in die aktuelle bereits bestehende Konfigurations-Datei gesichert werden (Vorsicht! &amp;#x00dc;berpr&amp;#x00fc;fen, ob dies wirklich erw&amp;#x00fc;nscht ist!)</tooltip>
+        </btn-save-config-file>
+        <btn-save-as-config-file>
+          <value></value>
+          <tooltip>Aktuelle Werte in diesem Konfigurationsfenster in eine neue Konfigurationsdatei sichern.</tooltip>
+        </btn-save-as-config-file>
+        <btn-close-config-window>
+          <value></value>
+          <tooltip>Schliessen</tooltip>
+        </btn-close-config-window>
+      </wd-config-shared>
+      <wd-config-jquiz>
+        <lbl-enter-a-guess>
+          <value>Text f&amp;#x00fc;r Aufforderung an den Sch&amp;#x00fc;ler, eine Antwort einzugeben:</value>
+          <tooltip></tooltip>
+        </lbl-enter-a-guess>
+        <tf-enter-a-guess>
+          <value></value>
+          <tooltip>Mitteilung, die darauf hinweist, dass zuerst eine Antwort eingeben werden muss, bevor &amp;#x00fc;berpr&amp;#x00fc;ft werden kann.</tooltip>
+        </tf-enter-a-guess>
+        <lbl-partly-incorrect>
+          <value>Text bei nur teilweise richtiger Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-partly-incorrect>
+        <tf-partly-incorrect>
+          <value></value>
+          <tooltip>Mitteilung, dass nur ein Teil der gegebenen Antwort richtig ist.</tooltip>
+        </tf-partly-incorrect>
+        <lbl-correct-answers>
+          <value>Einleitender Text, wenn mehrere Antworten richtig sind:</value>
+          <tooltip></tooltip>
+        </lbl-correct-answers>
+        <tf-correct-answers>
+          <value></value>
+          <tooltip>Mitteilung, die der Liste der weiteren richtigen Antworten vorangestellt ist.</tooltip>
+        </tf-correct-answers>
+        <cb-show-answer-caption>
+          <value>&quot;Antwort&quot;-Taste anzeigen</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-show-answer-caption>
+        <tf-show-answer-caption>
+          <value></value>
+          <tooltip>&quot;Antwort anzeigen&quot;-Taste zeigt die richtige Antwort an.</tooltip>
+        </tf-show-answer-caption>
+        <lbl-show-all-questions-caption>
+          <value>&quot;Alle Fragen&quot;-Taste anzeigen</value>
+          <tooltip></tooltip>
+        </lbl-show-all-questions-caption>
+        <tf-show-all-questions-caption>
+          <value></value>
+          <tooltip>Anzeigen aller Fragen auf einmal, wobei dann zwischen den Fragen gescrollt werden kann.</tooltip>
+        </tf-show-all-questions-caption>
+        <lbl-show-one-by-one-caption>
+          <value>&quot;Fragen einzeln anzeigen&quot;-Taste</value>
+          <tooltip></tooltip>
+        </lbl-show-one-by-one-caption>
+        <tf-show-one-by-one-caption>
+          <value></value>
+          <tooltip>Fragen sollen einzeln (eine nach der anderen) angezeigt werden.</tooltip>
+        </tf-show-one-by-one-caption>
+        <lbl-next-q-caption>
+          <value>&quot;N&amp;#x00e4;chste Frage&quot;-Taste</value>
+          <tooltip></tooltip>
+        </lbl-next-q-caption>
+        <tf-next-q-caption>
+          <value></value>
+          <tooltip>&quot;N&amp;#x00e4;chste Frage&quot;-Taste zeigt die n&amp;#x00e4;chste Frage an, wenn die Fragen einzeln angezeigt werden.</tooltip>
+        </tf-next-q-caption>
+        <lbl-last-q-caption>
+          <value>&quot;Vorangehende Frage&quot;-Taste</value>
+          <tooltip></tooltip>
+        </lbl-last-q-caption>
+        <tf-last-q-caption>
+          <value></value>
+          <tooltip>&quot;Vorangehende Frage&quot;-Taste zeigt vorangehende Frage an, falls Fragen einzeln angezeigt werden.</tooltip>
+        </tf-last-q-caption>
+        <cb-shuffle-answers>
+          <value>Antworten bei jedem Laden der Seite neu mischen</value>
+          <tooltip>Zeigt die Antworten zu jeder Frage jedes Mal in einer neuen Reihenfolge, wenn die Seite geladen wird.</tooltip>
+        </cb-shuffle-answers>
+        <cb-continuous-scoring>
+          <value>Resultat nach jeder Frage anzeigen</value>
+          <tooltip>Ankreuzen, falls das Resultat nach jeder Frage angezeigt werden soll.</tooltip>
+        </cb-continuous-scoring>
+        <lbl-short-answer-tries-on-hybrid-q>
+          <value>Bei Hybrid-Fragen: maximal erlaubte Anzahl von L&amp;#x00f6;sungsversuchen</value>
+          <tooltip></tooltip>
+        </lbl-short-answer-tries-on-hybrid-q>
+        <tf-short-answer-tries-on-hybrid-q>
+          <value></value>
+          <tooltip>Anzahl der Versuche, bevor eine Hybrid-Frage in eine Multiple-Choice umgewandelt wird.</tooltip>
+        </tf-short-answer-tries-on-hybrid-q>
+        <cb-show-correct-first-time>
+          <value>Anzahl der im ersten Durchgang richtig beantworteten Fragen anzeigen</value>
+          <tooltip>Ankreuzen, um die Anzahl der beim ersten Durchgang richtig beantworteten Fragen anzeigen zu lassen.</tooltip>
+        </cb-show-correct-first-time>
+      </wd-config-jquiz>
+      <wd-config-jcloze>
+        <lbl-guesses-correct>
+          <value>Begleittext bei richtiger Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-guesses-correct>
+        <tf-guesses-correct>
+          <value></value>
+          <tooltip>Nachricht, die dem Lernenden mitteilt, dass die gegebene Antwort richtig war.</tooltip>
+        </tf-guesses-correct>
+        <lbl-guesses-incorrect>
+          <value>Begleittext bei falscher Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-guesses-incorrect>
+        <tf-guesses-incorrect>
+          <value></value>
+          <tooltip>Nachricht, die dem Lernenden mitteilt, dass die gegebene Antwort falsch war.</tooltip>
+        </tf-guesses-incorrect>
+        <cb-clue-caption>
+          <value>&quot;L&amp;#x00f6;sungshinweis&quot;-Taste</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-clue-caption>
+        <tf-clue-caption>
+          <value></value>
+          <tooltip>&quot;L&amp;#x00f6;sungshinweis&quot;-Taste zeigt den vom Autor vorgegebenen L&amp;#x00f6;sungshinweis.</tooltip>
+        </tf-clue-caption>
+        <cb-use-drop-down-list>
+          <value>Drop-Down-Liste anstelle eine Textfeldes verwenden</value>
+          <tooltip>Ankreuzen, um eine Drop-Down-Liste anstelle eines Textfeldes zu erzeugen.</tooltip>
+        </cb-use-drop-down-list>
+        <cb-include-word-list>
+          <value>W&amp;#x00f6;rterliste in &amp;#x00dc;bung einschliessen</value>
+          <tooltip>Ankreuzen, um die Liste der richtigen L&amp;#x00f6;sungsw&amp;#x00f6;rter unterhalb der &amp;#x00dc;bung anzuzeigen.</tooltip>
+        </cb-include-word-list>
+        <lbl-minimum-gap-size>
+          <value>Minimale Gr&amp;#x00f6;sse der L&amp;#x00fc;cke:</value>
+          <tooltip></tooltip>
+        </lbl-minimum-gap-size>
+        <tf-minimum-gap-size>
+          <value></value>
+          <tooltip>Minimale Gr&amp;#x00f6;sse der L&amp;#x00fc;cke eingeben, selbst wenn einige W&amp;#x00f6;rter k&amp;#x00fc;rzer sind.</tooltip>
+        </tf-minimum-gap-size>
+      </wd-config-jcloze>
+      <wd-config-jcross>
+        <lbl-clues-across>
+          <value>L&amp;#x00f6;sungshinweise &quot;waagrecht&quot;:</value>
+          <tooltip></tooltip>
+        </lbl-clues-across>
+        <tf-clues-across>
+          <value></value>
+          <tooltip>&amp;#x00dc;berschrift f&amp;#x00fc;r &quot;waagrechte L&amp;#x00f6;sungshinweise&quot;.</tooltip>
+        </tf-clues-across>
+        <lbl-clues-down>
+          <value>L&amp;#x00f6;sungshinweise &quot;senkrecht&quot;:</value>
+          <tooltip></tooltip>
+        </lbl-clues-down>
+        <tf-clues-down>
+          <value></value>
+          <tooltip>&amp;#x00dc;berschrift f&amp;#x00fc;r &quot;senkrechte L&amp;#x00f6;sungshinweise&quot;.</tooltip>
+        </tf-clues-down>
+        <lbl-enter-caption>
+          <value>&quot;Eingabe&quot;-Taste</value>
+          <tooltip></tooltip>
+        </lbl-enter-caption>
+        <tf-enter-caption>
+          <value></value>
+          <tooltip>&quot;Eingabe&quot;-Taste bewirkt, dass eingetippte Antwort ins R&amp;#x00e4;tselgitter eingef&amp;#x00fc;gt wird.</tooltip>
+        </tf-enter-caption>
+        <cb-include-clue-list>
+          <value>Liste mit den L&amp;#x00f6;sungshinweisen in die &amp;#x00dc;bung aufnehmen</value>
+          <tooltip>Ankreuzen, um die Liste der L&amp;#x00f6;sungshinweise unterhalb des R&amp;#x00e4;tselgitters einzuf&amp;#x00fc;gen.</tooltip>
+        </cb-include-clue-list>
+      </wd-config-jcross>
+      <wd-config-jmatch>
+        <lbl-flashcard-next-caption>
+          <value>&quot;N&amp;#x00e4;chste Flashcard anzeigen&quot;-Taste</value>
+          <tooltip></tooltip>
+        </lbl-flashcard-next-caption>
+        <tf-flashcard-next-caption>
+          <value></value>
+          <tooltip>N&amp;#x00e4;chste Flashcard-Taste anzeigen.</tooltip>
+        </tf-flashcard-next-caption>
+        <lbl-flashcard-delete-caption>
+          <value>&quot;Diese Flashcard l&amp;#x00f6;schen&quot;-Taste</value>
+          <tooltip></tooltip>
+        </lbl-flashcard-delete-caption>
+        <tf-flashcard-delete-caption>
+          <value></value>
+          <tooltip>Diese Flashcard-Taste entfernen.</tooltip>
+        </tf-flashcard-delete-caption>
+      </wd-config-jmatch>
+      <wd-config-jmix>
+        <lbl-this-much-correct>
+          <value>Text, wenn nur ein Teil der Antwort richtig ist:</value>
+          <tooltip></tooltip>
+        </lbl-this-much-correct>
+        <tf-this-much-correct>
+          <value></value>
+          <tooltip>Nachricht, die dem Lernenden mitteilt, dass ein Teil seiner Antwort richtig ist.</tooltip>
+        </tf-this-much-correct>
+        <lbl-next-correct-part>
+          <value>Text f&amp;#x00fc;r den n&amp;#x00e4;chsten richtigen Teil der Antwort:</value>
+          <tooltip></tooltip>
+        </lbl-next-correct-part>
+        <tf-next-correct-part>
+          <value></value>
+          <tooltip>Mitteilung zu &quot;Der n&amp;#x00e4;chste richtige Teil der Antwort ist&quot;.</tooltip>
+        </tf-next-correct-part>
+        <lbl-click-to-add>
+          <value>Klicken, um hinzuzuf&amp;#x00fc;gen</value>
+          <tooltip></tooltip>
+        </lbl-click-to-add>
+        <tf-click-to-add>
+          <value></value>
+          <tooltip>Klicken bewirkt, dass dies der Antwort hinzugef&amp;#x00fc;gt wird.</tooltip>
+        </tf-click-to-add>
+        <tf-show-also-correct>
+          <value></value>
+          <tooltip>Text zu &quot;weitere richtige Antworten&quot;</tooltip>
+        </tf-show-also-correct>
+        <cb-always-capitalize-first>
+          <value>Den ersten Buchstaben immer grossschreiben</value>
+          <tooltip>Ankreuzen, damit der erste Buchstabe des ersten Themenpunktes immer grossgeschrieben wird.</tooltip>
+        </cb-always-capitalize-first>
+        <cb-undo-caption>
+          <value>&quot;Abbrechen&quot;-Taste</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-undo-caption>
+        <tf-undo-caption>
+          <value></value>
+          <tooltip>&quot;Abbrechen&quot;-Taste macht letzten Befehl r&amp;#x00fc;ckg&amp;#x00e4;ngig.</tooltip>
+        </tf-undo-caption>
+        <cb-restart-caption>
+          <value>&quot;Neubeginn&quot;-Taste</value>
+          <tooltip>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</tooltip>
+        </cb-restart-caption>
+        <tf-restart-caption>
+          <value></value>
+          <tooltip>&quot;Neu beginnen&quot;-Taste erlaubt die &amp;#x00dc;bung neu zu starten.</tooltip>
+        </tf-restart-caption>
+      </wd-config-jmix>
+      <wd-chooser-main>
+      </wd-chooser-main>
+      <wd-choose-paths>
+        <lbl-paths-prefs-file>
+          <value>&quot;Preferences&quot;-Datei:</value>
+          <tooltip></tooltip>
+        </lbl-paths-prefs-file>
+        <tf-paths-prefs-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-prefs-file-current>
+        <tf-paths-prefs-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-prefs-file-desired>
+        <btn-paths-prefs-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-prefs-file>
+        <lbl-paths-source-folder>
+          <value>&quot;Source&quot;-Ordner:</value>
+          <tooltip></tooltip>
+        </lbl-paths-source-folder>
+        <tf-paths-source-folder-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-current>
+        <tf-paths-source-folder-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-desired>
+        <btn-paths-source-folder>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder>
+        <btn-paths-source-folder-use-default>
+          <value>&quot;Source&quot;-Ordner der Voreinstellungen verwenden</value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder-use-default>
+        <lbl-paths-config-file>
+          <value>&quot;Konfigurations&quot;-Datei:</value>
+          <tooltip></tooltip>
+        </lbl-paths-config-file>
+        <tf-paths-config-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-config-file-current>
+        <tf-paths-config-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-config-file-desired>
+        <btn-paths-config-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-config-file>
+        <lbl-paths-interface-file>
+          <value>&quot;Interface&quot;-Datei:</value>
+          <tooltip></tooltip>
+        </lbl-paths-interface-file>
+        <tf-paths-interface-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-current>
+        <tf-paths-interface-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-desired>
+        <btn-paths-interface-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file>
+        <btn-paths-interface-file-use-default>
+          <value>Interface-Werte der Voreinstellungen verwenden</value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file-use-default>
+        <btn-choose-paths-use-defaults>
+          <value>Voreinstellungen verwenden</value>
+          <tooltip></tooltip>
+        </btn-choose-paths-use-defaults>
+        <btn-choose-paths-save-as>
+          <value></value>
+          <tooltip>Sichern als ...</tooltip>
+        </btn-choose-paths-save-as>
+        <btn-choose-paths-save>
+          <value></value>
+          <tooltip>Klicken, um die &amp;#x00c4;nderungen in die &amp;#x00dc;bung oder das Potato-Programm zu &amp;#x00fc;bernehmen.</tooltip>
+        </btn-choose-paths-save>
+        <btn-choose-paths-close-window>
+          <value></value>
+          <tooltip>Klicken, um das Fenster zu schliessen.</tooltip>
+        </btn-choose-paths-close-window>
+      </wd-choose-paths>
+      <wd-insert-image>
+        <wd-insert-image-title>
+          <value>Bild einf&amp;#x00fc;gen</value>
+        </wd-insert-image-title>
+        <lbl-insert-image-path>
+          <value>Pfad oder URL zur gew&amp;#x00fc;nschten Bilddatei:</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-path>
+        <tf-insert-image-path>
+          <value></value>
+          <tooltip>Pfad oder URL zur Bilddatei.</tooltip>
+        </tf-insert-image-path>
+        <btn-insert-image-path>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-insert-image-path>
+        <lbl-insert-image-alt>
+          <value>Ersatztext, falls das Bild nicht angezeigt werden kann:</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-alt>
+        <tf-insert-image-alt>
+          <value></value>
+          <tooltip>Ersatztext, falls das Bild nicht angezeigt werden kann.</tooltip>
+        </tf-insert-image-alt>
+        <lbl-insert-image-title>
+          <value>Bildtitel:</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-title>
+        <tf-insert-image-title>
+          <value></value>
+          <tooltip>Bildtitel</tooltip>
+        </tf-insert-image-title>
+        <tf-insert-image-width>
+          <value></value>
+          <tooltip>Bildbreite:</tooltip>
+        </tf-insert-image-width>
+        <tf-insert-image-height>
+          <value></value>
+          <tooltip>Bildh&amp;#x00f6;he:</tooltip>
+        </tf-insert-image-height>
+        <lbl-insert-image-alignment>
+          <value>Bildausrichtung:</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-alignment>
+        <cmb-insert-image-alignment>
+          <value></value>
+          <tooltip>Bildausrichtung</tooltip>
+        </cmb-insert-image-alignment>
+        <cb-keep-aspect-ratio>
+          <value>Seitenverh&amp;#x00e4;ltnis beibehalten</value>
+          <tooltip></tooltip>
+        </cb-keep-aspect-ratio>
+        <btn-insert-image-preview>
+          <value>Voransicht &amp;#x00f6;ffnen</value>
+          <tooltip></tooltip>
+        </btn-insert-image-preview>
+        <btn-insert-image-ok>
+          <value></value>
+          <tooltip>Klicken, um die gemachten &amp;#x00c4;nderungen zu best&amp;#x00e4;tigen und sie auf &amp;#x00dc;bungen oder Programme von Hot Potatoes anzuwenden.</tooltip>
+        </btn-insert-image-ok>
+        <btn-insert-image-cancel>
+          <value></value>
+          <tooltip>Klicken, um alle vorgeschlagenen &amp;#x00c4;nderungen an der &amp;#x00dc;bung oder am Potato-Programm zu ignorieren.</tooltip>
+        </btn-insert-image-cancel>
+        <lbl-insert-image-window-title>
+          <value>Bild einf&amp;#x00fc;gen</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-window-title>
+      </wd-insert-image>
+      <wd-insert-link>
+        <wd-insert-link-title>
+          <value>Link einf&amp;#x00fc;gen</value>
+        </wd-insert-link-title>
+        <lbl-insert-link-window-title>
+          <value>Link einf&amp;#x00fc;gen</value>
+          <tooltip></tooltip>
+        </lbl-insert-link-window-title>
+        <lbl-insert-link-path>
+          <value>Pfad oder URL zur gew&amp;#x00fc;nschten Datei:</value>
+          <tooltip></tooltip>
+        </lbl-insert-link-path>
+        <tf-insert-link-path>
+          <value></value>
+          <tooltip>Pfad oder URL der Datei</tooltip>
+        </tf-insert-link-path>
+        <btn-insert-link-path>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-insert-link-path>
+        <lbl-insert-link-text>
+          <value>Text, der als Link hervorgehoben werden soll:</value>
+          <tooltip></tooltip>
+        </lbl-insert-link-text>
+        <tf-insert-link-text>
+          <value></value>
+          <tooltip>Text, der als Link markiert werden soll.</tooltip>
+        </tf-insert-link-text>
+        <cb-insert-link-new-window>
+          <value>Link in neuem Fenster &amp;#x00f6;ffnen</value>
+          <tooltip></tooltip>
+        </cb-insert-link-new-window>
+        <btn-insert-link-ok>
+          <value></value>
+          <tooltip>Klicken, um die gemachten &amp;#x00c4;nderungen zu best&amp;#x00e4;tigen und sie auf &amp;#x00dc;bungen oder Programme von Hot Potatoes anzuwenden.</tooltip>
+        </btn-insert-link-ok>
+        <btn-insert-image-cancel>
+          <value></value>
+          <tooltip>Klicken, um alle vorgeschlagenen &amp;#x00c4;nderungen an der &amp;#x00dc;bung oder am Potato-Programm zu ignorieren.</tooltip>
+        </btn-insert-image-cancel>
+      </wd-insert-link>
+      <wd-insert-object>
+        <wd-insert-object-title>
+          <value>Medienobjekt einf&amp;#x00fc;gen</value>
+        </wd-insert-object-title>
+        <lbl-insert-object-window-title>
+          <value>Medienobjekt einf&amp;#x00fc;gen</value>
+          <tooltip></tooltip>
+        </lbl-insert-object-window-title>
+        <lbl-insert-object-path>
+          <value>Pfad oder URL zum gew&amp;#x00fc;nschten Medienobjekt:</value>
+          <tooltip></tooltip>
+        </lbl-insert-object-path>
+        <tf-insert-object-path>
+          <value></value>
+          <tooltip>Pfad oder URL zum gew&amp;#x00fc;nschten Medienobjekt.</tooltip>
+        </tf-insert-object-path>
+        <btn-insert-object-path>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-insert-object-path>
+        <tf-insert-object-width>
+          <value></value>
+          <tooltip>Breite des Medienobjekts:</tooltip>
+        </tf-insert-object-width>
+        <tf-insert-object-height>
+          <value></value>
+          <tooltip>H&amp;#x00f6;he des Medienobjekts:</tooltip>
+        </tf-insert-object-height>
+        <lbl-insert-object-player>
+          <value>Auswahlliste von Media-Playern:</value>
+          <tooltip></tooltip>
+        </lbl-insert-object-player>
+        <cmb-insert-object-player1>
+          <value></value>
+          <tooltip>Media Player 1</tooltip>
+        </cmb-insert-object-player1>
+        <cmb-insert-object-player2>
+          <value></value>
+          <tooltip>Media Player 2</tooltip>
+        </cmb-insert-object-player2>
+        <cmb-insert-object-player3>
+          <value></value>
+          <tooltip>Media Player 3</tooltip>
+        </cmb-insert-object-player3>
+        <cmb-insert-object-player4>
+          <value></value>
+          <tooltip>Media Player 4</tooltip>
+        </cmb-insert-object-player4>
+        <cb-insert-object-plain-link>
+          <value>Einfachen Link einf&amp;#x00fc;gen</value>
+          <tooltip>Link zum Starten der Multimedia-Datei einf&amp;#x00fc;gen, wenn keiner der oben aufgef&amp;#x00fc;hrten Media-Player installiert ist.</tooltip>
+        </cb-insert-object-plain-link>
+        <tf-insert-object-plain-link>
+          <value></value>
+          <tooltip>Text f&amp;#x00fc;r direkten Link zur Mediendatei</tooltip>
+        </tf-insert-object-plain-link>
+        <btn-insert-object-ok>
+          <value></value>
+          <tooltip>Klicken, um die gemachten &amp;#x00c4;nderungen zu best&amp;#x00e4;tigen und sie auf &amp;#x00dc;bungen oder Programme von Hot Potatoes anzuwenden.</tooltip>
+        </btn-insert-object-ok>
+        <btn-insert-object-cancel>
+          <value></value>
+          <tooltip>Klicken, um alle vorgeschlagenen &amp;#x00c4;nderungen an der &amp;#x00dc;bung oder am Potato-Programm zu ignorieren.</tooltip>
+        </btn-insert-object-cancel>
+      </wd-insert-object>
+      <wd-insert-table>
+        <wd-insert-table-title>
+          <value>Tabelle einf&amp;#x00fc;gen</value>
+        </wd-insert-table-title>
+        <lbl-insert-table-window-title>
+          <value>Tabelle einf&amp;#x00fc;gen</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-window-title>
+        <lbl-insert-table-rows>
+          <value>Anzahl Reihen in der Tabelle:</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-rows>
+        <tf-insert-table-rows>
+          <value></value>
+          <tooltip>Reihen der Tabelle</tooltip>
+        </tf-insert-table-rows>
+        <lbl-insert-table-columns>
+          <value>Anzahl Spalten in der Tabelle:</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-columns>
+        <tf-insert-table-columns>
+          <value></value>
+          <tooltip>Spalten der Tabelle</tooltip>
+        </tf-insert-table-columns>
+        <lbl-insert-table-padding>
+          <value>Zellenf&amp;#x00fc;llung:</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-padding>
+        <tf-insert-table-padding>
+          <value></value>
+          <tooltip>F&amp;#x00fc;llung innerhalb der Zellen</tooltip>
+        </tf-insert-table-padding>
+        <lbl-insert-table-spacing>
+          <value>Abstand zwischen den Zellen:</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-spacing>
+        <tf-insert-table-spacing>
+          <value></value>
+          <tooltip>Abstand zwischen den Zellen</tooltip>
+        </tf-insert-table-spacing>
+        <lbl-insert-table-border>
+          <value>Dicke des Tabellenrahmens:</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-border>
+        <tf-insert-table-border>
+          <value></value>
+          <tooltip>Dicke des Tabellenrandes</tooltip>
+        </tf-insert-table-border>
+        <tf-insert-table-width>
+          <value></value>
+          <tooltip>Breite der Tabelle:</tooltip>
+        </tf-insert-table-width>
+        <btn-insert-table-ok>
+          <value></value>
+          <tooltip>Klicken, um die gemachten &amp;#x00c4;nderungen zu best&amp;#x00e4;tigen und sie auf &amp;#x00dc;bungen oder Programme von Hot Potatoes anzuwenden.</tooltip>
+        </btn-insert-table-ok>
+        <btn-insert-table-cancel>
+          <value></value>
+          <tooltip>Klicken, um alle vorgeschlagenen &amp;#x00c4;nderungen an der &amp;#x00dc;bung oder am Potato-Programm zu ignorieren.</tooltip>
+        </btn-insert-table-cancel>
+      </wd-insert-table>
+      <wd-change-interface>
+        <lbl-interface-font>
+          <value>Schrift f&amp;#x00fc;r Men&amp;#x00fc;s, Tastenberschriftung, Mitteilungen usw.</value>
+          <tooltip></tooltip>
+        </lbl-interface-font>
+        <tf-interface-font-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-font-current>
+        <tf-interface-font-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-font-desired>
+        <btn-interface-font>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-interface-font>
+        <lbl-input-font>
+          <value>Schrift f&amp;#x00fc;r die Texteingabefelder der &amp;#x00dc;bung</value>
+          <tooltip></tooltip>
+        </lbl-input-font>
+        <tf-input-font-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-input-font-current>
+        <tf-input-font-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-input-font-desired>
+        <btn-input-font>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-input-font>
+        <btn-interface-apply-fonts>
+          <value></value>
+          <tooltip>Klicken, um die &amp;#x00c4;nderungen in die &amp;#x00dc;bung oder das Potato-Programm zu &amp;#x00fc;bernehmen.</tooltip>
+        </btn-interface-apply-fonts>
+        <btn-close-interface-window>
+          <value></value>
+          <tooltip>Klicken, um das Fenster zu schliessen.</tooltip>
+        </btn-close-interface-window>
+        <lbl-paths-source-folder>
+          <value>&quot;Source&quot;-Ordner:</value>
+          <tooltip></tooltip>
+        </lbl-paths-source-folder>
+        <tf-paths-source-folder-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-current>
+        <tf-paths-source-folder-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-desired>
+        <btn-paths-source-folder>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder>
+        <btn-paths-source-folder-use-default>
+          <value>&quot;Source&quot;-Ordner der Voreinstellung verwenden</value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder-use-default>
+        <lbl-paths-interface-file>
+          <value>&quot;Interface&quot;-Datei:</value>
+          <tooltip></tooltip>
+        </lbl-paths-interface-file>
+        <tf-paths-interface-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-current>
+        <tf-paths-interface-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-desired>
+        <btn-paths-interface-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file>
+        <btn-paths-interface-file-use-default>
+          <value>Interface-Werte der Voreinstellung verwenden</value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file-use-default>
+        <btn-interface-apply-paths>
+          <value></value>
+          <tooltip>Klicken, um die &amp;#x00c4;nderungen in die &amp;#x00dc;bung oder das Potato-Programm zu &amp;#x00fc;bernehmen.</tooltip>
+        </btn-interface-apply-paths>
+        <lbl-interface-texts-section>
+          <value>HAUPTTHEMEN</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-section>
+        <lbl-interface-texts-subsection>
+          <value>UNTERTHEMEN</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-subsection>
+        <lbl-interface-texts-items>
+          <value>DIE EINZELNEN THEMENPUNKTE</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-items>
+        <lst-interface-texts-section>
+          <value></value>
+          <tooltip></tooltip>
+        </lst-interface-texts-section>
+        <lst-interface-texts-subsection>
+          <value></value>
+          <tooltip></tooltip>
+        </lst-interface-texts-subsection>
+        <lbl-interface-texts-inputs>
+          <value>TEXTE F&amp;#x00dc;R AUSGEW&amp;#x00c4;HLTEN THEMENPUNKT</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-inputs>
+        <lbl-interface-text-current>
+          <value>Bisher verwendeter Text:</value>
+          <tooltip></tooltip>
+        </lbl-interface-text-current>
+        <tf-interface-text-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-text-current>
+        <lbl-interface-text-desired>
+          <value>Gew&amp;#x00fc;nschter neuer Text:</value>
+          <tooltip></tooltip>
+        </lbl-interface-text-desired>
+        <tf-interface-text-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-text-desired>
+        <lbl-interface-tooltip-current>
+          <value>Bisher verwendeter Tooltipp:</value>
+          <tooltip></tooltip>
+        </lbl-interface-tooltip-current>
+        <tf-interface-tooltip-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-tooltip-current>
+        <lbl-interface-tooltip-desired>
+          <value>Neuer Tooltipp:</value>
+          <tooltip></tooltip>
+        </lbl-interface-tooltip-desired>
+        <tf-interface-tooltip-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-tooltip-desired>
+        <btn-open-interface-file>
+          <value>&amp;#x00d6;ffnen</value>
+          <tooltip></tooltip>
+        </btn-open-interface-file>
+        <btn-save-interface-file>
+          <value>Sichern</value>
+          <tooltip></tooltip>
+        </btn-save-interface-file>
+        <btn-save-as-interface-file>
+          <value>Sichern als ...</value>
+          <tooltip></tooltip>
+        </btn-save-as-interface-file>
+      </wd-change-interface>
+      <wd-reading-text>
+        <cb-reading-include>
+          <value>Lesetext in die &amp;#x00dc;bung einschliessen</value>
+          <tooltip></tooltip>
+        </cb-reading-include>
+        <lbl-reading-import>
+          <value>Eine Webseite als Lesetext importieren</value>
+          <tooltip></tooltip>
+        </lbl-reading-import>
+        <btn-reading-import>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-reading-import>
+        <lbl-reading-title>
+          <value>Titel des Lesetextes:</value>
+          <tooltip></tooltip>
+        </lbl-reading-title>
+        <tf-reading-title>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-reading-title>
+        <lbl-reading-text>
+          <value>Lesetext:</value>
+          <tooltip></tooltip>
+        </lbl-reading-text>
+        <btn-reading-ok>
+          <value></value>
+          <tooltip>Klicken, um die gemachten &amp;#x00c4;nderungen zu best&amp;#x00e4;tigen und sie auf &amp;#x00dc;bungen oder Programme von Hot Potatoes anzuwenden.</tooltip>
+        </btn-reading-ok>
+        <btn-reading-cancel>
+          <value></value>
+          <tooltip>Klicken, um alle vorgeschlagenen &amp;#x00c4;nderungen an der &amp;#x00dc;bung oder am Potato-Programm zu ignorieren.</tooltip>
+        </btn-reading-cancel>
+      </wd-reading-text>
+      <wd-metadata>
+        <wd-metadata-title>
+          <value>Dublin Core Metadata</value>
+        </wd-metadata-title>
+        <lbl-metadata-list-of-elements>
+          <value>Metadaten-Elemente</value>
+          <tooltip></tooltip>
+        </lbl-metadata-list-of-elements>
+        <cmb-metadata-list-of-elements>
+          <value></value>
+          <tooltip>Metadaten-Elemente</tooltip>
+        </cmb-metadata-list-of-elements>
+        <lbl-metadata-instance>
+          <value>Instance of this Dublin Core element:</value>
+          <tooltip></tooltip>
+        </lbl-metadata-instance>
+        <tf-metadata-instance>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-metadata-instance>
+        <btn-metadata-instance-up-arrow>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-metadata-instance-up-arrow>
+        <btn-metadata-instance-down-arrow>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-metadata-instance-down-arrow>
+        <lbl-metadata-value-text>
+          <value>Text value for this instance of this element</value>
+          <tooltip></tooltip>
+        </lbl-metadata-value-text>
+      </wd-metadata>
+      <wd-register-user>
+        <wd-register-user-title>
+          <value>Hot Potatoes 6</value>
+        </wd-register-user-title>
+        <lbl-user-name-to-register>
+          <value>Benutzername eingeben:</value>
+          <tooltip></tooltip>
+        </lbl-user-name-to-register>
+        <tf-user-name-to-register>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-user-name-to-register>
+        <lbl-reg-key-to-register>
+          <value>Registrationsschl&amp;#x00fc;ssel (XXXX-XXXX-XXXX):</value>
+          <tooltip></tooltip>
+        </lbl-reg-key-to-register>
+        <tf-reg-key-to-register>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-reg-key-to-register>
+        <btn-register-user>
+          <value>Registrieren</value>
+          <tooltip></tooltip>
+        </btn-register-user>
+        <btn-register-user-close-window>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-register-user-close-window>
+      </wd-register-user>
+      <wd-masher-main>
+        <btn-move-file-up>
+          <value>Datei nach oben verschieben</value>
+          <tooltip></tooltip>
+        </btn-move-file-up>
+        <btn-move-file-down>
+          <value>Datei nach unten verschieben</value>
+          <tooltip></tooltip>
+        </btn-move-file-down>
+        <btn-add-files>
+          <value>Hinzuf&amp;#x00fc;gen ...</value>
+          <tooltip></tooltip>
+        </btn-add-files>
+        <btn-delete-file>
+          <value>L&amp;#x00f6;schen</value>
+          <tooltip></tooltip>
+        </btn-delete-file>
+        <lbl-output-folder>
+          <value>&amp;#x00dc;bung in diesem Zielordner erstellen</value>
+          <tooltip></tooltip>
+        </lbl-output-folder>
+        <tf-masher-output-folder>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-output-folder>
+        <rb-appearance-use-settings-from-file>
+          <value>Einstellungen aus den Datendateien verwenden</value>
+          <tooltip></tooltip>
+        </rb-appearance-use-settings-from-file>
+        <rb-appearance-use-masher-settings>
+          <value>Die unten spezifizierten Einstellungen verwenden</value>
+          <tooltip></tooltip>
+        </rb-appearance-use-masher-settings>
+        <rb-user-strings-use-settings-from-file>
+          <value>Einstellungen der Datendateien verwenden</value>
+          <tooltip></tooltip>
+        </rb-user-strings-use-settings-from-file>
+        <rb-user-strings-use-masher-settings>
+          <value>Die unten spezifizierten Einstellungen verwenden</value>
+          <tooltip></tooltip>
+        </rb-user-strings-use-masher-settings>
+        <cb-add-navbar-to-pages>
+          <value>Navigationsleiste zu HTML-Seiten, welche keine &amp;#x00dc;bungen sind, hinzuf&amp;#x00fc;gen</value>
+          <tooltip></tooltip>
+        </cb-add-navbar-to-pages>
+        <lbl-masher-source-folder>
+          <value>Ordner f&amp;#x00fc;r &quot;Source&quot;-Dateien, welche mit Datendateien kombiniert werden</value>
+          <tooltip></tooltip>
+        </lbl-masher-source-folder>
+        <lbl-masher-unit-index-source>
+          <value>Source des Inhaltsverzeichnissess f&amp;#x00fc;r die Masher-Einheit (Bearbeitung auf eigenes Risiko!)</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-index-source>
+        <btn-save-masher-unit-index-source>
+          <value>Sichern der Inhaltsverzeichnis-Source</value>
+          <tooltip></tooltip>
+        </btn-save-masher-unit-index-source>
+        <btn-restore-default-masher-unit-index-source>
+          <value>Voreingestellte Inhaltsverzeichnis-Source wieder herstellen</value>
+          <tooltip></tooltip>
+        </btn-restore-default-masher-unit-index-source>
+        <lbl-masher-unit-title>
+          <value>Titel der Einheit</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-title>
+        <tf-masher-unit-title>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-unit-title>
+        <lbl-masher-unit-index-filename>
+          <value>Name der Inhalts-Datei</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-index-filename>
+        <tf-masher-unit-index-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-unit-index-filename>
+        <btn-masher-build-unit>
+          <value>Einheit erstellen</value>
+          <tooltip></tooltip>
+        </btn-masher-build-unit>
+      </wd-masher-main>
+      <wd-masher-confirm-add>
+        <wd-masher-confirm-add-title>
+          <value>Datei oder Dateien dem Projekt hinzuf&amp;#x00fc;gen</value>
+        </wd-masher-confirm-add-title>
+        <lbl-source-filename>
+          <value>Daten-Dateiname</value>
+          <tooltip></tooltip>
+        </lbl-source-filename>
+        <tf-source-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-source-filename>
+        <lbl-output-filename>
+          <value>Dateiname der &amp;#x00dc;bung</value>
+          <tooltip></tooltip>
+        </lbl-output-filename>
+        <tf-output-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-output-filename>
+        <lbl-next-filename>
+          <value>N&amp;#x00e4;chste &amp;#x00dc;bung</value>
+          <tooltip></tooltip>
+        </lbl-next-filename>
+        <tf-next-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-next-filename>
+        <lbl-output-format>
+          <value>Ausgabe-Typ</value>
+          <tooltip></tooltip>
+        </lbl-output-format>
+        <cmb-output-format>
+          <value></value>
+          <tooltip></tooltip>
+        </cmb-output-format>
+        <btn-ok>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-ok>
+        <btn-ok-all>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-ok-all>
+        <lbl-masher-confirm-add-window-title>
+          <value>Datei oder Dateien dem Projekt hinzuf&amp;#x00fc;gen</value>
+          <tooltip></tooltip>
+        </lbl-masher-confirm-add-window-title>
+      </wd-masher-confirm-add>
+    </windows>
+    <menus>
+      <menubar-shared-main>
+        <menu-item-append-exercise>
+          <value>&amp;#x00dc;bung anh&amp;#x00e4;ngen ...</value>
+          <tooltip>Daten einer anderen &amp;#x00dc;bung dieser &amp;#x00dc;bung anh&amp;#x00e4;ngen.</tooltip>
+        </menu-item-append-exercise>
+        <menu-item-create-v6-page-dragdrop>
+          <value>Drag and Drop-Seite erzeugen</value>
+          <tooltip>&amp;#x00dc;bung mit einer Draga&amp;#x0026;Drop-Benutzeroberfl&amp;#x00e4;che erstellen.</tooltip>
+        </menu-item-create-v6-page-dragdrop>
+        <menu-item-delete-item>
+          <value>Themenpunkt l&amp;#x00f6;schen</value>
+          <tooltip>Themenpunkt, der aus dieser &amp;#x00dc;bung entfernt werden soll, ausw&amp;#x00e4;hlen.</tooltip>
+        </menu-item-delete-item>
+        <menu-item-insert-item>
+          <value>Themenpunkt einf&amp;#x00fc;gen ...</value>
+          <tooltip>Eine Stelle in dieser &amp;#x00dc;bung ausw&amp;#x00e4;hlen, an der der neue Themenpunkt eingef&amp;#x00fc;gt werden soll.</tooltip>
+        </menu-item-insert-item>
+        <menu-item-move-item>
+          <value>Themenpunkt bewegen ...</value>
+          <tooltip>Einen Themenpunkt in dieser &amp;#x00dc;bung ausw&amp;#x00e4;hlen, der verschoben werden soll.</tooltip>
+        </menu-item-move-item>
+        <menu-item-shuffle-items>
+          <value>Neue Reihenfolge der Themenpunkte erstellen</value>
+          <tooltip>Themenpunkte werden in eine neue Reihenfolge gebracht.</tooltip>
+        </menu-item-shuffle-items>
+        <menu-item-create-v6-page-text>
+          <value>NUR-TEXT-Datei erzeugen</value>
+          <tooltip>Einfache Textdatei erstellen, die auch in andere Programme importiert werden kann.</tooltip>
+        </menu-item-create-v6-page-text>
+        <menu-item-create-v6-WebCT>
+          <value>WebCT-Datendatei erzeugen</value>
+          <tooltip>Textdatei erstellen, die f&amp;#x00fc;r den Upload in WebCT geeignet ist.</tooltip>
+        </menu-item-create-v6-WebCT>
+        <menu-file>
+          <value>Datei</value>
+          <tooltip></tooltip>
+        </menu-file>
+        <menu-item-new-ex>
+          <value>Neue &amp;#x00dc;bung</value>
+          <tooltip>Eine ganz neue &amp;#x00dc;bung beginnen, d. h. auch eine neue Datendatei erzeugen.</tooltip>
+        </menu-item-new-ex>
+        <menu-item-open-ex>
+          <value>Datendatei &amp;#x00f6;ffnen ...</value>
+          <tooltip>Eine bereits bestehende Datendatei &amp;#x00f6;ffnen.</tooltip>
+        </menu-item-open-ex>
+        <menu-item-save-ex>
+          <value>Datendatei sichern</value>
+          <tooltip>Aktuelle Daten in eine bereits bestehende Datendatei sichern.</tooltip>
+        </menu-item-save-ex>
+        <menu-item-save-as-ex>
+          <value>Datendatei sichern als ...</value>
+          <tooltip>Aktuelle Daten in eine neue Datendatei sichern.</tooltip>
+        </menu-item-save-as-ex>
+        <menu-recent>
+          <value>Liste der zuletzt benutzten Datendateien</value>
+          <tooltip>Liste der letzten in diesem Potato gesicherten Datendateien.</tooltip>
+        </menu-recent>
+        <menu-item-metadata>
+          <value>DublinCore-Metadaten ...</value>
+          <tooltip>Hinzuf&amp;#x00fc;gen oder Bearbeiten von Werten f&amp;#x00fc;r Dublin Core Metadata-Felder.</tooltip>
+        </menu-item-metadata>
+        <menu-item-reading-text>
+          <value>Lesetext ...</value>
+          <tooltip>Hinzuf&amp;#x00fc;gen oder Bearbeiten eines HTML-Lesetextes.</tooltip>
+        </menu-item-reading-text>
+        <menu-export>
+          <value>Exportieren</value>
+          <tooltip>Verschiedene M&amp;#x00f6;glichkeiten f&amp;#x00fc;r den Datenexport.</tooltip>
+        </menu-export>
+        <menu-item-create-v6-page-standard>
+          <value>StandardV6-Seite erzeugen</value>
+          <tooltip>Eine normale HTML-&amp;#x00dc;bung erstellen.</tooltip>
+        </menu-item-create-v6-page-standard>
+        <menu-item-exit>
+          <value>Schliessen/Beenden dieses Potatoes</value>
+          <tooltip>Dieses Potato-Fenster schliessen.</tooltip>
+        </menu-item-exit>
+        <menu-edit>
+          <value>Bearbeiten</value>
+          <tooltip>Liste der Bearbeitungsbefehle.</tooltip>
+        </menu-edit>
+        <menu-item-cut>
+          <value>Ausschneiden</value>
+          <tooltip>Ausgew&amp;#x00e4;hlten Text ausschneiden.</tooltip>
+        </menu-item-cut>
+        <menu-item-copy>
+          <value>Kopieren</value>
+          <tooltip>Ausgew&amp;#x00e4;hlten Text kopieren.</tooltip>
+        </menu-item-copy>
+        <menu-item-paste>
+          <value>Einsetzen</value>
+          <tooltip>Text aus der Zwischenablage in die aktuelle Auswahl einsetzen.</tooltip>
+        </menu-item-paste>
+        <menu-item-delete>
+          <value>L&amp;#x00f6;schen</value>
+          <tooltip>Ausgew&amp;#x00e4;hlten Text l&amp;#x00f6;schen/entfernen.</tooltip>
+        </menu-item-delete>
+        <menu-item-select-all>
+          <value>ALLES ausw&amp;#x00e4;hlen</value>
+          <tooltip>Den gesamten Text, in dem sich der Cursor aktuell befindet, ausw&amp;#x00e4;hlen.</tooltip>
+        </menu-item-select-all>
+        <menu-insert>
+          <value>Einf&amp;#x00fc;gen</value>
+          <tooltip>Bilder, Links, Tabellen oder Medienobjekte mittels HTML-Code in eine &amp;#x00dc;bung einsetzen.</tooltip>
+        </menu-insert>
+        <menu-item-insert-image>
+          <value>Bild einf&amp;#x00fc;gen</value>
+          <tooltip>Einf&amp;#x00fc;gen eines HTML-Tags f&amp;#x00fc;r ein Bild an der aktuellen Cursorposition.</tooltip>
+        </menu-item-insert-image>
+        <menu-item-insert-link>
+          <value>Link zu Datei einf&amp;#x00fc;gen</value>
+          <tooltip>Einf&amp;#x00fc;gen eines HTML-Tags f&amp;#x00fc;r einen Link an der aktuellen Cursorposition.</tooltip>
+        </menu-item-insert-link>
+        <menu-item-insert-table>
+          <value>HTML-Tabelle einf&amp;#x00fc;gen</value>
+          <tooltip>Einf&amp;#x00fc;gen eines HTML-Tags f&amp;#x00fc;r eine Tabelle an der aktuellen Cursorposition.</tooltip>
+        </menu-item-insert-table>
+        <menu-item-insert-object>
+          <value>Medienobjekt einf&amp;#x00fc;gen</value>
+          <tooltip>Einf&amp;#x00fc;gen eines HTML-Tags f&amp;#x00fc;r ein Audio-, Video- oder Medienobjekt an der aktuellen Cursorposition.</tooltip>
+        </menu-item-insert-object>
+        <menu-manage>
+          <value>Verwalten</value>
+          <tooltip>Verschiedene M&amp;#x00f6;glichkeiten, die Fragen zu verwalten.</tooltip>
+        </menu-manage>
+        <menu-options>
+          <value>Optionen</value>
+          <tooltip>Befehle, die es erlauben, verschiedene Einstellungen zu ver&amp;#x00e4;ndern, die die Funktionsweise des Potatos beeinflussen.</tooltip>
+        </menu-options>
+        <menu-item-show-tooltips>
+          <value>Einblenden/Ausblenden des Beschriebs der einzelnen Programmkomponenten</value>
+          <tooltip>Ausw&amp;#x00e4;hlen, um einen Kurzbeschrieb der einzelnen Programmteile (Werkzeuge/Tasten usw.) zu erhalten.</tooltip>
+        </menu-item-show-tooltips>
+        <menu-item-read-config>
+          <value>Aktuelle Konfiguration in die Datendatei einbauen</value>
+          <tooltip>Diese Einstellung IMMER aktiviert lassen (H&amp;#x00e4;kchen muss sichtbar sein!), solange du kein fortgeschrittener Anwender sind.</tooltip>
+        </menu-item-read-config>
+        <menu-item-open-config>
+          <value>Konfigurationsfenster &amp;#x00f6;ffnen</value>
+          <tooltip>Dieses Fenster &amp;#x00f6;ffnen, um Mitteilungen, Farben usw. in den &amp;#x00dc;bungsseiten zu ver&amp;#x00e4;ndern.</tooltip>
+        </menu-item-open-config>
+        <menu-item-open-interface>
+          <value>Interface-Bearbeitungsfenster &amp;#x00f6;ffnen</value>
+          <tooltip>Dieses Fenster &amp;#x00f6;ffnen, um Texte, Schriften usw. in diesem Potato zu ver&amp;#x00e4;ndern.</tooltip>
+        </menu-item-open-interface>
+        <menu-help>
+          <value>Hilfe</value>
+          <tooltip>Verschiedene Arten von Hilfestellungen aufrufen.</tooltip>
+        </menu-help>
+        <menu-item-help-contents>
+          <value>Hilfe-Inhalt</value>
+          <tooltip>Anzeigen der programmeigenen Hilfe</tooltip>
+        </menu-item-help-contents>
+        <menu-item-help-tutorial>
+          <value>Tutorials</value>
+          <tooltip>Tutorials bieten detaillierte Anleitungen, wie Hot Potatoes verwendet wird.</tooltip>
+        </menu-item-help-tutorial>
+        <menu-item-feature-list>
+          <value>Bug- und Feature-Liste</value>
+          <tooltip></tooltip>
+        </menu-item-feature-list>
+        <menu-item-faq>
+          <value>FAQ</value>
+          <tooltip>Die FAQ-Liste zu HP im Internet aufrufen.</tooltip>
+        </menu-item-faq>
+        <menu-item-bulletin-board>
+          <value>Forum der Benutzergruppe</value>
+          <tooltip>Sich ins Benutzer-Forum von HP im Internet einw&amp;#x00e4;hlen.</tooltip>
+        </menu-item-bulletin-board>
+        <menu-item-help-email>
+          <value>E-Mail-Support</value>
+          <tooltip>Eine E-Mail an die Entwickler von HP schicken.</tooltip>
+        </menu-item-help-email>
+        <menu-item-register>
+          <value>Registrierung</value>
+          <tooltip>Verwenden, um sich registrieren zu lassen.</tooltip>
+        </menu-item-register>
+        <menu-item-about>
+          <value>&amp;#x00dc;ber &quot;Hot Potatoes&quot;</value>
+          <tooltip>Liefert die genaue Versionsnummer dieser Kopie von Hot Potatoes.</tooltip>
+        </menu-item-about>
+      </menubar-shared-main>
+      <menubar-chooser-main>
+        <menu-item-exit-all>
+          <value>ALLE offenen Potatoes-Anwendungen beenden/verlassen</value>
+          <tooltip>ALLE ge&amp;#x00f6;ffneten Potatoes beenden.</tooltip>
+        </menu-item-exit-all>
+        <menu-item-choose-paths>
+          <value>Projektpfad festlegen</value>
+          <tooltip>Wichtige Dateien wie Interface, Konfiguration, Source; Preferences k&amp;#x00f6;nnen gewechselt werden (z. B. Sprachwechsel des Interfaces)</tooltip>
+        </menu-item-choose-paths>
+        <menu-set-default-paths>
+          <value>Werte zur&amp;#x00fc;cksetzen auf die Anfangseinstellungen (Inferface, Konfiguration, Source, Preferences)</value>
+          <tooltip>Alle wichtigen Dateien (wie Interface, Konfiguration, Source) auf die Anfangs-Einstellungen zur&amp;#x00fc;cksetzen</tooltip>
+        </menu-set-default-paths>
+      </menubar-chooser-main>
+      <menubar-jcloze-main>
+      </menubar-jcloze-main>
+      <menubar-jcross-main>
+        <menu-item-resize-grid>
+          <value>Gr&amp;#x00f6;sse des R&amp;#x00e4;tselgitters neu festlegen</value>
+          <tooltip></tooltip>
+        </menu-item-resize-grid>
+        <menu-item-auto-grid>
+          <value>R&amp;#x00e4;tselgitter unter Ber&amp;#x00fc;cksichtigung der W&amp;#x00f6;rterliste erzeugen</value>
+          <tooltip></tooltip>
+        </menu-item-auto-grid>
+        <menu-item-case-sensitive-grid>
+          <value>Gross-/Kleinschreibung bei den R&amp;#x00e4;tselgitter-Eingabedaten ber&amp;#x00fc;cksichtigen</value>
+          <tooltip>Konfigurationsfenster verwenden, um von Gross- auf Kleinschreibung und umgekehrt umzustellen. </tooltip>
+        </menu-item-case-sensitive-grid>
+      </menubar-jcross-main>
+      <menubar-jmatch-main>
+        <menu-item-create-v6-page-flashcard>
+          <value>FlashCard-Seite erzeugen</value>
+          <tooltip>Eine Seite mit einfachen Flashcards erzeugen.</tooltip>
+        </menu-item-create-v6-page-flashcard>
+        <menu-item-switch-columns>
+          <value>Spalten vertauschen</value>
+          <tooltip>Inhalt (Text, Bild usw.) links mit Inhalt (Text, Bild usw.) rechts bei jedem Paar vertauschen.</tooltip>
+        </menu-item-switch-columns>
+      </menubar-jmatch-main>
+      <menubar-jmix-main>
+      </menubar-jmix-main>
+      <menubar-jquiz-main>
+        <menu-beginner-advanced-ui>
+          <value>Benutzerdefinierter Interface-Modus</value>
+          <tooltip>Features f&amp;#x00fc;r fortgeschrittene Anwender anzeigen bzw. verbergen.</tooltip>
+        </menu-beginner-advanced-ui>
+        <menu-item-beginner-ui>
+          <value>Einfaches Inferface</value>
+          <tooltip>Hide more advanced features</tooltip>
+        </menu-item-beginner-ui>
+        <menu-item-advanced-ui>
+          <value>Benutzerdefiniertes Interface</value>
+          <tooltip>Show advanced features</tooltip>
+        </menu-item-advanced-ui>
+      </menubar-jquiz-main>
+      <menubar-masher-main>
+        <menu-file-masher>
+          <value>Datei</value>
+          <tooltip></tooltip>
+        </menu-file-masher>
+        <menu-item-new-proj>
+          <value>Neues Projekt</value>
+          <tooltip>Ein ganz neues Masher-Projekt beginnen.</tooltip>
+        </menu-item-new-proj>
+        <menu-item-open-masher>
+          <value>Projekt &amp;#x00f6;ffnen ...</value>
+          <tooltip>Eine bereits bestehende Masherprojekt-Datei &amp;#x00f6;ffnen.</tooltip>
+        </menu-item-open-masher>
+        <menu-item-save-masher>
+          <value>Projekt sichern</value>
+          <tooltip>Aktuelle Projekt-Datei sichern</tooltip>
+        </menu-item-save-masher>
+        <menu-item-save-as-masher>
+          <value>Projekt sichern als ...</value>
+          <tooltip>Aktuelles Projekt in eine neue Datei sichern.</tooltip>
+        </menu-item-save-as-masher>
+        <menu-recent-masher>
+          <value>Letzte Projekte</value>
+          <tooltip>Liste der letzten Projekt-Dateien.</tooltip>
+        </menu-recent-masher>
+        <menu-actions-masher>
+          <value>Aktionen</value>
+          <tooltip>Aktionen, die Masher ausf&amp;#x00fc;hren kann.</tooltip>
+        </menu-actions-masher>
+        <menu-item-build-unit>
+          <value>Einheit erstellen</value>
+          <tooltip></tooltip>
+        </menu-item-build-unit>
+        <menu-item-build-index>
+          <value>Nur Inhaltsverzeichnis-Seite erstellen</value>
+          <tooltip></tooltip>
+        </menu-item-build-index>
+        <menu-item-batch-process>
+          <value>Stapelverarbeitung ...</value>
+          <tooltip></tooltip>
+        </menu-item-batch-process>
+        <menu-item-blank-web-page>
+          <value>Leere Webseite erstellen</value>
+          <tooltip></tooltip>
+        </menu-item-blank-web-page>
+        <menu-item-css-base>
+          <value>Einfaches CSS-Stylesheet erstellen</value>
+          <tooltip></tooltip>
+        </menu-item-css-base>
+        <menu-item-css-full>
+          <value>Vollst&amp;#x00e4;ndiges HotPotatoes-Stylesheet erstellen</value>
+          <tooltip></tooltip>
+        </menu-item-css-full>
+        <menu-options-masher>
+          <value>Optionen</value>
+          <tooltip>Befehle, die es erlauben, verschiedene Einstellungen zu ver&amp;#x00e4;ndern, die die Funktionsweise eines Potatos beeinflussen.</tooltip>
+        </menu-options-masher>
+        <menu-item-open-interface-masher>
+          <value>Interface-Datei ausw&amp;#x00e4;hlen</value>
+          <tooltip>Interface-Datei ausw&amp;#x00e4;hlen</tooltip>
+        </menu-item-open-interface-masher>
+        <menu-item-register-masher>
+          <value>Registrierung</value>
+          <tooltip>Registrierung von Masher</tooltip>
+        </menu-item-register-masher>
+      </menubar-masher-main>
+    </menus>
+    <messages>
+      <msg-use-default-interface-file>
+        <value>M&amp;#x00f6;chtest du die voreingestellte Interface-Datei verwenden?</value>
+      </msg-use-default-interface-file>
+      <msg-player-qt>
+        <value>QuickTime-Player</value>
+      </msg-player-qt>
+      <msg-jcloze-no-gaps-yet>
+        <value>Zuerst ein L&amp;#x00fc;cke erzeugen, bevor du den n&amp;#x00e4;chsten Schritt machen kannst!</value>
+      </msg-jcloze-no-gaps-yet>
+      <msg-desired-value>
+        <value>Gew&amp;#x00fc;nschter Wert:</value>
+      </msg-desired-value>
+      <msg-masher-tab-source>
+        <value>Quelle</value>
+      </msg-masher-tab-source>
+      <msg-jquiz-question-type-hybrid>
+        <value>&quot;Hybrid&quot;-Typ</value>
+      </msg-jquiz-question-type-hybrid>
+      <msg-file-name-has-space-char>
+        <value>Dieser Dateiname enth&amp;#x00e4;lt einen Leerschlag. Soll die Datei dennoch gesichert werden?</value>
+      </msg-file-name-has-space-char>
+      <msg-configuration-file>
+        <value>&quot;Konfigurations&quot;-Datei:</value>
+      </msg-configuration-file>
+      <msg-metadata-language>
+        <value>Sprache</value>
+      </msg-metadata-language>
+      <msg-masher-output-type-flashcard>
+        <value>Flashcard</value>
+      </msg-masher-output-type-flashcard>
+      <msg-jcross-grid-size>
+        <value>Gr&amp;#x00f6;sse des R&amp;#x00e4;tselgitters eingeben:</value>
+      </msg-jcross-grid-size>
+      <msg-item-skipped-no-question>
+        <value>Wegen fehlender Frage &amp;#x00fc;bersprungene Themenpunkte:</value>
+      </msg-item-skipped-no-question>
+      <msg-display-in-browser>
+        <value>Fertige &amp;#x00dc;bung im Browser anzeigen</value>
+      </msg-display-in-browser>
+      <msg-save-as>
+        <value>Sichern als ...</value>
+      </msg-save-as>
+      <msg-text>
+        <value>Text</value>
+      </msg-text>
+      <msg-caption>
+        <value>Beschriftung:</value>
+      </msg-caption>
+      <msg-jcross-words-placed-number>
+        <value>Anzahl der platzierten/eingebauten W&amp;#x00f6;rter:</value>
+      </msg-jcross-words-placed-number>
+      <msg-save-changes-to>
+        <value>&amp;#x00c4;nderungen sichern in:</value>
+      </msg-save-changes-to>
+      <msg-select-before-insert>
+        <value>Zuerst die Stelle w&amp;#x00e4;hlen, wo der Text erscheinen soll. Dann diesen Dialog nochmals &amp;#x00f6;ffnen.</value>
+      </msg-select-before-insert>
+      <msg-font>
+        <value>Schrift</value>
+      </msg-font>
+      <msg-jcross-words-lack-definition>
+        <value>Dem folgenden Wort fehlt die Beschreibung:</value>
+      </msg-jcross-words-lack-definition>
+      <msg-jcross-words-not-placed>
+        <value>Nicht platzierte/eingebaute W&amp;#x00f6;rter:</value>
+      </msg-jcross-words-not-placed>
+      <msg-jcloze-selection-contains-plain-text>
+        <value>Ein Teil der Auswahl ist normaler Text. Um eine L&amp;#x00fc;cke entfernen zu k&amp;#x00f6;nnen, darf nur der exakte L&amp;#x00fc;ckenbereich ausgew&amp;#x00e4;hlt sein.</value>
+      </msg-jcloze-selection-contains-plain-text>
+      <msg-metadata-identifier>
+        <value>Identifizierung/Kennzeichnung</value>
+      </msg-metadata-identifier>
+      <msg-masher-tab-user-strings>
+        <value>Benutzer-Strings</value>
+      </msg-masher-tab-user-strings>
+      <msg-hide>
+        <value>Ausblenden der </value>
+      </msg-hide>
+      <msg-cant-find-config-file>
+        <value>Die Konfigurationsdatei kann nicht gefunden werden:</value>
+      </msg-cant-find-config-file>
+      <msg-interface-text-section-messages>
+        <value>Mitteilungen</value>
+      </msg-interface-text-section-messages>
+      <msg-config-tab-buttons>
+        <value>Tasten</value>
+      </msg-config-tab-buttons>
+      <msg-confirm>
+        <value>Best&amp;#x00e4;tigen</value>
+      </msg-confirm>
+      <msg-apply>
+        <value>&amp;#x00c4;nderungen &amp;#x00fc;bernehmen</value>
+      </msg-apply>
+      <msg-masher-tab-files>
+        <value>Dateien</value>
+      </msg-masher-tab-files>
+      <msg-new-item-enter-number>
+        <value>Nummer f&amp;#x00fc;r neuen Themenpunkt eingeben:</value>
+      </msg-new-item-enter-number>
+      <msg-left-side>
+        <value>links</value>
+      </msg-left-side>
+      <msg-create-exercise-file-failed>
+        <value>Die &amp;#x00dc;bungsdatei konnte nicht erzeugt werden:</value>
+      </msg-create-exercise-file-failed>
+      <msg-cant-find-source-file>
+        <value>Die &quot;Source&quot;-Datei(en) kann/k&amp;#x00f6;nnen nicht gefunden werden:</value>
+      </msg-cant-find-source-file>
+      <msg-save-file-failed>
+        <value>Diese Datei kann nicht gesichert werden: </value>
+      </msg-save-file-failed>
+      <msg-masher-column-output-filename>
+        <value>Name der Ausgabedatei</value>
+      </msg-masher-column-output-filename>
+      <msg-error-has-occurred>
+        <value>Ein Fehler ist aufgetreten.</value>
+      </msg-error-has-occurred>
+      <msg-jquiz-question-type-text>
+        <value>&quot;Kurzantwort&quot;-Typ</value>
+      </msg-jquiz-question-type-text>
+      <msg-registration-success>
+        <value>Die Registrierung war erfolgreich.</value>
+      </msg-registration-success>
+      <msg-none>
+        <value>kein</value>
+      </msg-none>
+      <msg-masher-column-next-filename>
+        <value>Name der n&amp;#x00e4;chsten &amp;#x00dc;bung</value>
+      </msg-masher-column-next-filename>
+      <msg-jcloze-selection-contains-gap>
+        <value>Deine Auswahl enth&amp;#x00e4;lt einen Teil einer andere L&amp;#x00fc;cke oder sogar jene L&amp;#x00fc;cke als Ganzes. Um eine L&amp;#x00fc;cke zu erzeugen, musst du einen Bereich aus dem normalen Text ausw&amp;#x00e4;hlen!</value>
+      </msg-jcloze-selection-contains-gap>
+      <msg-jcross-table-number>
+        <value>Nummer:</value>
+      </msg-jcross-table-number>
+      <msg-jcross-grid-letters-at-risk>
+        <value>Dies f&amp;#x00fc;hrt dazu, dass einige Buchstaben im R&amp;#x00e4;tselgitter gel&amp;#x00f6;scht werden.</value>
+      </msg-jcross-grid-letters-at-risk>
+      <msg-delete-item-enter-number>
+        <value>Nummer des zu l&amp;#x00f6;schenden Themenpunktes eingeben:</value>
+      </msg-delete-item-enter-number>
+      <msg-save-data-first>
+        <value>Zuerst die Datendatei sichern. Anschliessend diesen Befehl wiederholen.</value>
+      </msg-save-data-first>
+      <msg-include-character-at-gap-front>
+        <value>Das folgende Zeichen steht am Anfang der L&amp;#x00fc;cke. Soll es in die L&amp;#x00fc;cke aufgenommen werden?</value>
+      </msg-include-character-at-gap-front>
+      <msg-interface-text-section-exercise>
+        <value>&amp;#x00dc;bungsfenster</value>
+      </msg-interface-text-section-exercise>
+      <msg-check-to-include-in-page>
+        <value>Ankreuzen, falls die &amp;#x00dc;bung dieses Feature/diese Eigenschaft enthalten soll.</value>
+      </msg-check-to-include-in-page>
+      <msg-metadata-source>
+        <value>Quelle</value>
+      </msg-metadata-source>
+      <msg-config-tab-other>
+        <value>Diverses</value>
+      </msg-config-tab-other>
+      <msg-config-tab-power-user>
+        <value>Profi-Benutzer</value>
+      </msg-config-tab-power-user>
+      <msg-apply-tooltip>
+        <value>Klicken, um die &amp;#x00c4;nderungen in die &amp;#x00dc;bung oder das Potato-Programm zu &amp;#x00fc;bernehmen.</value>
+      </msg-apply-tooltip>
+      <msg-jcloze-no-plain-text-around-gap>
+        <value>Du musst mindestens ein Schriftzeichen aus dem normalen Textbereich vor und hinter der L&amp;#x00fc;cke einf&amp;#x00fc;gen.</value>
+      </msg-jcloze-no-plain-text-around-gap>
+      <msg-url>
+        <value>URL</value>
+      </msg-url>
+      <msg-metadata-format>
+        <value>Format</value>
+      </msg-metadata-format>
+      <msg-done>
+        <value>&amp;#x00dc;bung fertig &amp;#x003E; Fenster schliessen</value>
+      </msg-done>
+      <msg-jquiz-question-type-mc>
+        <value>&quot;Multiple-Choice&quot;-Typ</value>
+      </msg-jquiz-question-type-mc>
+      <msg-jmix-alternate-answer-has-word-not-in-main>
+        <value>Diese alternative Antwort enth&amp;#x00e4;lt einen Teil, der in der Hauptantwort nicht vorhanden ist:</value>
+      </msg-jmix-alternate-answer-has-word-not-in-main>
+      <msg-config-tab-cgi>
+        <value>CGI</value>
+      </msg-config-tab-cgi>
+      <msg-ok-tooltip>
+        <value>Klicken, um die gemachten &amp;#x00c4;nderungen zu best&amp;#x00e4;tigen und sie auf &amp;#x00dc;bungen oder Programme von Hot Potatoes anzuwenden.</value>
+      </msg-ok-tooltip>
+      <msg-player-real>
+        <value>Real-Player</value>
+      </msg-player-real>
+      <msg-interface-tab-texts>
+        <value>Texte</value>
+      </msg-interface-tab-texts>
+      <msg-interface-text-section-menus>
+        <value>Men&amp;#x00fc;punkte</value>
+      </msg-interface-text-section-menus>
+      <msg-not-a-valid-number>
+        <value>Der eingegebene Wert ist keine g&amp;#x00fc;ltige Zahl.</value>
+      </msg-not-a-valid-number>
+      <msg-masher-tab-appearance>
+        <value>Erscheinungsbild</value>
+      </msg-masher-tab-appearance>
+      <msg-error>
+        <value>Fehler</value>
+      </msg-error>
+      <msg-interface-text-section-misc>
+        <value>Andere Fenster</value>
+      </msg-interface-text-section-misc>
+      <msg-value>
+        <value>Wert</value>
+      </msg-value>
+      <msg-jcloze-selection-contains-whitespace>
+        <value> Deine Auswahl enth&amp;#x00e4;lt unsichtbare Zeichen wie Tabulator oder Zeilenschaltung. Diese d&amp;#x00fc;rfen in einer L&amp;#x00fc;cke nicht enthalten sein.</value>
+      </msg-jcloze-selection-contains-whitespace>
+      <msg-open-tooltip>
+        <value>Klicken, um den passenden Dateityp zu &amp;#x00f6;ffnen.</value>
+      </msg-open-tooltip>
+      <msg-masher-output-type-non-hotpot>
+        <value>KEIN Hotpotatoes</value>
+      </msg-masher-output-type-non-hotpot>
+      <msg-task-terminated>
+        <value>Diese Aufgabe/Dieser Befehl konnte nicht (fertig) ausgef&amp;#x00fc;hrt werden.</value>
+      </msg-task-terminated>
+      <msg-interface-tab-paths>
+        <value>Pfade</value>
+      </msg-interface-tab-paths>
+      <msg-width>
+        <value>Breite:</value>
+      </msg-width>
+      <msg-file-name-has-illegal-char>
+        <value>Dieses Zeichen wird im Datei-Namen einer Webseite nicht akzeptiert; soll die Datei dennoch gesichert werden?</value>
+      </msg-file-name-has-illegal-char>
+      <msg-open-potato-to-see-change>
+        <value>Eine &amp;#x00dc;bungsbeispiel dieses Potatoes &amp;#x00f6;ffnen, um zu &amp;#x00fc;berpr&amp;#x00fc;fen, ob die gemachten &amp;#x00c4;nderungen &amp;#x00fc;bernommen worden sind.</value>
+      </msg-open-potato-to-see-change>
+      <msg-jquiz-question-type-multi>
+        <value>&quot;Mehrere-Antworten-richtig&quot;-Typ</value>
+      </msg-jquiz-question-type-multi>
+      <msg-masher-tab-buttons>
+        <value>Tasten</value>
+      </msg-masher-tab-buttons>
+      <msg-current-value>
+        <value>Aktueller Wert:</value>
+      </msg-current-value>
+      <msg-jmix-alternate-answer-missing-word-in-main>
+        <value>Dieser alternativen Antwort fehlt ein Teil, der in der Hauptantwort enthalten ist:</value>
+      </msg-jmix-alternate-answer-missing-word-in-main>
+      <msg-file-name-start-illegal-char>
+        <value>Dieses Zeichen wird am Anfang eines Webseite-Dateinamens nicht akzeptiert; soll dennoch gesichert werden?</value>
+      </msg-file-name-start-illegal-char>
+      <msg-right-side>
+        <value>rechts</value>
+      </msg-right-side>
+      <msg-jcloze-confirm-ungap-all>
+        <value>Bist du sicher, dass ALLE L&amp;#x00fc;cken wieder in Normaltext zur&amp;#x00fc;ckverwandelt werden sollen?</value>
+      </msg-jcloze-confirm-ungap-all>
+      <msg-metadata-description>
+        <value>Beschreibung</value>
+      </msg-metadata-description>
+      <msg-config-tab-prompts>
+        <value>R&amp;#x00fc;ckmeldungen</value>
+      </msg-config-tab-prompts>
+      <msg-metadata-coverage>
+        <value>Bericht(erstattung)</value>
+      </msg-metadata-coverage>
+      <msg-cancel-tooltip>
+        <value>Klicken, um alle vorgeschlagenen &amp;#x00c4;nderungen an der &amp;#x00dc;bung oder am Potato-Programm zu ignorieren.</value>
+      </msg-cancel-tooltip>
+      <msg-ok-all>
+        <value>OK f&amp;#x00fc;r alle</value>
+      </msg-ok-all>
+      <msg-ok>
+        <value>OK</value>
+      </msg-ok>
+      <msg-continue-with-defaults>
+        <value>Ich m&amp;#x00f6;chte die voreingestellten Werte verwenden.</value>
+      </msg-continue-with-defaults>
+      <msg-exercise-created>
+        <value>Erstellte &amp;#x00dc;bung:</value>
+      </msg-exercise-created>
+      <msg-move-item-source>
+        <value>Nummer f&amp;#x00fc;r denjenigen Themenpunkt, der bewegt werden soll, eingeben:</value>
+      </msg-move-item-source>
+      <msg-metadata-subject>
+        <value>Thema</value>
+      </msg-metadata-subject>
+      <msg-height>
+        <value>H&amp;#x00f6;he:</value>
+      </msg-height>
+      <msg-masher-column-output-type>
+        <value>Ausgabe-Typ</value>
+      </msg-masher-column-output-type>
+      <msg-metadata-creator>
+        <value>Autor</value>
+      </msg-metadata-creator>
+      <msg-interface-text-section-configure>
+        <value>Konfigurationsfenster</value>
+      </msg-interface-text-section-configure>
+      <msg-interface-tab-fonts>
+        <value>Schriften</value>
+      </msg-interface-tab-fonts>
+      <msg-use-this-instead>
+        <value>Stellvertretend wird dies verwendet:</value>
+      </msg-use-this-instead>
+      <msg-data-file>
+        <value>Datendatei:</value>
+      </msg-data-file>
+      <msg-jcross-table-clue>
+        <value>L&amp;#x00f6;sungshinweis:</value>
+      </msg-jcross-table-clue>
+      <msg-close>
+        <value>Schliessen</value>
+      </msg-close>
+      <msg-exercise>
+        <value>&amp;#x00dc;bung</value>
+      </msg-exercise>
+      <msg-registration-failed>
+        <value>Der Registrierungsversuch war NICHT erfolgreich. Bitte nochmals versuchen!</value>
+      </msg-registration-failed>
+      <msg-open>
+        <value>&amp;#x00d6;ffnen</value>
+      </msg-open>
+      <msg-default-folder>
+        <value>&quot;Voreinstellungs&quot;-Ordner</value>
+      </msg-default-folder>
+      <msg-close-tooltip>
+        <value>Klicken, um das Fenster zu schliessen.</value>
+      </msg-close-tooltip>
+      <msg-jcross-grid-letters-remove>
+        <value>Ist es in Ordnung, wenn Buchstaben im R&amp;#x00e4;tselgitter gel&amp;#x00f6;scht werden?</value>
+      </msg-jcross-grid-letters-remove>
+      <msg-file-already-exists>
+        <value>Diese Datei ist bereits vorhanden:</value>
+      </msg-file-already-exists>
+      <msg-masher-column-data-filename>
+        <value>HotPot-Datendatei</value>
+      </msg-masher-column-data-filename>
+      <msg-item-skipped-no-correct-answer>
+        <value>Wegen einer nicht korrekten Antwort &amp;#x00fc;bersprungene Themenpunkte:</value>
+      </msg-item-skipped-no-correct-answer>
+      <msg-parse-file-failed>
+        <value>Die Datei kann nicht analysiert werden:</value>
+      </msg-parse-file-failed>
+      <msg-player-wmp>
+        <value>Windows Media-Player</value>
+      </msg-player-wmp>
+      <msg-display-upload-to-hotpotnet>
+        <value>Fertige &amp;#x00dc;bung auf &quot;hotpotatoes.net&quot; hochladen</value>
+      </msg-display-upload-to-hotpotnet>
+      <msg-enter-url-here>
+        <value>Absolute oder relative URL eingeben.</value>
+      </msg-enter-url-here>
+      <msg-create>
+        <value>Erstellen von</value>
+      </msg-create>
+      <msg-jcross-table-word>
+        <value>Wort bzw. Wortteil</value>
+      </msg-jcross-table-word>
+      <msg-jcloze-autogap-plain-text-only>
+        <value>Automatisches L&amp;#x00fc;ckenerzeugen funktioniert nur, wenn der Text noch keine L&amp;#x00fc;cken enth&amp;#x00e4;lt.</value>
+      </msg-jcloze-autogap-plain-text-only>
+      <msg-confirm-overwrite>
+        <value>Soll die bereits vorhandene Datei ersetzt, d.h. &amp;#x00fc;berschrieben werden?</value>
+      </msg-confirm-overwrite>
+      <msg-insertion-must-be-selection>
+        <value>Dies hier ist nur die Einf&amp;#x00fc;gestelle. Bitte w&amp;#x00e4;hle mindestens 1 Schriftzeichen aus.</value>
+      </msg-insertion-must-be-selection>
+      <msg-masher-tab-index>
+        <value>Inhaltsverzeichnis</value>
+      </msg-masher-tab-index>
+      <msg-must-be-registered>
+        <value>Du musst diese Kopie von Hot Potatoes zuerst registrieren lassen, bevor du diese Aktion ausf&amp;#x00fc;hren kannst!</value>
+      </msg-must-be-registered>
+      <msg-metadata-publisher>
+        <value>Herausgeber</value>
+      </msg-metadata-publisher>
+      <msg-jcloze-n-for-autogap>
+        <value>Automatisches L&amp;#x00fc;ckenerzeugen bei jedem x-ten Wort: Wert eingeben!</value>
+      </msg-jcloze-n-for-autogap>
+      <msg-show>
+        <value>Anzeigen</value>
+      </msg-show>
+      <msg-cancel>
+        <value>Abbrechen</value>
+      </msg-cancel>
+      <msg-cant-find-source-folder>
+        <value>Der &quot;Source&quot;-Ordner kann nicht gefunden werden:</value>
+      </msg-cant-find-source-folder>
+      <msg-config-tab-appearance>
+        <value>Erscheinungsbild</value>
+      </msg-config-tab-appearance>
+      <msg-masher-output-type-dragdrop>
+        <value>Drag and Drop</value>
+      </msg-masher-output-type-dragdrop>
+      <msg-center>
+        <value>zentriert</value>
+      </msg-center>
+      <msg-delete>
+        <value>L&amp;#x00f6;schen</value>
+      </msg-delete>
+      <msg-jcloze-insertion-not-in-plain-text>
+        <value>Der Einf&amp;#x00fc;gestelle befindet sich momentan innerhalb einer L&amp;#x00fc;cke. Die Einf&amp;#x00fc;gestelle muss sich aber im normalen Textbereich befinden.</value>
+      </msg-jcloze-insertion-not-in-plain-text>
+      <msg-masher-output-type-standard>
+        <value>Standard</value>
+      </msg-masher-output-type-standard>
+      <msg-open-file-failed>
+        <value>Diese Datei kann nicht ge&amp;#x00f6;ffnet werden:</value>
+      </msg-open-file-failed>
+      <msg-metadata-contributor>
+        <value>Mitarbeiter</value>
+      </msg-metadata-contributor>
+      <msg-preview>
+        <value>Voransicht</value>
+      </msg-preview>
+      <msg-metadata-rights>
+        <value>Rechte</value>
+      </msg-metadata-rights>
+      <msg-add>
+        <value>Hinzuf&amp;#x00fc;gen</value>
+      </msg-add>
+      <msg-metadata-relation>
+        <value>Relation</value>
+      </msg-metadata-relation>
+      <msg-metadata-type>
+        <value>Typ</value>
+      </msg-metadata-type>
+      <msg-masher-file>
+        <value>Masherprojekt-Datei</value>
+      </msg-masher-file>
+      <msg-move-item-destination>
+        <value>Neue Nummer f&amp;#x00fc;r diesen Themenpunkt eingeben:</value>
+      </msg-move-item-destination>
+      <msg-player-flash>
+        <value>Flash-Player</value>
+      </msg-player-flash>
+      <msg-metadata-date>
+        <value>Datum</value>
+      </msg-metadata-date>
+      <msg-save>
+        <value>Sichern</value>
+      </msg-save>
+      <msg-config-tab-timer>
+        <value>Lesetext</value>
+      </msg-config-tab-timer>
+      <msg-metadata-title>
+        <value>Titel</value>
+      </msg-metadata-title>
+      <msg-config-tab-instructions>
+        <value>Anleitung</value>
+      </msg-config-tab-instructions>
+    </messages>
+  </java>
+</hotpot-interface-file>

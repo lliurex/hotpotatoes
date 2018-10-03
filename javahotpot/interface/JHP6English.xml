@@ -1,0 +1,2495 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hotpot-interface-file>
+  <java>
+    <version>6</version>
+    <windows>
+      <pnl-shared-main>
+        <lbl-exercise-title>
+          <value>Exercise Title</value>
+        </lbl-exercise-title>
+      </pnl-shared-main>
+      <buttonbar-shared-main>
+        <btn-new-data>
+          <tooltip>New Exercise</tooltip>
+        </btn-new-data>
+        <btn-open-data>
+          <tooltip>Open Exercise</tooltip>
+        </btn-open-data>
+        <btn-save-data>
+          <tooltip>Save Data</tooltip>
+        </btn-save-data>
+        <btn-save-as-data>
+          <tooltip>Save Data As...</tooltip>
+        </btn-save-as-data>
+        <btn-reading>
+          <tooltip>Add Reading Text</tooltip>
+        </btn-reading>
+        <btn-make-exercise>
+          <tooltip>Make a Standard Exercise</tooltip>
+        </btn-make-exercise>
+        <btn-cut>
+          <tooltip>Cut Selection</tooltip>
+        </btn-cut>
+        <btn-copy>
+          <tooltip>Copy Selection</tooltip>
+        </btn-copy>
+        <btn-paste>
+          <tooltip>Paste Selection</tooltip>
+        </btn-paste>
+        <btn-delete>
+          <tooltip>Delete Selection</tooltip>
+        </btn-delete>
+        <btn-select-all>
+          <tooltip>Select All</tooltip>
+        </btn-select-all>
+        <btn-insert-image>
+          <tooltip>Insert Image</tooltip>
+        </btn-insert-image>
+        <btn-insert-link>
+          <tooltip>Insert Link</tooltip>
+        </btn-insert-link>
+        <btn-show-config>
+          <tooltip>Show Configuration Window</tooltip>
+        </btn-show-config>
+        <btn-help>
+          <tooltip>Help</tooltip>
+        </btn-help>
+      </buttonbar-shared-main>
+      <pnl-jquiz-specific>
+        <btn-question-arrow-up>
+          <tooltip>Move list up one item</tooltip>
+        </btn-question-arrow-up>
+        <btn-question-arrow-down>
+          <tooltip>Move list down one item</tooltip>
+        </btn-question-arrow-down>
+        <lbl-question>
+          <value>Q</value>
+        </lbl-question>
+        <tf-question-num>
+          <tooltip></tooltip>
+        </tf-question-num>
+        <ta-jquiz-question>
+          <tooltip>Enter question here</tooltip>
+        </ta-jquiz-question>
+        <cmbx-question-type>
+          <tooltip>Choose type of question</tooltip>
+        </cmbx-question-type>
+        <lbl-question-weight>
+          <value>Weight</value>
+        </lbl-question-weight>
+        <tf-question-weight>
+          <tooltip>Enter weighting for question (0 - 100)</tooltip>
+        </tf-question-weight>
+        <btn-question-weight-arrow-up>
+          <tooltip>Click to increase question weight</tooltip>
+        </btn-question-weight-arrow-up>
+        <btn-question-weight-arrow-down>
+          <tooltip>Click to decrease question weight</tooltip>
+        </btn-question-weight-arrow-down>
+        <btn-answer-arrow-up>
+          <tooltip>Click to move up one item in answer list</tooltip>
+        </btn-answer-arrow-up>
+        <lbl-answers-header>
+          <value>Answer</value>
+        </lbl-answers-header>
+        <lbl-feedback-header>
+          <value>Feedback</value>
+        </lbl-feedback-header>
+        <lbl-settings-header>
+          <value>Settings</value>
+        </lbl-settings-header>
+        <btn-answer-arrow-down>
+          <tooltip>Click to move down one item in answer list</tooltip>
+        </btn-answer-arrow-down>
+        <ta-answer>
+          <tooltip>Enter an answer for this question here</tooltip>
+        </ta-answer>
+        <ta-feedback>
+          <tooltip>Enter text of feedback for this answer here.</tooltip>
+        </ta-feedback>
+        <cb-accept-as-correct>
+          <value>Accept as Correct</value>
+          <tooltip>Click to accept this answer as correct</tooltip>
+        </cb-accept-as-correct>
+        <tf-pct>
+          <tooltip>Enter percent correct (0 - 100)</tooltip>
+        </tf-pct>
+        <btn-pct-arrow-up>
+          <tooltip>Click to increase percent</tooltip>
+        </btn-pct-arrow-up>
+        <btn-pct-arrow-down>
+          <tooltip>Click to decrease percent</tooltip>
+        </btn-pct-arrow-down>
+        <cb-include-in-mc>
+          <value>Include in multiple choice</value>
+          <tooltip>Click to decrease percent</tooltip>
+        </cb-include-in-mc>
+      </pnl-jquiz-specific>
+      <pnl-jcloze-specific>
+        <lbl-jcloze-exercise-text>
+          <value>Text for JCloze exercise</value>
+        </lbl-jcloze-exercise-text>
+        <btn-jcloze-gap>
+          <value>Make Gap</value>
+          <tooltip></tooltip>
+        </btn-jcloze-gap>
+        <btn-jcloze-un-gap>
+          <value>Un-Gap</value>
+          <tooltip></tooltip>
+        </btn-jcloze-un-gap>
+        <btn-jcloze-show-words>
+          <value>Show Words</value>
+          <tooltip></tooltip>
+        </btn-jcloze-show-words>
+        <btn-jcloze-gap-auto>
+          <value>Auto Gap</value>
+          <tooltip></tooltip>
+        </btn-jcloze-gap-auto>
+        <btn-jcloze-un-gap-all>
+          <value>Un-Gap All</value>
+          <tooltip></tooltip>
+        </btn-jcloze-un-gap-all>
+      </pnl-jcloze-specific>
+      <wd-jcloze-more>
+        <btn-gap-num-up>
+          <tooltip>Click to move up one item in list of gaps</tooltip>
+        </btn-gap-num-up>
+        <btn-gap-num-down>
+          <tooltip>Click to move up down item in list of gaps</tooltip>
+        </btn-gap-num-down>
+        <lbl-gap-num>
+          <value>Gap</value>
+        </lbl-gap-num>
+        <tf-gap-num>
+          <tooltip></tooltip>
+        </tf-gap-num>
+        <lbl-gap-word>
+          <value>Word</value>
+        </lbl-gap-word>
+        <tf-gap-word>
+          <tooltip></tooltip>
+        </tf-gap-word>
+        <lbl-gap-clue>
+          <value>Clue</value>
+        </lbl-gap-clue>
+        <tf-gap-clue>
+          <tooltip>Enter clue for this gap here</tooltip>
+        </tf-gap-clue>
+        <btn-gap-alt-num-up>
+          <tooltip>Click to move up one item in list of alternate answers for this gap</tooltip>
+        </btn-gap-alt-num-up>
+        <btn-gap-alt-num-down>
+          <tooltip>Click to move down one item in list of alternate answers for this gap</tooltip>
+        </btn-gap-alt-num-down>
+        <lbl-gap-alt-title>
+          <value>Alternative Correct Words for Gap:</value>
+        </lbl-gap-alt-title>
+        <tf-gap-alt-num>
+          <tooltip>Number of this alternate answer for this gap</tooltip>
+        </tf-gap-alt-num>
+        <btn-jcloze-more-close>
+          <tooltip>Click to close window with no further changes to exercise or potato</tooltip>
+        </btn-jcloze-more-close>
+        <lbl-jcloze-more-window-title>
+          <value>JCloze Gap Details</value>
+        </lbl-jcloze-more-window-title>
+      </wd-jcloze-more>
+      <pnl-jcross-main>
+        <btn-jcross-show-clues>
+          <value>Show Clues Window</value>
+          <tooltip>Show Clues Window</tooltip>
+        </btn-jcross-show-clues>
+        <btn-jcross-chars-up>
+          <tooltip>Click to move characters up one row in grid</tooltip>
+        </btn-jcross-chars-up>
+        <btn-jcross-chars-left>
+          <tooltip>Click to move characters left one column in grid</tooltip>
+        </btn-jcross-chars-left>
+        <btn-jcross-chars-right>
+          <tooltip>Click to move characters right one column in grid</tooltip>
+        </btn-jcross-chars-right>
+        <btn-jcross-chars-down>
+          <tooltip>Click to move characters down one column in grid</tooltip>
+        </btn-jcross-chars-down>
+      </pnl-jcross-main>
+      <wd-jcross-more>
+        <lbl-jcross-across>
+          <value>Across</value>
+        </lbl-jcross-across>
+        <lbl-jcross-down>
+          <value>Down</value>
+        </lbl-jcross-down>
+        <btn-jcross-more-close>
+          <tooltip>Click to close window with no further changes to exercise or potato</tooltip>
+        </btn-jcross-more-close>
+        <lbl-jcross-more-window-title>
+          <value>JCross Clues</value>
+        </lbl-jcross-more-window-title>
+      </wd-jcross-more>
+      <wd-jcross-auto-grid>
+        <lbl-auto-grid-max>
+          <value>Maximum number of rows and columns: </value>
+        </lbl-auto-grid-max>
+        <tf-auto-grid-max>
+          <tooltip>Maximum size of grid</tooltip>
+        </tf-auto-grid-max>
+        <btn-auto-grid-max-up>
+          <tooltip>Click to increase maximum size of grid</tooltip>
+        </btn-auto-grid-max-up>
+        <btn-auto-grid-max-down>
+          <tooltip>Click to decrease maximum size of grid</tooltip>
+        </btn-auto-grid-max-down>
+        <lbl-auto-grid-word-list>
+          <value>Enter each word on a separate line</value>
+        </lbl-auto-grid-word-list>
+        <btn-auto-grid-make-grid>
+          <value>Make Grid</value>
+          <tooltip>Attempt to make grid from list of words</tooltip>
+        </btn-auto-grid-make-grid>
+        <btn-auto-grid-stop>
+          <value>Stop Making Grid</value>
+          <tooltip>Stop trying to make grid from list of words</tooltip>
+        </btn-auto-grid-stop>
+        <lbl-auto-grid-status>
+          <value>Status of Make Grid Process:</value>
+        </lbl-auto-grid-status>
+        <btn-jcross-auto-grid-apply>
+          <tooltip>Click to apply changes</tooltip>
+        </btn-jcross-auto-grid-apply>
+        <btn-jcross-auto-grid-close>
+          <tooltip>Click to close window with no further changes to exercise or potato</tooltip>
+        </btn-jcross-auto-grid-close>
+        <lbl-cross-auto-grid-window-title>
+          <value>Create Grid from Words</value>
+        </lbl-cross-auto-grid-window-title>
+      </wd-jcross-auto-grid>
+      <pnl-jmatch-specific>
+        <lbl-num-col-head>
+          <value>Item</value>
+        </lbl-num-col-head>
+        <lbl-left-col-head>
+          <value>Left (fixed)</value>
+        </lbl-left-col-head>
+        <lbl-right-col-head>
+          <value>Right (chooseable)</value>
+        </lbl-right-col-head>
+        <lbl-fix-col-head>
+          <value>Fix</value>
+        </lbl-fix-col-head>
+        <ta-left>
+          <tooltip>Enter value for left (fixed) column for this pair.</tooltip>
+        </ta-left>
+        <ta-right>
+          <tooltip>Enter value for right (chooseable)column for this pair.</tooltip>
+        </ta-right>
+        <cb-fix>
+          <tooltip>Check to fix both parts of this pair in position.</tooltip>
+        </cb-fix>
+        <lbl-right-default>
+          <value>Default value in the right column:</value>
+        </lbl-right-default>
+        <btn-item-up-arrow>
+          <tooltip>Click to move list of items up one.</tooltip>
+        </btn-item-up-arrow>
+        <btn-item-down-arrow>
+          <tooltip>Click to move list of items down one.</tooltip>
+        </btn-item-down-arrow>
+      </pnl-jmatch-specific>
+      <pnl-jmix-main>
+        <btn-item-up-arrow>
+          <tooltip>Click to move list of items up one.</tooltip>
+        </btn-item-up-arrow>
+        <btn-item-down-arrow>
+          <tooltip>Click to move list of items down one.</tooltip>
+        </btn-item-down-arrow>
+        <lbl-main-sentence>
+          <value>Main Sentence</value>
+        </lbl-main-sentence>
+        <lbl-alt-sentences>
+          <value>Alternate Sentences</value>
+        </lbl-alt-sentences>
+        <ta-main-sentence>
+          <tooltip>Enter text of main sentence, each segment on a separate line</tooltip>
+        </ta-main-sentence>
+        <ta-alt-sentence>
+          <tooltip>Enter alternate sentences, entire sentence on a line</tooltip>
+        </ta-alt-sentence>
+        <cb-alt-sentence-warn>
+          <value>Warn me if alternate sentence does not use all words in main sentence.</value>
+          <tooltip>Warn me if alternate sentence does not use all words in main sentence.</tooltip>
+        </cb-alt-sentence-warn>
+      </pnl-jmix-main>
+      <wd-config-shared>
+        <lbl-exercise-subtitle>
+          <value>Exercise Subtitle </value>
+          <tooltip></tooltip>
+        </lbl-exercise-subtitle>
+        <lbl-instructions>
+          <value>Instructions </value>
+          <tooltip></tooltip>
+        </lbl-instructions>
+        <lbl-correct-indicator>
+          <value>Correct Indicator</value>
+          <tooltip></tooltip>
+        </lbl-correct-indicator>
+        <tf-correct-indicator>
+          <value></value>
+          <tooltip>One character to indicate correct match.</tooltip>
+        </tf-correct-indicator>
+        <lbl-incorrect-indicator>
+          <value>Incorrect Indicator</value>
+          <tooltip></tooltip>
+        </lbl-incorrect-indicator>
+        <tf-incorrect-indicator>
+          <value></value>
+          <tooltip>One character to indicate incorrect match.</tooltip>
+        </tf-incorrect-indicator>
+        <lbl-your-score-is>
+          <value>Your score is prompt </value>
+          <tooltip></tooltip>
+        </lbl-your-score-is>
+        <tf-your-score-is>
+          <value></value>
+          <tooltip>Enter text to introduce student score</tooltip>
+        </tf-your-score-is>
+        <lbl-guess-correct>
+          <value>Guess correct </value>
+          <tooltip></tooltip>
+        </lbl-guess-correct>
+        <tf-guess-correct>
+          <value></value>
+          <tooltip>Enter text to confirm student guess is correct</tooltip>
+        </tf-guess-correct>
+        <lbl-guess-incorrect>
+          <value>Guess incorrect </value>
+          <tooltip></tooltip>
+        </lbl-guess-incorrect>
+        <tf-guess-incorrect>
+          <value></value>
+          <tooltip>Enter text to inform student guess is incorrect</tooltip>
+        </tf-guess-incorrect>
+        <lbl-correct-first-time>
+          <value>Correct first time</value>
+          <tooltip></tooltip>
+        </lbl-correct-first-time>
+        <tf-correct-first-time>
+          <value></value>
+          <tooltip>Message introducing number of gaps filled correctly on first attempt.</tooltip>
+        </tf-correct-first-time>
+        <lbl-next-correct-letter>
+          <value>Next correct letter</value>
+          <tooltip></tooltip>
+        </lbl-next-correct-letter>
+        <tf-next-correct-letter>
+          <value></value>
+          <tooltip>Message introducing next correct letter.</tooltip>
+        </tf-next-correct-letter>
+        <lbl-completed-so-far>
+          <value>Questions completed so far</value>
+          <tooltip></tooltip>
+        </lbl-completed-so-far>
+        <tf-completed-so-far>
+          <value></value>
+          <tooltip>Text to introduce number of questions student has completed.</tooltip>
+        </tf-completed-so-far>
+        <lbl-exercise-completed>
+          <value>You have completed the exercise.</value>
+          <tooltip></tooltip>
+        </lbl-exercise-completed>
+        <tf-exercise-completed>
+          <value></value>
+          <tooltip>Text to inform student exercise is completed.</tooltip>
+        </tf-exercise-completed>
+
+        <cb-next-exercise-caption>
+          <value>Next Exercise button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-next-exercise-caption>
+        <tf-next-exercise-caption>
+          <value></value>
+          <tooltip>Enter text of caption for next exercise button</tooltip>
+        </tf-next-exercise-caption>
+        <tf-next-exercise-caption-url>
+          <value></value>
+          <tooltip>Enter Absolute or relative URL.</tooltip>
+        </tf-next-exercise-caption-url>
+        <btn-next-exercise-caption-url>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-next-exercise-caption-url>
+        <cb-index-caption>
+          <value>Go To Contents button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-index-caption>
+        <tf-index-caption>
+          <value></value>
+          <tooltip>Enter text to appear on Go To index page</tooltip>
+        </tf-index-caption>
+        <tf-index-caption-url>
+          <value></value>
+          <tooltip>Enter Absolute or relative URL.</tooltip>
+        </tf-index-caption-url>
+        <btn-index-caption-url>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-index-caption-url>
+        <cb-back-caption>
+          <value>Back button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-back-caption>
+        <tf-back-caption>
+          <value></value>
+          <tooltip>Enter text to appear as caption on back button</tooltip>
+        </tf-back-caption>
+        <lbl-check-caption>
+          <value>Check button</value>
+          <tooltip></tooltip>
+        </lbl-check-caption>
+        <tf-check-caption>
+          <value></value>
+          <tooltip>Enter text for caption of button that checks student guess</tooltip>
+        </tf-check-caption>
+        <lbl-ok-caption>
+          <value>OK button</value>
+          <tooltip></tooltip>
+        </lbl-ok-caption>
+        <tf-ok-caption>
+          <value></value>
+          <tooltip>Enter text for caption of OK button</tooltip>
+        </tf-ok-caption>
+        <cb-hint-caption>
+          <value>Hint button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-hint-caption>
+        <tf-hint-caption>
+          <value></value>
+          <tooltip>Enter text for caption of button that shows student a hint</tooltip>
+        </tf-hint-caption>
+        <lbl-graphic-url>
+          <value>Background Graphic URL </value>
+          <tooltip></tooltip>
+        </lbl-graphic-url>
+        <tf-graphic-url>
+          <value></value>
+          <tooltip>Enter relative path or absolute URL to image file for background</tooltip>
+        </tf-graphic-url>
+        <btn-graphic-url-url>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-graphic-url-url>
+        <lbl-font-face>
+          <value>Font Face on Exercise page </value>
+          <tooltip></tooltip>
+        </lbl-font-face>
+        <tf-font-face>
+          <value></value>
+          <tooltip>Enter font for browser to try to use when displaying page</tooltip>
+        </tf-font-face>
+        <lbl-font-size>
+          <value>Font Size on Exercise page </value>
+          <tooltip></tooltip>
+        </lbl-font-size>
+        <tf-font-size>
+          <value></value>
+          <tooltip>Enter size of font for browser to try when displaying page</tooltip>
+        </tf-font-size>
+        <lbl-colourable-page-elements>
+          <value>Colours for page elements</value>
+          <tooltip></tooltip>
+        </lbl-colourable-page-elements>
+        <lbl-preview-appearance>
+          <value>Preview Appearance </value>
+          <tooltip></tooltip>
+        </lbl-preview-appearance>
+        <lbl-page-bg-color>
+          <value>Page background colour </value>
+          <tooltip></tooltip>
+        </lbl-page-bg-color>
+        <tf-page-bg-color>
+          <value></value>
+          <tooltip>Enter colour for page background (#nnnnnn)</tooltip>
+        </tf-page-bg-color>
+        <btn-page-bg-color>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-page-bg-color>
+        <lbl-title-color>
+          <value>Title colour</value>
+          <tooltip></tooltip>
+        </lbl-title-color>
+        <tf-title-color>
+          <value></value>
+          <tooltip>Enter colour for title text (#nnnnnn)</tooltip>
+        </tf-title-color>
+        <btn-title-color>
+          <value></value>
+          <tooltip>Click to choose colour for title text</tooltip>
+        </btn-title-color>
+        <lbl-ex-bg-color>
+          <value>Exercise background colour </value>
+          <tooltip></tooltip>
+        </lbl-ex-bg-color>
+        <tf-ex-bg-color>
+          <value></value>
+          <tooltip>Enter colour for exercise background (#nnnnnn)</tooltip>
+        </tf-ex-bg-color>
+        <btn-ex-bg-color>
+          <value></value>
+          <tooltip>Click to choose colour for exercise background</tooltip>
+        </btn-ex-bg-color>
+        <lbl-text-color>
+          <value>Text colour </value>
+          <tooltip></tooltip>
+        </lbl-text-color>
+        <tf-text-color>
+          <value></value>
+          <tooltip>Enter colour for text colour (#nnnnnn)</tooltip>
+        </tf-text-color>
+        <btn-text-color>
+          <value></value>
+          <tooltip>Click to choose colour for page text</tooltip>
+        </btn-text-color>
+        <lbl-link-color>
+          <value>Link colour </value>
+          <tooltip></tooltip>
+        </lbl-link-color>
+        <tf-link-color>
+          <value></value>
+          <tooltip>Enter colour for link text (#nnnnnn)</tooltip>
+        </tf-link-color>
+        <btn-link-color>
+          <value></value>
+          <tooltip>Click to choose colour for link text</tooltip>
+        </btn-link-color>
+        <lbl-vlink-color>
+          <value>Visited link colour </value>
+          <tooltip></tooltip>
+        </lbl-vlink-color>
+        <tf-vlink-color>
+          <value></value>
+          <tooltip>Enter colour for visited link (#nnnnnn)</tooltip>
+        </tf-vlink-color>
+        <btn-vlink-color>
+          <value></value>
+          <tooltip>Click to choose colour for visited link text</tooltip>
+        </btn-vlink-color>
+        <lbl-nav-bar-color>
+          <value>Navigation bar colour </value>
+          <tooltip></tooltip>
+        </lbl-nav-bar-color>
+        <tf-nav-bar-color>
+          <value></value>
+          <tooltip>Enter colour for navigation bar (#nnnnnn)</tooltip>
+        </tf-nav-bar-color>
+        <btn-nav-bar-color>
+          <value></value>
+          <tooltip>Click to choose colour for navigation bar</tooltip>
+        </btn-nav-bar-color>
+        <btn-preview-appearance>
+          <value>Display in Browser </value>
+          <tooltip>Click to see preview of colours in your browser </tooltip>
+        </btn-preview-appearance>
+        <cb-include-timer>
+          <value>Include Timer for Exercise</value>
+          <tooltip>Check to include a timer with this exercise</tooltip>
+        </cb-include-timer>
+        <lbl-timer-minutes>
+          <value>Minutes</value>
+          <tooltip></tooltip>
+        </lbl-timer-minutes>
+        <combo-timer-minutes>
+          <value></value>
+          <tooltip>Choose number of minutes in timer</tooltip>
+        </combo-timer-minutes>
+        <lbl-timer-seconds>
+          <value>Seconds</value>
+          <tooltip></tooltip>
+        </lbl-timer-seconds>
+        <combo-timer-seconds>
+          <value></value>
+          <tooltip>Choose number of seconds in timer</tooltip>
+        </combo-timer-seconds>
+        <lbl-times-up>
+          <value>Your time is expired message </value>
+          <tooltip></tooltip>
+        </lbl-times-up>
+        <tf-times-up>
+          <value></value>
+          <tooltip>Enter text that appears when timer expires</tooltip>
+        </tf-times-up>
+        <cb-separate-js-file>
+          <value>Save javascript in separate file</value>
+          <tooltip>Choose to save javascript in separate file from html</tooltip>
+        </cb-separate-js-file>
+        <cb-include-scorm-12>
+          <value>Include SCORM 1.2 Functions</value>
+          <tooltip>Choose to include SCORM 1.2 functions in exercise page</tooltip>
+        </cb-include-scorm-12>
+        <cb-process-for-rtl>
+          <value>Do special processing for Right To Left scripts</value>
+          <tooltip>Choose to enable special processing for right to left languages</tooltip>
+        </cb-process-for-rtl>
+        <cb-show-limited-questions>
+          <value>Show limited number of questions</value>
+          <tooltip>Check to limit number of questions displayed each time page is loaded.</tooltip>
+        </cb-show-limited-questions>
+        <tf-questions-to-show>
+          <value></value>
+          <tooltip>Enter number of questions to show.</tooltip>
+        </tf-questions-to-show>
+        <cb-shuffle-questions>
+          <value>Shuffle items each time page is loaded</value>
+          <tooltip>Check to cause items to appear in different order each time page is loaded.</tooltip>
+        </cb-shuffle-questions>
+        <cb-case-sensitive>
+          <value>Answer checking is case sensitive</value>
+          <tooltip>Check to make answer checking case sensitive.</tooltip>
+        </cb-case-sensitive>
+        <cb-show-also-correct>
+          <value>Show other correct answers</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-show-also-correct>
+        <cb-include-keypad>
+          <value>Include keypad for non-Roman and special Roman characters</value>
+          <tooltip>Check to include a keypad for non-Roman and special Roman characters</tooltip>
+        </cb-include-keypad>
+        <lbl-keypad-characters>
+          <value>Characters to always include in keypad</value>
+          <tooltip></tooltip>
+        </lbl-keypad-characters>
+        <tf-keypad-characters>
+          <value></value>
+          <tooltip>Enter characters to always include in keypad.</tooltip>
+        </tf-keypad-characters>
+        <lbl-cgi-warning>
+          <value>We do not provide support for this functionality.</value>
+          <tooltip></tooltip>
+        </lbl-cgi-warning>
+        <cb-include-cgi>
+          <value>Include submission to CGI program</value>
+          <tooltip>cb-include-cgi</tooltip>
+        </cb-include-cgi>
+        <lbl-formmail-url>
+          <value>URL of CGI (FormMail) script:</value>
+          <tooltip></tooltip>
+        </lbl-formmail-url>
+        <tf-formmail-url>
+          <value></value>
+          <tooltip>Enter absolute URL to FormMail or other CGI program</tooltip>
+        </tf-formmail-url>
+        <lbl-email>
+          <value>EMail address to submit results to:</value>
+          <tooltip></tooltip>
+        </lbl-email>
+        <tf-email>
+          <value></value>
+          <tooltip>Enter email address for FormMail to send results to</tooltip>
+        </tf-email>
+        <lbl-name-please>
+          <value>Prompt requesting student to enter name:</value>
+          <tooltip></tooltip>
+        </lbl-name-please>
+        <tf-name-please>
+          <value></value>
+          <tooltip>Enter text asking student for name</tooltip>
+        </tf-name-please>
+        <lbl-user-string-1>
+          <value>Text to replace instances of [userstring1]</value>
+          <tooltip></tooltip>
+        </lbl-user-string-1>
+        <lbl-user-string-2>
+          <value>Text to replace instances of [userstring2]</value>
+          <tooltip></tooltip>
+        </lbl-user-string-2>
+        <lbl-user-string-3>
+          <value>Text to replace instances of [userstring3]</value>
+          <tooltip></tooltip>
+        </lbl-user-string-3>
+        <lbl-header-code>
+          <value>Text to insert in the header</value>
+          <tooltip></tooltip>
+        </lbl-header-code>
+        <btn-open-config-file>
+          <value></value>
+          <tooltip>Click to choose an appropriate type of file to open</tooltip>
+        </btn-open-config-file>
+        <btn-save-config-file>
+          <value></value>
+          <tooltip>tooltip for Save Config button</tooltip>
+        </btn-save-config-file>
+        <btn-save-as-config-file>
+          <value></value>
+          <tooltip>tooltip for Save Config As button</tooltip>
+        </btn-save-as-config-file>
+        <btn-close-config-window>
+          <value></value>
+          <tooltip>Close</tooltip>
+        </btn-close-config-window>
+      </wd-config-shared>
+      <wd-config-jquiz>
+        <lbl-enter-a-guess>
+          <value>Please enter a guess. </value>
+          <tooltip></tooltip>
+        </lbl-enter-a-guess>
+        <tf-enter-a-guess>
+          <value></value>
+          <tooltip>Enter prompt if student checks for guessing</tooltip>
+        </tf-enter-a-guess>
+        <lbl-partly-incorrect>
+          <value>Your answer is partly wrong</value>
+          <tooltip></tooltip>
+        </lbl-partly-incorrect>
+        <tf-partly-incorrect>
+          <value></value>
+          <tooltip>Enter prompt to tell student answer is partly wrong</tooltip>
+        </tf-partly-incorrect>
+        <lbl-correct-answers>
+          <value>Correct answers</value>
+          <tooltip></tooltip>
+        </lbl-correct-answers>
+        <tf-correct-answers>
+          <value></value>
+          <tooltip>Enter text which introduces correct answer(s) for this question</tooltip>
+        </tf-correct-answers>
+        <cb-show-answer-caption>
+          <value>Show Answer button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-show-answer-caption>
+        <tf-show-answer-caption>
+          <value></value>
+          <tooltip>Enter caption on button that shows student correct answer</tooltip>
+        </tf-show-answer-caption>
+        <lbl-show-all-questions-caption>
+          <value>Show All Questions button</value>
+          <tooltip></tooltip>
+        </lbl-show-all-questions-caption>
+        <tf-show-all-questions-caption>
+          <value></value>
+          <tooltip>Enter caption for button that allows student to see all the questions</tooltip>
+        </tf-show-all-questions-caption>
+        <lbl-show-one-by-one-caption>
+          <value>Show Questions One By One button</value>
+          <tooltip></tooltip>
+        </lbl-show-one-by-one-caption>
+        <tf-show-one-by-one-caption>
+          <value></value>
+          <tooltip>Enter caption for button that allows student to see questions one at a time</tooltip>
+        </tf-show-one-by-one-caption>
+        <lbl-next-q-caption>
+          <value>Next Question button</value>
+          <tooltip></tooltip>
+        </lbl-next-q-caption>
+        <tf-next-q-caption>
+          <value></value>
+          <tooltip>Caption on button that displays next question to student</tooltip>
+        </tf-next-q-caption>
+        <lbl-last-q-caption>
+          <value>Previous Question button</value>
+          <tooltip></tooltip>
+        </lbl-last-q-caption>
+        <tf-last-q-caption>
+          <value></value>
+          <tooltip>Caption on button that displays previous question to student</tooltip>
+        </tf-last-q-caption>
+        <cb-shuffle-answers>
+          <value>Shuffle answers when page is loaded</value>
+          <tooltip>Check to shuffle answers to each question when page is loaded</tooltip>
+        </cb-shuffle-answers>
+        <cb-continuous-scoring>
+          <value>Show score after each question answered</value>
+          <tooltip>Check to show partial scoring as student works through exercise</tooltip>
+        </cb-continuous-scoring>
+        <lbl-short-answer-tries-on-hybrid-q>
+          <value>Number of tries on hybrid question before multiple choices appear</value>
+          <tooltip></tooltip>
+        </lbl-short-answer-tries-on-hybrid-q>
+        <tf-short-answer-tries-on-hybrid-q>
+          <value></value>
+          <tooltip>Number of text-entry tries before hybrid question becomes multiple-choice.</tooltip>
+        </tf-short-answer-tries-on-hybrid-q>
+        <cb-show-correct-first-time>
+          <value>Show number of questions answered correctly first time</value>
+          <tooltip>Check to display to student number of questions answered correctly on first guess</tooltip>
+        </cb-show-correct-first-time>
+      </wd-config-jquiz>
+      <wd-config-jcloze>
+        <lbl-guesses-correct>
+          <value>Guesses all correct</value>
+          <tooltip></tooltip>
+        </lbl-guesses-correct>
+        <tf-guesses-correct>
+          <value></value>
+          <tooltip>Enter text that tells student all guesses are correct</tooltip>
+        </tf-guesses-correct>
+        <lbl-guesses-incorrect>
+          <value>Some gaps not correct</value>
+          <tooltip></tooltip>
+        </lbl-guesses-incorrect>
+        <tf-guesses-incorrect>
+          <value></value>
+          <tooltip>Enter text that tells students some gaps have not been answered correctly</tooltip>
+        </tf-guesses-incorrect>
+        <cb-clue-caption>
+          <value>Clue button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-clue-caption>
+        <tf-clue-caption>
+          <value></value>
+          <tooltip>Enter text for button that shows clue</tooltip>
+        </tf-clue-caption>
+        <cb-use-drop-down-list>
+          <value>Use drop down list</value>
+          <tooltip>Check to use a drop-down list instead of text entry for gaps in this exercise</tooltip>
+        </cb-use-drop-down-list>
+        <cb-include-word-list>
+          <value>Include word list</value>
+          <tooltip>Check to display a list of answer words for gaps on page</tooltip>
+        </cb-include-word-list>
+        <lbl-minimum-gap-size>
+          <value>Force minimum gap size to</value>
+          <tooltip></tooltip>
+        </lbl-minimum-gap-size>
+        <tf-minimum-gap-size>
+          <value></value>
+          <tooltip>Enter minimum size of gap, even if some words are shorter.</tooltip>
+        </tf-minimum-gap-size>
+      </wd-config-jcloze>
+      <wd-config-jcross>
+        <lbl-clues-across>
+          <value>Caption at top of list of across clues</value>
+          <tooltip></tooltip>
+        </lbl-clues-across>
+        <tf-clues-across>
+          <value></value>
+          <tooltip>Enter heading for Across clues</tooltip>
+        </tf-clues-across>
+        <lbl-clues-down>
+          <value>Caption at top of list of down clues</value>
+          <tooltip></tooltip>
+        </lbl-clues-down>
+        <tf-clues-down>
+          <value></value>
+          <tooltip>Enter heading for Down clues</tooltip>
+        </tf-clues-down>
+        <lbl-enter-caption>
+          <value>Enter button</value>
+          <tooltip></tooltip>
+        </lbl-enter-caption>
+        <tf-enter-caption>
+          <value></value>
+          <tooltip>Enter caption on button that inserts student guess into grid</tooltip>
+        </tf-enter-caption>
+        <cb-include-clue-list>
+          <value>Include list of clues</value>
+          <tooltip>Check to include list of clues below grid</tooltip>
+        </cb-include-clue-list>
+      </wd-config-jcross>
+      <wd-config-jmatch>
+        <lbl-flashcard-next-caption>
+          <value>Caption on Next Flashcard button: </value>
+          <tooltip></tooltip>
+        </lbl-flashcard-next-caption>
+        <tf-flashcard-next-caption>
+          <value></value>
+          <tooltip>Enter caption for button that displays next flashcard pair</tooltip>
+        </tf-flashcard-next-caption>
+        <lbl-flashcard-delete-caption>
+          <value>Delete Flashcard button: </value>
+          <tooltip></tooltip>
+        </lbl-flashcard-delete-caption>
+        <tf-flashcard-delete-caption>
+          <value></value>
+          <tooltip>Enter caption for button that removes flashcard pair temporarily from list</tooltip>
+        </tf-flashcard-delete-caption>
+      </wd-config-jmatch>
+      <wd-config-jmix>
+        <lbl-this-much-correct>
+          <value>This much of your answer is correct </value>
+          <tooltip></tooltip>
+        </lbl-this-much-correct>
+        <tf-this-much-correct>
+          <value></value>
+          <tooltip>Enter text that introduces how much of student guess is correct</tooltip>
+        </tf-this-much-correct>
+        <lbl-next-correct-part>
+          <value>Next correct word is</value>
+          <tooltip></tooltip>
+        </lbl-next-correct-part>
+        <tf-next-correct-part>
+          <value></value>
+          <tooltip>Enter text that introduces next correct segment</tooltip>
+        </tf-next-correct-part>
+        <lbl-click-to-add>
+          <value>Click to add word to sentence.</value>
+          <tooltip></tooltip>
+        </lbl-click-to-add>
+        <tf-click-to-add>
+          <value></value>
+          <tooltip>Enter text on button that causes selected word to be added to answer</tooltip>
+        </tf-click-to-add>
+        <tf-show-also-correct>
+          <value></value>
+          <tooltip>Enter text that introduces any alternate correct answers</tooltip>
+        </tf-show-also-correct>
+        <cb-always-capitalize-first>
+          <value>Always capitalize first character</value>
+          <tooltip>Check to force first letter of first segment to always be uppercase</tooltip>
+        </cb-always-capitalize-first>
+        <cb-undo-caption>
+          <value>Undo button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-undo-caption>
+        <tf-undo-caption>
+          <value></value>
+          <tooltip>Enter caption for button that undoes the last action</tooltip>
+        </tf-undo-caption>
+        <cb-restart-caption>
+          <value>Restart button</value>
+          <tooltip>Check this item to include it in the exercise.</tooltip>
+        </cb-restart-caption>
+        <tf-restart-caption>
+          <value></value>
+          <tooltip>Enter caption of button that allows student to start over</tooltip>
+        </tf-restart-caption>
+      </wd-config-jmix>
+      <wd-chooser-main>
+      </wd-chooser-main>
+      <wd-choose-paths>
+        <lbl-paths-prefs-file>
+          <value>Project Preferences File</value>
+          <tooltip></tooltip>
+        </lbl-paths-prefs-file>
+        <tf-paths-prefs-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-prefs-file-current>
+        <tf-paths-prefs-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-prefs-file-desired>
+        <btn-paths-prefs-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-prefs-file>
+        <lbl-paths-source-folder>
+          <value>Source Folder</value>
+          <tooltip></tooltip>
+        </lbl-paths-source-folder>
+        <tf-paths-source-folder-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-current>
+        <tf-paths-source-folder-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-desired>
+        <btn-paths-source-folder>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder>
+        <btn-paths-source-folder-use-default>
+          <value>Use Default Source folder</value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder-use-default>
+        <lbl-paths-config-file>
+          <value>Configuration File</value>
+          <tooltip></tooltip>
+        </lbl-paths-config-file>
+        <tf-paths-config-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-config-file-current>
+        <tf-paths-config-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-config-file-desired>
+        <btn-paths-config-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-config-file>
+        <lbl-paths-interface-file>
+          <value>Interface File</value>
+          <tooltip></tooltip>
+        </lbl-paths-interface-file>
+        <tf-paths-interface-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-current>
+        <tf-paths-interface-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-desired>
+        <btn-paths-interface-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file>
+        <btn-paths-interface-file-use-default>
+          <value>Use Default Interface values</value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file-use-default>
+        <btn-choose-paths-use-defaults>
+          <value>Use Defaults</value>
+          <tooltip></tooltip>
+        </btn-choose-paths-use-defaults>
+        <btn-choose-paths-save-as>
+          <value></value>
+          <tooltip>Save As...</tooltip>
+        </btn-choose-paths-save-as>
+        <btn-choose-paths-save>
+          <value></value>
+          <tooltip>Click to apply changes</tooltip>
+        </btn-choose-paths-save>
+        <btn-choose-paths-close-window>
+          <value></value>
+          <tooltip>Click to close window with no further changes to exercise or potato</tooltip>
+        </btn-choose-paths-close-window>
+      </wd-choose-paths>
+      <wd-insert-image>
+        <wd-insert-image-title>
+          <value>Insert Image</value>
+        </wd-insert-image-title>
+        <lbl-insert-image-path>
+          <value>Path or URL to image</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-path>
+        <tf-insert-image-path>
+          <value></value>
+          <tooltip>Enter relative path or absolute URL to image</tooltip>
+        </tf-insert-image-path>
+        <btn-insert-image-path>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-insert-image-path>
+        <lbl-insert-image-alt>
+          <value>Alternate text for image</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-alt>
+        <tf-insert-image-alt>
+          <value></value>
+          <tooltip>Enter alt text for image</tooltip>
+        </tf-insert-image-alt>
+        <lbl-insert-image-title>
+          <value>Image title</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-title>
+        <tf-insert-image-title>
+          <value></value>
+          <tooltip>Enter title text for image</tooltip>
+        </tf-insert-image-title>
+        <tf-insert-image-width>
+          <value></value>
+          <tooltip>Enter width of image (number greater than 1)</tooltip>
+        </tf-insert-image-width>
+        <tf-insert-image-height>
+          <value></value>
+          <tooltip>Enter height of image (number greater than 1)</tooltip>
+        </tf-insert-image-height>
+        <lbl-insert-image-alignment>
+          <value>Image alignment</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-alignment>
+        <cmb-insert-image-alignment>
+          <value></value>
+          <tooltip>Choose alignment of image within containing object</tooltip>
+        </cmb-insert-image-alignment>
+        <cb-keep-aspect-ratio>
+          <value>Maintain ratio of width to height</value>
+          <tooltip></tooltip>
+        </cb-keep-aspect-ratio>
+        <btn-insert-image-preview>
+          <value>Show Preview</value>
+          <tooltip></tooltip>
+        </btn-insert-image-preview>
+        <btn-insert-image-ok>
+          <value></value>
+          <tooltip>Click to accept changes and apply to exercise or potato</tooltip>
+        </btn-insert-image-ok>
+        <btn-insert-image-cancel>
+          <value></value>
+          <tooltip>Click to ignore proposed changes to exercise or potato</tooltip>
+        </btn-insert-image-cancel>
+        <lbl-insert-image-window-title>
+          <value>Insert Image</value>
+          <tooltip></tooltip>
+        </lbl-insert-image-window-title>
+      </wd-insert-image>
+      <wd-insert-link>
+        <wd-insert-link-title>
+          <value>Insert Link</value>
+        </wd-insert-link-title>
+        <lbl-insert-link-window-title>
+          <value>Insert Link</value>
+          <tooltip></tooltip>
+        </lbl-insert-link-window-title>
+        <lbl-insert-link-path>
+          <value>Path or URL to linked file</value>
+          <tooltip></tooltip>
+        </lbl-insert-link-path>
+        <tf-insert-link-path>
+          <value></value>
+          <tooltip>Enter relative path or absolute URL to linked file</tooltip>
+        </tf-insert-link-path>
+        <btn-insert-link-path>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-insert-link-path>
+        <lbl-insert-link-text>
+          <value>Text for link</value>
+          <tooltip></tooltip>
+        </lbl-insert-link-text>
+        <tf-insert-link-text>
+          <value></value>
+          <tooltip>Enter text that will act as link</tooltip>
+        </tf-insert-link-text>
+        <cb-insert-link-new-window>
+          <value>Open link in new window</value>
+          <tooltip></tooltip>
+        </cb-insert-link-new-window>
+        <btn-insert-link-ok>
+          <value></value>
+          <tooltip>Click to accept changes and apply to exercise or potato</tooltip>
+        </btn-insert-link-ok>
+        <btn-insert-image-cancel>
+          <value></value>
+          <tooltip>Click to ignore proposed changes to exercise or potato</tooltip>
+        </btn-insert-image-cancel>
+      </wd-insert-link>
+      <wd-insert-object>
+        <wd-insert-object-title>
+          <value>Insert Object</value>
+        </wd-insert-object-title>
+        <lbl-insert-object-window-title>
+          <value>Insert Object</value>
+          <tooltip></tooltip>
+        </lbl-insert-object-window-title>
+        <lbl-insert-object-path>
+          <value>Path or URL to media file</value>
+          <tooltip></tooltip>
+        </lbl-insert-object-path>
+        <tf-insert-object-path>
+          <value></value>
+          <tooltip>Enter relative path or absolute URL to media object</tooltip>
+        </tf-insert-object-path>
+        <btn-insert-object-path>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-insert-object-path>
+        <tf-insert-object-width>
+          <value></value>
+          <tooltip>Width of object</tooltip>
+        </tf-insert-object-width>
+        <tf-insert-object-height>
+          <value></value>
+          <tooltip>Height of object</tooltip>
+        </tf-insert-object-height>
+        <lbl-insert-object-player>
+          <value>Player for media file</value>
+          <tooltip></tooltip>
+        </lbl-insert-object-player>
+        <cmb-insert-object-player1>
+          <value></value>
+          <tooltip>Select first choice for media player</tooltip>
+        </cmb-insert-object-player1>
+        <cmb-insert-object-player2>
+          <value></value>
+          <tooltip>Select second choice for media player</tooltip>
+        </cmb-insert-object-player2>
+        <cmb-insert-object-player3>
+          <value></value>
+          <tooltip>Select third choice for media player</tooltip>
+        </cmb-insert-object-player3>
+        <cmb-insert-object-player4>
+          <value></value>
+          <tooltip>Select fourth choice for media player</tooltip>
+        </cmb-insert-object-player4>
+        <cb-insert-object-plain-link>
+          <value>Include plain link to media file</value>
+          <tooltip>Check to include a plain link to media file</tooltip>
+        </cb-insert-object-plain-link>
+        <tf-insert-object-plain-link>
+          <value></value>
+          <tooltip>Enter text to act as link to media file</tooltip>
+        </tf-insert-object-plain-link>
+        <btn-insert-object-ok>
+          <value></value>
+          <tooltip>Click to accept changes and apply to exercise or potato</tooltip>
+        </btn-insert-object-ok>
+        <btn-insert-object-cancel>
+          <value></value>
+          <tooltip>Click to ignore proposed changes to exercise or potato</tooltip>
+        </btn-insert-object-cancel>
+      </wd-insert-object>
+      <wd-insert-table>
+        <wd-insert-table-title>
+          <value>Insert Table</value>
+        </wd-insert-table-title>
+        <lbl-insert-table-window-title>
+          <value>Insert Table</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-window-title>
+        <lbl-insert-table-rows>
+          <value>Table rows</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-rows>
+        <tf-insert-table-rows>
+          <value></value>
+          <tooltip>Enter number of rows in table (number greater than 0)</tooltip>
+        </tf-insert-table-rows>
+        <lbl-insert-table-columns>
+          <value>Table columns</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-columns>
+        <tf-insert-table-columns>
+          <value></value>
+          <tooltip>Enter number of columns in table (number greater than 1)</tooltip>
+        </tf-insert-table-columns>
+        <lbl-insert-table-padding>
+          <value>Table cell padding</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-padding>
+        <tf-insert-table-padding>
+          <value></value>
+          <tooltip>Enter amount of padding within each cell (number 0 or greater)</tooltip>
+        </tf-insert-table-padding>
+        <lbl-insert-table-spacing>
+          <value>Table cell spacing</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-spacing>
+        <tf-insert-table-spacing>
+          <value></value>
+          <tooltip>Enter amount of spacing between cells (number 0 or greater)</tooltip>
+        </tf-insert-table-spacing>
+        <lbl-insert-table-border>
+          <value>Table border</value>
+          <tooltip></tooltip>
+        </lbl-insert-table-border>
+        <tf-insert-table-border>
+          <value></value>
+          <tooltip>Enter width of border (number 0 or greater)</tooltip>
+        </tf-insert-table-border>
+        <tf-insert-table-width>
+          <value></value>
+          <tooltip>Enter width of table (blank = full width)</tooltip>
+        </tf-insert-table-width>
+        <btn-insert-table-ok>
+          <value></value>
+          <tooltip>Click to accept changes and apply to exercise or potato</tooltip>
+        </btn-insert-table-ok>
+        <btn-insert-table-cancel>
+          <value></value>
+          <tooltip>Click to ignore proposed changes to exercise or potato</tooltip>
+        </btn-insert-table-cancel>
+      </wd-insert-table>
+      <wd-change-interface>
+        <lbl-interface-font>
+          <value>Font for Labels, Buttons, Tabs Etc.</value>
+          <tooltip></tooltip>
+        </lbl-interface-font>
+        <tf-interface-font-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-font-current>
+        <tf-interface-font-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-font-desired>
+        <btn-interface-font>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-interface-font>
+        <lbl-input-font>
+          <value>Font for Text Entry Boxes etc.</value>
+          <tooltip></tooltip>
+        </lbl-input-font>
+        <tf-input-font-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-input-font-current>
+        <tf-input-font-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-input-font-desired>
+        <btn-input-font>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-input-font>
+        <btn-interface-apply-fonts>
+          <value></value>
+          <tooltip>Click to apply changes</tooltip>
+        </btn-interface-apply-fonts>
+        <btn-close-interface-window>
+          <value></value>
+          <tooltip>Click to close window with no further changes to exercise or potato</tooltip>
+        </btn-close-interface-window>
+        <lbl-paths-source-folder>
+          <value>Source Folder</value>
+          <tooltip></tooltip>
+        </lbl-paths-source-folder>
+        <tf-paths-source-folder-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-current>
+        <tf-paths-source-folder-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-source-folder-desired>
+        <btn-paths-source-folder>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder>
+        <btn-paths-source-folder-use-default>
+          <value>Use Default Source Folder</value>
+          <tooltip></tooltip>
+        </btn-paths-source-folder-use-default>
+        <lbl-paths-interface-file>
+          <value>Interface File</value>
+          <tooltip></tooltip>
+        </lbl-paths-interface-file>
+        <tf-paths-interface-file-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-current>
+        <tf-paths-interface-file-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-paths-interface-file-desired>
+        <btn-paths-interface-file>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file>
+        <btn-paths-interface-file-use-default>
+          <value>Use Default (English) Interface Values</value>
+          <tooltip></tooltip>
+        </btn-paths-interface-file-use-default>
+        <btn-interface-apply-paths>
+          <value></value>
+          <tooltip>Click to apply changes</tooltip>
+        </btn-interface-apply-paths>
+        <lbl-interface-texts-section>
+          <value>Sections of interface file</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-section>
+        <lbl-interface-texts-subsection>
+          <value>Subsections of section</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-subsection>
+        <lbl-interface-texts-items>
+          <value>Items in subsection</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-items>
+        <lst-interface-texts-section>
+          <value></value>
+          <tooltip></tooltip>
+        </lst-interface-texts-section>
+        <lst-interface-texts-subsection>
+          <value></value>
+          <tooltip></tooltip>
+        </lst-interface-texts-subsection>
+        <lbl-interface-texts-inputs>
+          <value>Texts for selected item</value>
+          <tooltip></tooltip>
+        </lbl-interface-texts-inputs>
+        <lbl-interface-text-current>
+          <value>Current text for this item:</value>
+          <tooltip></tooltip>
+        </lbl-interface-text-current>
+        <tf-interface-text-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-text-current>
+        <lbl-interface-text-desired>
+          <value>Desired text for this item:</value>
+          <tooltip></tooltip>
+        </lbl-interface-text-desired>
+        <tf-interface-text-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-text-desired>
+        <lbl-interface-tooltip-current>
+          <value>Current tooltip for this item:</value>
+          <tooltip></tooltip>
+        </lbl-interface-tooltip-current>
+        <tf-interface-tooltip-current>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-tooltip-current>
+        <lbl-interface-tooltip-desired>
+          <value>Desired tooltip for this item:</value>
+          <tooltip></tooltip>
+        </lbl-interface-tooltip-desired>
+        <tf-interface-tooltip-desired>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-interface-tooltip-desired>
+        <btn-open-interface-file>
+          <value>Open</value>
+          <tooltip></tooltip>
+        </btn-open-interface-file>
+        <btn-save-interface-file>
+          <value>Save</value>
+          <tooltip></tooltip>
+        </btn-save-interface-file>
+        <btn-save-as-interface-file>
+          <value>Save As...</value>
+          <tooltip></tooltip>
+        </btn-save-as-interface-file>
+      </wd-change-interface>
+      <wd-reading-text>
+        <cb-reading-include>
+          <value>Include Reading with exercise</value>
+          <tooltip></tooltip>
+        </cb-reading-include>
+        <lbl-reading-import>
+          <value>Import a web page for reading</value>
+          <tooltip></tooltip>
+        </lbl-reading-import>
+        <btn-reading-import>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-reading-import>
+        <lbl-reading-title>
+          <value>Reading title:</value>
+          <tooltip></tooltip>
+        </lbl-reading-title>
+        <tf-reading-title>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-reading-title>
+        <lbl-reading-text>
+          <value>Reading text:</value>
+          <tooltip></tooltip>
+        </lbl-reading-text>
+        <btn-reading-ok>
+          <value></value>
+          <tooltip>Click to accept changes and apply to exercise or potato</tooltip>
+        </btn-reading-ok>
+        <btn-reading-cancel>
+          <value></value>
+          <tooltip>Click to ignore proposed changes to exercise or potato</tooltip>
+        </btn-reading-cancel>
+      </wd-reading-text>
+      <wd-metadata>
+        <wd-metadata-title>
+          <value>DC Metadata</value>
+        </wd-metadata-title>
+        <lbl-metadata-list-of-elements>
+          <value>List of Dublin Core metadate elements</value>
+          <tooltip></tooltip>
+        </lbl-metadata-list-of-elements>
+        <cmb-metadata-list-of-elements>
+          <value></value>
+          <tooltip>Choose element from this list</tooltip>
+        </cmb-metadata-list-of-elements>
+        <lbl-metadata-instance>
+          <value>Instance of this Element:</value>
+          <tooltip></tooltip>
+        </lbl-metadata-instance>
+        <tf-metadata-instance>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-metadata-instance>
+        <btn-metadata-instance-up-arrow>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-metadata-instance-up-arrow>
+        <btn-metadata-instance-down-arrow>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-metadata-instance-down-arrow>
+        <lbl-metadata-value-text>
+          <value>Text for this instance of this element:</value>
+          <tooltip></tooltip>
+        </lbl-metadata-value-text>
+        <btn-metadata-add>
+          <value>Add</value>
+          <tooltip></tooltip>
+        </btn-metadata-add>
+        <btn-metadata-delete>
+          <value>Delete</value>
+          <tooltip></tooltip>
+        </btn-metadata-delete>
+        <btn-metadata-done>
+          <value>Done</value>
+          <tooltip></tooltip>
+        </btn-metadata-done>
+      </wd-metadata>
+      <wd-register-user>
+        <wd-register-user-title>
+          <value>Hot Potatoes 6</value>
+        </wd-register-user-title>
+        <lbl-user-name-to-register>
+          <value>Name to Register</value>
+          <tooltip></tooltip>
+        </lbl-user-name-to-register>
+        <tf-user-name-to-register>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-user-name-to-register>
+        <lbl-reg-key-to-register>
+          <value>Registration key</value>
+          <tooltip></tooltip>
+        </lbl-reg-key-to-register>
+        <tf-reg-key-to-register>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-reg-key-to-register>
+        <btn-register-user>
+          <value>Register</value>
+          <tooltip></tooltip>
+        </btn-register-user>
+        <btn-register-user-close-window>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-register-user-close-window>
+      </wd-register-user>
+      <wd-masher-main>
+        <btn-move-file-up>
+          <value>Up</value>
+          <tooltip></tooltip>
+        </btn-move-file-up>
+        <btn-move-file-down>
+          <value>Down</value>
+          <tooltip></tooltip>
+        </btn-move-file-down>
+        <btn-add-files>
+          <value>Add...</value>
+          <tooltip></tooltip>
+        </btn-add-files>
+        <btn-delete-file>
+          <value>Delete</value>
+          <tooltip></tooltip>
+        </btn-delete-file>
+        <lbl-output-folder>
+          <value>Folder to create exercise in</value>
+          <tooltip></tooltip>
+        </lbl-output-folder>
+        <tf-masher-output-folder>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-output-folder>
+        <rb-appearance-use-settings-from-file>
+          <value>Use settings obtained from data files</value>
+          <tooltip></tooltip>
+        </rb-appearance-use-settings-from-file>
+        <rb-appearance-use-masher-settings>
+          <value>Use settings specified below</value>
+          <tooltip></tooltip>
+        </rb-appearance-use-masher-settings>
+        <rb-user-strings-use-settings-from-file>
+          <value>Use settings obtained from data files</value>
+          <tooltip></tooltip>
+        </rb-user-strings-use-settings-from-file>
+        <rb-user-strings-use-masher-settings>
+          <value>Use settings specified below</value>
+          <tooltip></tooltip>
+        </rb-user-strings-use-masher-settings>
+        <cb-add-navbar-to-pages>
+          <value>Add Nav bar to HTML pages which are not exercises</value>
+          <tooltip></tooltip>
+        </cb-add-navbar-to-pages>
+        <lbl-masher-source-folder>
+          <value>Folder for source files to combine with data files</value>
+          <tooltip></tooltip>
+        </lbl-masher-source-folder>
+        <lbl-masher-unit-index-source>
+          <value>Source of index file for masher unit (edit at your own risk)</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-index-source>
+        <btn-save-masher-unit-index-source>
+          <value>Save Index Source</value>
+          <tooltip></tooltip>
+        </btn-save-masher-unit-index-source>
+        <btn-restore-default-masher-unit-index-source>
+          <value>Restore Default Index Source</value>
+          <tooltip></tooltip>
+        </btn-restore-default-masher-unit-index-source>
+        <lbl-masher-unit-title>
+          <value>Title of Unit</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-title>
+        <tf-masher-unit-title>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-unit-title>
+        <lbl-masher-unit-index-filename>
+          <value>Name of contents file</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-index-filename>
+        <tf-masher-unit-index-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-unit-index-filename>
+        <btn-masher-build-unit>
+          <value>Build Unit</value>
+          <tooltip></tooltip>
+        </btn-masher-build-unit>
+      </wd-masher-main>
+      <wd-masher-confirm-add>
+        <wd-masher-confirm-add-title>
+          <value>Add File or Files to Project</value>
+        </wd-masher-confirm-add-title>
+        <lbl-source-filename>
+          <value>Data filename</value>
+          <tooltip></tooltip>
+        </lbl-source-filename>
+        <tf-source-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-source-filename>
+        <lbl-output-filename>
+          <value>Exercise filename</value>
+          <tooltip></tooltip>
+        </lbl-output-filename>
+        <tf-output-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-output-filename>
+        <lbl-next-filename>
+          <value>Next Exercise</value>
+          <tooltip></tooltip>
+        </lbl-next-filename>
+        <tf-next-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-next-filename>
+        <lbl-output-format>
+          <value>Output Type</value>
+          <tooltip></tooltip>
+        </lbl-output-format>
+        <cmb-output-format>
+          <value></value>
+          <tooltip></tooltip>
+        </cmb-output-format>
+        <btn-ok>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-ok>
+        <btn-ok-all>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-ok-all>
+        <lbl-masher-confirm-add-window-title>
+          <value>Add File or Files to Project</value>
+          <tooltip></tooltip>
+        </lbl-masher-confirm-add-window-title>
+      </wd-masher-confirm-add>
+    </windows>
+    <menus>
+      <menubar-shared-main>
+        <menu-item-append-exercise>
+          <value>Append Exercise...</value>
+          <tooltip>Append data from another exercise to this exercise.</tooltip>
+        </menu-item-append-exercise>
+        <menu-item-create-v6-page-dragdrop>
+          <value>Create drag-drop page</value>
+          <tooltip>Create an exercise with a drag and drop user interface.</tooltip>
+        </menu-item-create-v6-page-dragdrop>
+        <menu-item-create-v6-zip-page-dragdrop>
+          <value>Create zip file containing drag-drop page</value>
+          <tooltip>Create a zip file containing an exercise with drag-drop interface.</tooltip>
+        </menu-item-create-v6-zip-page-dragdrop>
+        <menu-item-create-v6-scorm-page-dragdrop>
+          <value>Create SCORM package containing a drag-drop page</value>
+          <tooltip>Create a SCORM package containing an exercise with drag-drop interface.</tooltip>
+        </menu-item-create-v6-scorm-page-dragdrop>
+        <menu-item-delete-item>
+          <value>Delete item...</value>
+          <tooltip>Select item to delete from this exercise.</tooltip>
+        </menu-item-delete-item>
+        <menu-item-insert-item>
+          <value>Insert item...</value>
+          <tooltip>Select location to insert new item into this exercise.</tooltip>
+        </menu-item-insert-item>
+        <menu-item-move-item>
+          <value>Move item...</value>
+          <tooltip>Select item to move in this exercise.</tooltip>
+        </menu-item-move-item>
+        <menu-item-shuffle-items>
+          <value>Shuffle items</value>
+          <tooltip>Shuffle items for this exercise in the potato.</tooltip>
+        </menu-item-shuffle-items>
+        <menu-item-create-v6-page-text>
+          <value>Create text-only file</value>
+          <tooltip>Choose to create a plain text file for questions and answers</tooltip>
+        </menu-item-create-v6-page-text>
+        <menu-item-create-v6-WebCT>
+          <value>Create WebCT data file</value>
+          <tooltip>Create a text file suitable for uploading into your WebCT question database.</tooltip>
+        </menu-item-create-v6-WebCT>
+        <menu-file>
+          <value>File</value>
+          <tooltip>Items which affect entire files</tooltip>
+        </menu-file>
+        <menu-item-new-ex>
+          <value>New exercise</value>
+          <tooltip>Choose to start a new exercise</tooltip>
+        </menu-item-new-ex>
+        <menu-item-open-ex>
+          <value>Open data file...</value>
+          <tooltip>Choose to open a data file you saved previously</tooltip>
+        </menu-item-open-ex>
+        <menu-item-save-ex>
+          <value>Save data file</value>
+          <tooltip>Choose to save your information to current data file for this potato</tooltip>
+        </menu-item-save-ex>
+        <menu-item-save-as-ex>
+          <value>Save data file as...</value>
+          <tooltip>Choose to save your information to data file you specify</tooltip>
+        </menu-item-save-as-ex>
+        <menu-recent>
+          <value>Recent Data Files</value>
+          <tooltip>List of recent data files saved by this potato</tooltip>
+        </menu-recent>
+        <menu-item-metadata>
+          <value>Edit Dublin Core Metadata</value>
+          <tooltip>Items listing Dublin Core metadata elements</tooltip>
+        </menu-item-metadata>
+        <menu-item-reading-text>
+          <value>Reading Text...</value>
+          <tooltip>Choose to include a reading text with this exercise</tooltip>
+        </menu-item-reading-text>
+        <menu-export>
+          <value>Export</value>
+          <tooltip>Items that create web pages etc.</tooltip>
+        </menu-export>
+        <menu-item-create-v6-page-standard>
+          <value>Create Standard V6 page</value>
+          <tooltip>Choose to create a standard page from this potato</tooltip>
+        </menu-item-create-v6-page-standard>
+        <menu-export-zip>
+          <value>Export Zip Package</value>
+          <tooltip>Items that create zip packages containing web pages</tooltip>
+        </menu-export-zip>
+        <menu-item-create-v6-zip-page-standard>
+          <value>Create zip file containing for Standard V6 page</value>
+          <tooltip>Choose to create a zip file containing a standard page from this potato</tooltip>
+        </menu-item-create-v6-zip-page-standard>
+        <menu-export-scorm>
+          <value>Export SCORM Package</value>
+          <tooltip>Items that create scorm packages containing web pages</tooltip>
+        </menu-export-scorm>
+        <menu-item-create-v6-scorm-page-standard>
+          <value>Create SCORM package containing Standard V6 page</value>
+          <tooltip>Choose to create a SCORM package containing a standard page from this potato</tooltip>
+        </menu-item-create-v6-scorm-page-standard>
+       <menu-item-exit>
+          <value>Quit/Exit</value>
+          <tooltip>Choose to close this potato</tooltip>
+        </menu-item-exit>
+        <menu-edit>
+          <value>Edit</value>
+          <tooltip>Items that allow you to edit text</tooltip>
+        </menu-edit>
+        <menu-item-cut>
+          <value>Cut</value>
+          <tooltip>Choose to cut selected text to clipboard</tooltip>
+        </menu-item-cut>
+        <menu-item-copy>
+          <value>Copy</value>
+          <tooltip>Choose to copy selected text to clipboard</tooltip>
+        </menu-item-copy>
+        <menu-item-paste>
+          <value>Paste</value>
+          <tooltip>Choose to paste text on clipboard to insertion point</tooltip>
+        </menu-item-paste>
+        <menu-item-delete>
+          <value>Delete</value>
+          <tooltip>Choose to delete selected text</tooltip>
+        </menu-item-delete>
+        <menu-item-select-all>
+          <value>Select All</value>
+          <tooltip>Choose to select all text in current text box</tooltip>
+        </menu-item-select-all>
+        <menu-insert>
+          <value>Insert</value>
+          <tooltip>Items that allow you to insert blocks of HTML tags</tooltip>
+        </menu-insert>
+        <menu-item-insert-image>
+          <value>Insert image</value>
+          <tooltip>Choose to insert HTML for an image</tooltip>
+        </menu-item-insert-image>
+        <menu-item-insert-link>
+          <value>Insert link to file</value>
+          <tooltip>Choose to insert HTML for a link to a file</tooltip>
+        </menu-item-insert-link>
+        <menu-item-insert-table>
+          <value>Insert HTML Table</value>
+          <tooltip>Choose to insert HTML for a table</tooltip>
+        </menu-item-insert-table>
+        <menu-item-insert-object>
+          <value>Insert Media Object</value>
+          <tooltip>Choose to inset HTML for a media object</tooltip>
+        </menu-item-insert-object>
+        <menu-manage>
+          <value>Manage</value>
+          <tooltip>Items that allow you to manage exercise items</tooltip>
+        </menu-manage>
+        <menu-options>
+          <value>Options</value>
+          <tooltip>Items that provide you miscellaneous settings</tooltip>
+        </menu-options>
+        <menu-item-read-config>
+          <value>Read Configuration In With Data</value>
+          <tooltip>Choose to read configuration information in with data file</tooltip>
+        </menu-item-read-config>
+        <menu-item-open-config>
+          <value>Open Configuration Window</value>
+          <tooltip>Choose to edit items (buttons, messages) on exercise page</tooltip>
+        </menu-item-open-config>
+        <menu-item-open-interface>
+          <value>Open Change Interface Window</value>
+          <tooltip>Choose to change interface of this potato (font, text)</tooltip>
+        </menu-item-open-interface>
+        <menu-help>
+          <value>Help</value>
+          <tooltip>Items that provide further information</tooltip>
+        </menu-help>
+        <menu-item-help-contents>
+          <value>Help Contents</value>
+          <tooltip>Choose to see help that comes with Hot Potatoes</tooltip>
+        </menu-item-help-contents>
+        <menu-item-help-tutorial>
+          <value>Tutorials</value>
+          <tooltip>Detailed instructions on using Hot Potatoes.</tooltip>
+        </menu-item-help-tutorial>
+        <menu-item-feature-list>
+          <value>Bug and Feature List for This Version</value>
+          <tooltip></tooltip>
+        </menu-item-feature-list>
+        <menu-item-faq>
+          <value>Frequently Asked Questions</value>
+          <tooltip>Choose to see FAQ on web</tooltip>
+        </menu-item-faq>
+        <menu-item-bulletin-board>
+          <value>User Group Bulletin Board</value>
+          <tooltip>Choose to go to discussion group on web</tooltip>
+        </menu-item-bulletin-board>
+        <menu-item-help-email>
+          <value>Email Support</value>
+          <tooltip>Choose to email developers</tooltip>
+        </menu-item-help-email>
+        <menu-item-register>
+          <value>Register</value>
+          <tooltip>Choose to enter username and key to register this copy of Hot Potatoes</tooltip>
+        </menu-item-register>
+        <menu-item-about>
+          <value>About</value>
+          <tooltip>Choose to see version number</tooltip>
+        </menu-item-about>
+      </menubar-shared-main>
+      <menubar-chooser-main>
+        <menu-item-exit-all>
+          <value>Quit All Potatoes</value>
+          <tooltip>Choose to quit all potatoes immediately</tooltip>
+        </menu-item-exit-all>
+        <menu-item-show-tooltips>
+          <value>Show Tooltips</value>
+          <tooltip>Check to make Hot Potatoes display tooltip when mouse hovers over item</tooltip>
+        </menu-item-show-tooltips>
+        <menu-item-choose-paths>
+          <value>Set Paths For Project</value>
+          <tooltip>Choose to set paths to important files for all potatoes at once</tooltip>
+        </menu-item-choose-paths>
+        <menu-set-default-paths>
+          <value>Set Default Paths For Project</value>
+          <tooltip>Reset to default values where HotPot looks for important files.</tooltip>
+        </menu-set-default-paths>
+      </menubar-chooser-main>
+      <menubar-jcloze-main>
+      </menubar-jcloze-main>
+      <menubar-jcross-main>
+        <menu-item-resize-grid>
+          <value>Resize Grid...</value>
+          <tooltip>Choose to change maximum size of grid allowed</tooltip>
+        </menu-item-resize-grid>
+        <menu-item-auto-grid>
+          <value>Create Grid from List of Words...</value>
+          <tooltip>Choose to get JCross to create grid from words you provide</tooltip>
+        </menu-item-auto-grid>
+        <menu-item-case-sensitive-grid>
+          <value>Grid Input Case Sensitive</value>
+          <tooltip>Use Config window to change case sensitivity for exercise page</tooltip>
+        </menu-item-case-sensitive-grid>
+      </menubar-jcross-main>
+      <menubar-jmatch-main>
+        <menu-item-create-v6-page-flashcard>
+          <value>Create FlashCard page</value>
+          <tooltip>choose to create a flashcard page using current data</tooltip>
+        </menu-item-create-v6-page-flashcard>
+        <menu-item-create-v6-zip-page-flashcard>
+          <value>Create zip file containing FlashCard page</value>
+          <tooltip>Create a zip file containing a flashcard page using current data</tooltip>
+        </menu-item-create-v6-zip-page-flashcard>
+        <menu-item-create-v6-scorm-page-flashcard>
+          <value>Create SCORM package containing FlashCard page</value>
+          <tooltip>Create a SCORM package containing a flashcard page using current data</tooltip>
+        </menu-item-create-v6-scorm-page-flashcard>
+        <menu-item-switch-columns>
+          <value>Switch columns</value>
+          <tooltip>Choose to swap right and left columns</tooltip>
+        </menu-item-switch-columns>
+      </menubar-jmatch-main>
+      <menubar-jmix-main>
+      </menubar-jmix-main>
+      <menubar-jquiz-main>
+        <menu-beginner-advanced-ui>
+          <value>Set User Interface Mode...</value>
+          <tooltip>Show or Hide more advanced features</tooltip>
+        </menu-beginner-advanced-ui>
+        <menu-item-beginner-ui>
+          <value>Simple Interface</value>
+          <tooltip>Hide more advanced features</tooltip>
+        </menu-item-beginner-ui>
+        <menu-item-advanced-ui>
+          <value>Advanced Interface</value>
+          <tooltip>Show advanced features</tooltip>
+        </menu-item-advanced-ui>
+      </menubar-jquiz-main>
+      <menubar-masher-main>
+        <menu-file-masher>
+          <value>File</value>
+          <tooltip>Items affecting entire Masher project file.</tooltip>
+        </menu-file-masher>
+        <menu-item-new-proj>
+          <value>New project</value>
+          <tooltip>Start a new Masher project.</tooltip>
+        </menu-item-new-proj>
+        <menu-item-open-masher>
+          <value>Open project ...</value>
+          <tooltip>Open a Masher project file.</tooltip>
+        </menu-item-open-masher>
+        <menu-item-save-masher>
+          <value>Save project</value>
+          <tooltip>Save current project file.</tooltip>
+        </menu-item-save-masher>
+        <menu-item-save-as-masher>
+          <value>Save project as...</value>
+          <tooltip>Choose file to save current project to.</tooltip>
+        </menu-item-save-as-masher>
+        <menu-recent-masher>
+          <value>Recent Projects</value>
+          <tooltip>See list of recent project files.</tooltip>
+        </menu-recent-masher>
+        <menu-actions-masher>
+          <value>Actions</value>
+          <tooltip>Actions Masher can do.</tooltip>
+        </menu-actions-masher>
+        <menu-item-build-unit>
+          <value>Build Unit</value>
+          <tooltip></tooltip>
+        </menu-item-build-unit>
+        <menu-item-build-index>
+          <value>Build Index Page Only</value>
+          <tooltip></tooltip>
+        </menu-item-build-index>
+        <menu-item-batch-process>
+          <value>Batch Processing ...</value>
+          <tooltip></tooltip>
+        </menu-item-batch-process>
+        <menu-item-blank-web-page>
+          <value>Create Blank Web Page</value>
+          <tooltip></tooltip>
+        </menu-item-blank-web-page>
+        <menu-item-css-base>
+          <value>Create Base CSS Stylesheet</value>
+          <tooltip></tooltip>
+        </menu-item-css-base>
+        <menu-item-css-full>
+          <value>Create Full Hot Potatoes Stylesheet</value>
+          <tooltip></tooltip>
+        </menu-item-css-full>
+        <menu-options-masher>
+          <value>Options</value>
+          <tooltip>Items to change various settings affecting how the potato works.</tooltip>
+        </menu-options-masher>
+        <menu-item-open-interface-masher>
+          <value>Choose Interface File</value>
+          <tooltip>Use this to select the interface file.</tooltip>
+        </menu-item-open-interface-masher>
+        <menu-item-register-masher>
+          <value>Register</value>
+          <tooltip>Use to enter your user name and registration key.</tooltip>
+        </menu-item-register-masher>
+      </menubar-masher-main>
+    </menus>
+    <messages>
+      <msg-use-default-interface-file>
+        <value>Do you want to use the default interface file?</value>
+      </msg-use-default-interface-file>
+      <msg-player-qt>
+        <value>QuickTime</value>
+      </msg-player-qt>
+      <msg-jcloze-no-gaps-yet>
+        <value>Please create a gap before trying this action.</value>
+      </msg-jcloze-no-gaps-yet>
+      <msg-desired-value>
+        <value>Desired value:</value>
+      </msg-desired-value>
+      <msg-masher-tab-source>
+        <value>Source</value>
+      </msg-masher-tab-source>
+      <msg-jquiz-question-type-hybrid>
+        <value>Hybrid</value>
+      </msg-jquiz-question-type-hybrid>
+      <msg-file-name-has-space-char>
+        <value>This filename contains a space, continue with save?</value>
+      </msg-file-name-has-space-char>
+      <msg-configuration-file>
+        <value>Configuration File</value>
+      </msg-configuration-file>
+      <msg-metadata-language>
+        <value>Language</value>
+      </msg-metadata-language>
+      <msg-masher-output-type-flashcard>
+        <value>flashcard</value>
+      </msg-masher-output-type-flashcard>
+      <msg-jcross-grid-size>
+        <value>Enter size of grid:</value>
+      </msg-jcross-grid-size>
+      <msg-item-skipped-no-question>
+        <value>Item(s) skipped because of no question: </value>
+      </msg-item-skipped-no-question>
+      <msg-display-in-browser>
+        <value>View in Browser</value>
+      </msg-display-in-browser>
+      <msg-save-as>
+        <value>Save As...</value>
+      </msg-save-as>
+      <msg-text>
+        <value>Text</value>
+      </msg-text>
+      <msg-caption>
+        <value>Caption</value>
+      </msg-caption>
+      <msg-jcross-words-placed-number>
+        <value>Number of words placed: </value>
+      </msg-jcross-words-placed-number>
+      <msg-save-changes-to>
+        <value>Save changes to:</value>
+      </msg-save-changes-to>
+      <msg-select-before-insert>
+        <value>Please click where you want the text to appear, then open this dialog again.</value>
+      </msg-select-before-insert>
+      <msg-font>
+        <value>Font</value>
+      </msg-font>
+      <msg-jcross-words-lack-definition>
+        <value>The following word(s) have no definition: </value>
+      </msg-jcross-words-lack-definition>
+      <msg-jcross-words-not-placed>
+        <value>Words not placed: </value>
+      </msg-jcross-words-not-placed>
+      <msg-jcloze-selection-contains-plain-text>
+        <value>Part of selection is plain text. Click in gap you want to un-gap.</value>
+      </msg-jcloze-selection-contains-plain-text>
+      <msg-metadata-identifier>
+        <value>Identifier</value>
+      </msg-metadata-identifier>
+      <msg-masher-tab-user-strings>
+        <value>User Strings</value>
+      </msg-masher-tab-user-strings>
+      <msg-hide>
+        <value>Hide</value>
+      </msg-hide>
+      <msg-interface-text-section-messages>
+        <value>Messages</value>
+      </msg-interface-text-section-messages>
+      <msg-cant-find-config-file>
+        <value>I can&apos;t find the configuration file: </value>
+      </msg-cant-find-config-file>
+      <msg-config-tab-buttons>
+        <value>Buttons</value>
+      </msg-config-tab-buttons>
+      <msg-confirm>
+        <value>Confirm</value>
+      </msg-confirm>
+      <msg-apply>
+        <value>Apply</value>
+      </msg-apply>
+      <msg-masher-tab-files>
+        <value>Files</value>
+      </msg-masher-tab-files>
+      <msg-new-item-enter-number>
+        <value>Enter number for new item:</value>
+      </msg-new-item-enter-number>
+      <msg-left-side>
+        <value>left</value>
+      </msg-left-side>
+      <msg-create-exercise-file-failed>
+        <value>I failed to create the exercise file:</value>
+      </msg-create-exercise-file-failed>
+      <msg-cant-find-source-file>
+        <value>I can&apos;t find the source file(s):</value>
+      </msg-cant-find-source-file>
+      <msg-save-file-failed>
+        <value>I failed to save the file: </value>
+      </msg-save-file-failed>
+      <msg-masher-column-output-filename>
+        <value>Output Filename</value>
+      </msg-masher-column-output-filename>
+      <msg-error-has-occurred>
+        <value>An error has occurred.</value>
+      </msg-error-has-occurred>
+      <msg-jquiz-question-type-text>
+        <value>Text</value>
+      </msg-jquiz-question-type-text>
+      <msg-registration-success>
+        <value>Registration was successful.</value>
+      </msg-registration-success>
+      <msg-none>
+        <value>none</value>
+      </msg-none>
+      <msg-masher-column-next-filename>
+        <value>Next Page</value>
+      </msg-masher-column-next-filename>
+      <msg-jcloze-selection-contains-gap>
+        <value>Your selection contains part or all of another gap. Please choose only plain text for your gap.</value>
+      </msg-jcloze-selection-contains-gap>
+      <msg-jcross-table-number>
+        <value>Num</value>
+      </msg-jcross-table-number>
+      <msg-jcross-grid-letters-at-risk>
+        <value>This will cause some letters in the grid to be deleted.</value>
+      </msg-jcross-grid-letters-at-risk>
+      <msg-delete-item-enter-number>
+        <value>Enter number of item to delete:</value>
+      </msg-delete-item-enter-number>
+      <msg-save-data-first>
+        <value>Save your data file, then try this action again.</value>
+      </msg-save-data-first>
+      <msg-include-character-at-gap-front>
+        <value>I found the following character at the start of the gap. Do you want to include it? </value>
+      </msg-include-character-at-gap-front>
+      <msg-project-created>
+        <value>Project created:</value>
+      </msg-project-created>
+      <msg-interface-text-section-exercise>
+        <value>Exercise Windows</value>
+      </msg-interface-text-section-exercise>
+      <msg-check-to-include-in-page>
+        <value>Check this item to include it in the exercise.</value>
+      </msg-check-to-include-in-page>
+      <msg-metadata-source>
+        <value>Source</value>
+      </msg-metadata-source>
+      <msg-config-tab-other>
+        <value>Other</value>
+      </msg-config-tab-other>
+      <msg-config-tab-power-user>
+        <value>Power User</value>
+      </msg-config-tab-power-user>
+      <msg-apply-tooltip>
+        <value>Click to apply changes</value>
+      </msg-apply-tooltip>
+      <msg-jcloze-no-plain-text-around-gap>
+        <value>You must include at least one plain text character before and after your gap.</value>
+      </msg-jcloze-no-plain-text-around-gap>
+      <msg-url>
+        <value>URL</value>
+      </msg-url>
+      <msg-metadata-format>
+        <value>Format</value>
+      </msg-metadata-format>
+      <msg-done>
+        <value>Done</value>
+      </msg-done>
+      <msg-jquiz-question-type-mc>
+        <value>Multiple Choice</value>
+      </msg-jquiz-question-type-mc>
+      <msg-jmix-alternate-answer-has-word-not-in-main>
+        <value>This alternate answer contains something not found in the main answer: </value>
+      </msg-jmix-alternate-answer-has-word-not-in-main>
+      <msg-config-tab-cgi>
+        <value>CGI</value>
+      </msg-config-tab-cgi>
+      <msg-ok-tooltip>
+        <value>Click to accept changes and apply to exercise or potato</value>
+      </msg-ok-tooltip>
+      <msg-player-real>
+        <value>RealPlayer</value>
+      </msg-player-real>
+      <msg-interface-tab-texts>
+        <value>Texts</value>
+      </msg-interface-tab-texts>
+      <msg-interface-text-section-menus>
+        <value>Menu Items</value>
+      </msg-interface-text-section-menus>
+      <msg-not-a-valid-number>
+        <value>The value you entered is not a valid number.</value>
+      </msg-not-a-valid-number>
+      <msg-masher-tab-appearance>
+        <value>Appearance</value>
+      </msg-masher-tab-appearance>
+      <msg-error>
+        <value>Error</value>
+      </msg-error>
+      <msg-interface-text-section-misc>
+        <value>Other Windows</value>
+      </msg-interface-text-section-misc>
+      <msg-value>
+        <value>Value</value>
+      </msg-value>
+      <msg-jcloze-selection-contains-whitespace>
+        <value>Your selection contains illegal non-visible characters (such as tab or return). Please don&apos;t include these in your gap.</value>
+      </msg-jcloze-selection-contains-whitespace>
+      <msg-open-tooltip>
+        <value>Click to choose an appropriate type of file to open</value>
+      </msg-open-tooltip>
+      <msg-masher-output-type-non-hotpot>
+        <value>non-hotpot</value>
+      </msg-masher-output-type-non-hotpot>
+      <msg-task-terminated>
+        <value>I can&apos;t complete this task.</value>
+      </msg-task-terminated>
+      <msg-interface-tab-paths>
+        <value>Paths</value>
+      </msg-interface-tab-paths>
+      <msg-width>
+        <value>Width </value>
+      </msg-width>
+      <msg-file-name-has-illegal-char>
+        <value>This character may not be acceptable in a web page name, continue with save?</value>
+      </msg-file-name-has-illegal-char>
+      <msg-open-potato-to-see-change>
+        <value>Open a new instance of this potato to see change</value>
+      </msg-open-potato-to-see-change>
+      <msg-jquiz-question-type-multi>
+        <value>Multiple Correct</value>
+      </msg-jquiz-question-type-multi>
+      <msg-masher-tab-buttons>
+        <value>Buttons</value>
+      </msg-masher-tab-buttons>
+      <msg-current-value>
+        <value>Current value</value>
+      </msg-current-value>
+      <msg-jmix-alternate-answer-missing-word-in-main>
+        <value>This alternate answer is missing a segment found in the main answer: </value>
+      </msg-jmix-alternate-answer-missing-word-in-main>
+      <msg-file-name-start-illegal-char>
+        <value>This character may not be acceptable at the start of a web page name, continue with save?</value>
+      </msg-file-name-start-illegal-char>
+      <msg-right-side>
+        <value>right</value>
+      </msg-right-side>
+      <msg-jcloze-confirm-ungap-all>
+        <value>Are you sure you want to turn ALL gaps into plain text?</value>
+      </msg-jcloze-confirm-ungap-all>
+      <msg-metadata-description>
+        <value>Description</value>
+      </msg-metadata-description>
+      <msg-config-tab-prompts>
+        <value>Prompts</value>
+      </msg-config-tab-prompts>
+      <msg-metadata-coverage>
+        <value>Coverage</value>
+      </msg-metadata-coverage>
+      <msg-cancel-tooltip>
+        <value>Click to ignore proposed changes to exercise or potato</value>
+      </msg-cancel-tooltip>
+      <msg-ok-all>
+        <value>OK to All</value>
+      </msg-ok-all>
+      <msg-batch-created>
+        <value>Batch created:</value>
+      </msg-batch-created>
+      <msg-ok>
+        <value>OK</value>
+      </msg-ok>
+      <msg-continue-with-defaults>
+        <value>I will use default values.</value>
+      </msg-continue-with-defaults>
+      <msg-exercise-created>
+        <value>Exercise created:</value>
+      </msg-exercise-created>
+      <msg-move-item-source>
+        <value>Enter number for item you wish to move:</value>
+      </msg-move-item-source>
+      <msg-metadata-subject>
+        <value>Subject</value>
+      </msg-metadata-subject>
+      <msg-height>
+        <value>Height: </value>
+      </msg-height>
+      <msg-masher-column-output-type>
+        <value>Type of output</value>
+      </msg-masher-column-output-type>
+      <msg-config-file-is>
+        <value>Configure file:</value>
+      </msg-config-file-is>
+      <msg-cant-find-output-folder>
+        <value>I can&apos;t find the output folder: </value>
+      </msg-cant-find-output-folder>
+      <msg-metadata-creator>
+        <value>Creator</value>
+      </msg-metadata-creator>
+      <msg-interface-text-section-configure>
+        <value>Configure Windows</value>
+      </msg-interface-text-section-configure>
+      <msg-interface-tab-fonts>
+        <value>Fonts</value>
+      </msg-interface-tab-fonts>
+      <msg-use-this-instead>
+        <value>I&apos;ll use this instead:</value>
+      </msg-use-this-instead>
+      <msg-data-file>
+        <value>Data file</value>
+      </msg-data-file>
+      <msg-jcross-table-clue>
+        <value>Clue</value>
+      </msg-jcross-table-clue>
+      <msg-close>
+        <value>Close</value>
+      </msg-close>
+      <msg-exercise>
+        <value>Exercise</value>
+      </msg-exercise>
+      <msg-registration-failed>
+        <value>Registration was NOT successful. Please try again.</value>
+      </msg-registration-failed>
+      <msg-open>
+        <value>Open</value>
+      </msg-open>
+      <msg-default-folder>
+        <value>Default folder</value>
+      </msg-default-folder>
+      <msg-close-tooltip>
+        <value>Click to close window with no further changes to exercise or potato</value>
+      </msg-close-tooltip>
+      <msg-jcross-grid-letters-remove>
+        <value>OK to delete letters in grid?</value>
+      </msg-jcross-grid-letters-remove>
+      <msg-file-already-exists>
+        <value>This file already exists:</value>
+      </msg-file-already-exists>
+      <msg-masher-column-data-filename>
+        <value>Data Filename</value>
+      </msg-masher-column-data-filename>
+      <msg-item-skipped-no-correct-answer>
+        <value>Item(s) skipped because of no correct answer: </value>
+      </msg-item-skipped-no-correct-answer>
+      <msg-parse-file-failed>
+        <value>I failed to parse the file: </value>
+      </msg-parse-file-failed>
+      <msg-player-wmp>
+        <value>Windows Media Player</value>
+      </msg-player-wmp>
+      <msg-display-upload-to-hotpotnet>
+        <value>Upload to hotpotatoes.net</value>
+      </msg-display-upload-to-hotpotnet>
+      <msg-enter-url-here>
+        <value>Enter Absolute or relative URL.</value>
+      </msg-enter-url-here>
+      <msg-create>
+        <value>Create</value>
+      </msg-create>
+      <msg-jcross-table-word>
+        <value>Word</value>
+      </msg-jcross-table-word>
+      <msg-jcloze-autogap-plain-text-only>
+        <value>Auto-gap works only if your text contains no gaps.</value>
+      </msg-jcloze-autogap-plain-text-only>
+      <msg-confirm-overwrite>
+        <value>Do you want to replace the existing file?</value>
+      </msg-confirm-overwrite>
+      <msg-insertion-must-be-selection>
+        <value>This is an insertion point only, please select at least one character.</value>
+      </msg-insertion-must-be-selection>
+      <msg-masher-tab-index>
+        <value>Index</value>
+      </msg-masher-tab-index>
+      <msg-26-index-chars>
+        <value>zyxwvutsrqpnmlkjihgfedcba</value>
+      </msg-26-index-chars>
+      <msg-must-be-registered>
+        <value>Please register this copy of Hot Potatoes before taking this action.</value>
+      </msg-must-be-registered>
+      <msg-metadata-publisher>
+        <value>Publisher</value>
+      </msg-metadata-publisher>
+      <msg-jcloze-n-for-autogap>
+        <value>Autogap makes a gap every N words. Enter a number for the value of N.</value>
+      </msg-jcloze-n-for-autogap>
+      <msg-show>
+        <value>Show</value>
+      </msg-show>
+      <msg-cancel>
+        <value>Cancel</value>
+      </msg-cancel>
+      <msg-cant-find-source-folder>
+        <value>I can&apos;t find the source folder: </value>
+      </msg-cant-find-source-folder>
+      <msg-config-tab-appearance>
+        <value>Appearance</value>
+      </msg-config-tab-appearance>
+      <msg-center>
+        <value>center</value>
+      </msg-center>
+      <msg-masher-output-type-dragdrop>
+        <value>drag-drop</value>
+      </msg-masher-output-type-dragdrop>
+      <msg-delete>
+        <value>Delete</value>
+      </msg-delete>
+      <msg-jcloze-insertion-not-in-plain-text>
+        <value>The insertion point is inside a gap. It must be in plain text.</value>
+      </msg-jcloze-insertion-not-in-plain-text>
+      <msg-masher-output-type-standard>
+        <value>standard</value>
+      </msg-masher-output-type-standard>
+      <msg-open-file-failed>
+        <value>I failed to open the file: </value>
+      </msg-open-file-failed>
+      <msg-metadata-contributor>
+        <value>Contributor</value>
+      </msg-metadata-contributor>
+      <msg-preview>
+        <value>Preview</value>
+      </msg-preview>
+      <msg-metadata-rights>
+        <value>Rights</value>
+      </msg-metadata-rights>
+      <msg-add>
+        <value>Add</value>
+      </msg-add>
+      <msg-metadata-relation>
+        <value>Relation</value>
+      </msg-metadata-relation>
+      <msg-metadata-type>
+        <value>Type</value>
+      </msg-metadata-type>
+      <msg-masher-file>
+        <value>Masher project file</value>
+      </msg-masher-file>
+      <msg-masher-must-be-registered>
+        <value>Please register this copy of the Masher before taking this action.</value>
+      </msg-masher-must-be-registered>
+      <msg-move-item-destination>
+        <value>Enter new item number for this item:</value>
+      </msg-move-item-destination>
+      <msg-metadata-date>
+        <value>Date</value>
+      </msg-metadata-date>
+      <msg-player-flash>
+        <value>Flash</value>
+      </msg-player-flash>
+      <msg-save>
+        <value>Save</value>
+      </msg-save>
+      <msg-config-tab-timer>
+        <value>Timer</value>
+      </msg-config-tab-timer>
+      <msg-metadata-title>
+        <value>Title</value>
+      </msg-metadata-title>
+      <msg-config-tab-instructions>
+        <value>Instructions</value>
+      </msg-config-tab-instructions>
+      <msg-scorm-package>
+      	 <value>SCORM package</value>
+      </msg-scorm-package>
+      <msg-zip-package>
+      	 <value>SCORM package</value>
+      </msg-zip-package>
+    </messages>
+  </java>
+</hotpot-interface-file>

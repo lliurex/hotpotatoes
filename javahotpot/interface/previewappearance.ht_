@@ -1,0 +1,698 @@
+<?xml version="1.0"?>
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml"
+             xml:lang="en"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+
+<title>
+Preview Appearance
+</title>
+
+
+<style type="text/css">
+
+body{
+	font-family: [strFontFace];
+	background-color: [strPageBGColor];
+	color: [strTextColor];
+	[inclGraphicURL]	background-image: url([strGraphicURL]);[/inclGraphicURL] 
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: small;
+}
+
+p{
+	text-align: left;
+	margin: 0px;
+	font-size: small;
+}
+
+div,span,td{
+	font-size: small;
+	color: [strTextColor];
+}
+
+div.Titles{
+	padding: 10px;
+	text-align: center;
+	color: [strTitleColor];
+}
+
+button{
+	display: inline;
+}
+
+.ExerciseTitle{
+	font-size: large;
+	color: [strTitleColor];
+}
+
+.ExerciseSubtitle{
+	color: [strTitleColor];
+}
+
+span.Instructions{
+
+}
+
+div.ExerciseText{
+
+}
+
+.FeedbackText{
+	color: [strTitleColor];
+}
+
+div.Feedback {
+	background-color: [strPageBGColor];
+	left: 33%;
+	width: 34%;
+	top: 33%;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	text-align: center;
+	color: [strTitleColor];
+	position: absolute;
+	display: none;
+	font-size: small;
+}
+
+div.ExerciseDiv{
+	color: [strTextColor];
+}
+
+div.StdDiv{
+	background-color: [strExBGColor];
+	text-align: center;
+	font-size: small;
+	color: [strTextColor];
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: [strTextColor];
+	margin: 1px;
+}
+
+.FuncButton {
+	text-align: center;
+	border-style: solid;
+	border-left-color: [strFuncLightColor];
+	border-top-color: [strFuncLightColor];
+	border-right-color: [strFuncShadeColor];
+	border-bottom-color: [strFuncShadeColor];
+	color: [strTextColor];
+	background-color: [strExBGColor];
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonUp {
+	color: [strExBGColor];
+	text-align: center;
+	border-style: solid;
+	border-left-color: [strFuncLightColor];
+	border-top-color: [strFuncLightColor];
+	border-right-color: [strFuncShadeColor];
+	border-bottom-color: [strFuncShadeColor];
+	background-color: [strTextColor];
+	color: [strExBGColor];
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonDown {
+	color: [strExBGColor];
+	text-align: center;
+	border-style: solid;
+	border-left-color: [strFuncShadeColor];
+	border-top-color: [strFuncShadeColor];
+	border-right-color: [strFuncLightColor];
+	border-bottom-color: [strFuncLightColor];
+	background-color: [strTextColor];
+	color: [strExBGColor];
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: [strNavBarColor];
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: small;
+}
+
+.NavButton {
+	border-style: solid;
+	border-left-color: [strNavLightColor];
+	border-top-color: [strNavLightColor];
+	border-right-color: [strNavShadeColor];
+	border-bottom-color: [strNavShadeColor];
+	background-color: [strNavBarColor];
+	color: [strNavTextColor];
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+	border-left-color: [strNavLightColor];
+	border-top-color: [strNavLightColor];
+	border-right-color: [strNavShadeColor];
+	border-bottom-color: [strNavShadeColor];
+	color: [strNavBarColor];
+	background-color: [strNavTextColor];
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+	border-left-color: [strNavShadeColor];
+	border-top-color: [strNavShadeColor];
+	border-right-color: [strNavLightColor];
+	border-bottom-color: [strNavLightColor];
+	color: [strNavBarColor];
+	background-color: [strNavTextColor];
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+/*EndNavBarStyle*/
+
+a{
+	color: [strLinkColor];
+}
+
+a: visited{
+	color: [strVLinkColor];
+}
+
+a:hover{
+	color: [strLinkColor];
+}
+
+
+
+
+
+</style>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+ //start of browsercheck.js
+ 
+function Client(){
+//if not a DOM browser, hopeless
+	this.min = false; if (document.getElementById){this.min = true;};
+
+	this.ua = navigator.userAgent;
+	this.name = navigator.appName;
+	this.ver = navigator.appVersion;  
+
+//Get data about the browser
+	this.mac = (this.ver.indexOf('Mac') != -1);
+	this.win = (this.ver.indexOf('Windows') != -1);
+
+//Look for Gecko
+	this.gecko = (this.ua.indexOf('Gecko') > 1);
+	if (this.gecko){
+		this.geckoVer = parseInt(this.ua.substring(this.ua.indexOf('Gecko')+6, this.ua.length));
+		if (this.geckoVer < 20020000){this.min = false;}
+	}
+	
+//Look for Firebird
+	this.firebird = (this.ua.indexOf('Firebird') > 1);
+	
+//Look for Safari
+	this.safari = (this.ua.indexOf('Safari') > 1);
+	if (this.safari){
+		this.gecko = false;
+	}
+	
+//Look for IE
+	this.ie = (this.ua.indexOf('MSIE') > 0);
+	if (this.ie){
+		this.ieVer = parseFloat(this.ua.substring(this.ua.indexOf('MSIE')+5, this.ua.length));
+		if (this.ieVer < 5.5){this.min = false;}
+	}
+	
+//Look for Opera
+	this.opera = (this.ua.indexOf('Opera') > 0);
+	if (this.opera){
+		this.operaVer = parseFloat(this.ua.substring(this.ua.indexOf('Opera')+6, this.ua.length));
+		if (this.operaVer < 7.04){this.min = false;}
+	}
+	if (this.min == false){
+		alert('Your browser may not be able to handle this page.');
+	}
+	
+//Special case for the horrible ie5mac
+	this.ie5mac = (this.ie&&this.mac&&(this.ieVer<6));
+}
+
+var C = new Client();
+
+//CODE FOR HANDLING NAV BUTTONS AND FUNCTION BUTTONS
+
+function NavBtnOver(Btn){
+	if (Btn.className != 'NavButtonDown'){Btn.className = 'NavButtonUp';}
+}
+
+function NavBtnOut(Btn){
+	Btn.className = 'NavButton';
+}
+
+function NavBtnDown(Btn){
+	Btn.className = 'NavButtonDown';
+}
+
+function FuncBtnOver(Btn){
+	if (Btn.className != 'FuncButtonDown'){Btn.className = 'FuncButtonUp';}
+}
+
+function FuncBtnOut(Btn){
+	Btn.className = 'FuncButton';
+}
+
+function FuncBtnDown(Btn){
+	Btn.className = 'FuncButtonDown';
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		if (document.getElementById('CheckButton2') != null){
+			document.getElementById('CheckButton2').focus();
+		}
+		else{
+			document.getElementsByTagName('button')[0].focus();
+		}
+	}
+}
+
+
+//[strJSShowMessage]
+//CODE FOR HANDLING DISPLAY OF POPUP FEEDBACK BOX
+
+var topZ = 1000;
+
+function CheckAnswers(){
+
+//Show the feedback and rebuild the exercise
+	ShowMessage('Feedback appears here');
+	
+}
+
+function ShowMessage(Feedback){
+	var Output = Feedback + '<br /><br />';
+	document.getElementById('FeedbackContent').innerHTML = Output;
+	var FDiv = document.getElementById('FeedbackDiv');
+	topZ++;
+	FDiv.style.zIndex = topZ;
+	FDiv.style.top = TopSettingWithScrollOffset(30) + 'px';
+//IE can't focus a hidden div; Moz needs to focus before display to avoid jumping
+	if (C.gecko){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	FDiv.style.display = 'block';
+
+	ShowElements(false, 'input');
+	ShowElements(false, 'select');
+	ShowElements(false, 'object');
+	if (C.ie){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+}
+
+function ShowElements(Show, TagName){
+//Special for IE bug -- hide all the form elements that will show through the popup
+	if (C.ie){
+		var Els = document.getElementsByTagName(TagName);
+		for (var i=0; i<Els.length; i++){
+			if (Show == true){
+				Els[i].style.display = 'inline';
+			}
+			else{
+				Els[i].style.display = 'none';
+			}
+		}
+	} 
+}
+
+function HideFeedback(){
+	document.getElementById('FeedbackDiv').style.display = 'none';
+	ShowElements(true, 'input');
+	ShowElements(true, 'select');
+	ShowElements(true, 'object');
+	if (Finished == true){
+		Finish();
+	}
+}
+
+
+//[strJSUtilities]
+//GENERAL UTILITY FUNCTIONS AND VARIABLES
+
+//PAGE DIMENSION FUNCTIONS
+function PageDim(){
+//Get the page width and height
+	this.W = 600;
+	this.H = 400;
+	this.W = document.getElementsByTagName('body')[0].clientWidth;
+	this.H = document.getElementsByTagName('body')[0].clientHeight;
+}
+
+var pg = null;
+
+function GetPageXY(El) {
+	var XY = {x: 0, y: 0};
+	while(El){
+		XY.x += El.offsetLeft;
+		XY.y += El.offsetTop;
+		El = El.offsetParent;
+	}
+	return XY;
+}
+
+function GetScrollTop(){
+	if (document.documentElement && document.documentElement.scrollTop){
+		return document.documentElement.scrollTop;
+	}
+	else{
+		if (document.body){
+ 			return document.body.scrollTop;
+		}
+		else{
+			return window.pageYOffset;
+		}
+	}
+}
+
+function GetViewportHeight(){
+	if (window.innerWidth){
+		return window.innerWidth;
+	}
+	else{
+		return document.getElementsByTagName('body')[0].clientHeight;
+	}
+}
+
+function TopSettingWithScrollOffset(TopPercent){
+	var T = Math.floor(GetViewportHeight() * (TopPercent/100));
+	return GetScrollTop() + T; 
+}
+
+//CODE FOR AVOIDING LOSS OF DATA WHEN BACKSPACE KEY INVOKES history.back()
+var InTextBox = false;
+
+function SuppressBackspace(e){ 
+	if (InTextBox == true){return;}
+	if (C.ie) {
+		thisKey = window.event.keyCode;
+	}
+	else {
+		thisKey = e.keyCode;
+	}
+
+	var Suppress = false;
+
+	if (thisKey == 8) {
+		Suppress = true;
+	}
+
+	if (Suppress == true){
+		if (C.ie){
+			window.event.returnValue = false;	
+			window.event.cancelBubble = true;
+		}
+		else{
+			e.preventDefault();
+		}
+	}
+}
+
+if (C.ie){
+	document.attachEvent('onkeydown',SuppressBackspace);
+	window.attachEvent('onkeydown',SuppressBackspace);
+}
+else{
+	window.addEventListener('keypress',SuppressBackspace,false);
+}
+
+function WriteToInstructions(Feedback) {
+	document.getElementById('InstructionsDiv').innerHTML = Feedback;
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		document.getElementsByTagName('button')[0].focus();
+	}
+}
+
+//EXTENSION TO ARRAY OBJECT
+function Array_IndexOf(Input){
+	var Result = -1;
+	for (var i=0; i<this.length; i++){
+		if (this[i] == Input){
+			Result = i;
+		}
+	}
+	return Result;
+}
+Array.prototype.indexOf = Array_IndexOf;
+
+//IE HAS RENDERING BUG WITH BOTTOM NAVBAR
+function RemoveBottomNavBarForIE(){
+	if ((C.ie)&&(document.getElementById('Reading') != null)){
+		if (document.getElementById('BottomNavBar') != null){
+			document.getElementById('TheBody').removeChild(document.getElementById('BottomNavBar'));
+		}
+	}
+}
+
+//jmatch6.js
+var TotalUnfixedLeftItems = 0;
+var TotCorrectChoices = 0;
+var Penalties = 0;
+var Finished = false;
+var Score = 0;
+var Interval = null;
+var Locked = false;
+var ShuffleQs = false;
+var QsToShow = 3;
+
+function StartUp(){
+	RemoveBottomNavBarForIE();
+
+	SetUpItems(ShuffleQs,QsToShow);
+
+	TotalUnfixedLeftItems = document.getElementById('MatchDiv').getElementsByTagName('select').length;
+
+//Create arrays
+	CreateStatusArrays();
+
+}
+
+Status = new Array();
+
+function CreateStatusArrays(){
+	var Selects = document.getElementById('Questions').getElementsByTagName('select');
+	for (var x=0; x<Selects.length; x++){
+		Status[x] = new Array();
+		Status[x][0] = 0; // Item not matched correctly yet
+		Status[x][1] = 0; //Tries at this item so far
+		Status[x][2] = Selects[x].id; //Store a ref to the original drop-down
+	}
+}
+
+function GetKeyFromSelectContainer(Container){
+	var Result = -1;
+	if (Container.getElementsByTagName('select').length > 0){
+		var Select = Container.getElementsByTagName('select')[0];
+		if (Select != null){
+			Result = parseInt(Select.id.substring(1, Select.id.length));
+		}
+	}
+	return Result;
+}
+
+function GetKeyFromSelect(Select){
+	var Result = -1;
+	if (Select != null){
+		Result = parseInt(Select.id.substring(1, Select.id.length));
+	}
+	return Result;
+}
+
+var OriginalKeys = new Array();
+var ReducedKeys = new Array();
+
+function GetUniqueKeys(Container, TargetArray){
+	TargetArray.length = 0;
+	var x = -1;
+	var SList = Container.getElementsByTagName('select');
+	if (SList.length > 0){
+		for (var i=0; i<SList.length; i++){
+			x = GetKeyFromSelect(SList[i]);
+			if (TargetArray.indexOf(x) < 0){
+				TargetArray.push(x);
+			}
+		}
+	}
+}
+
+function SetUpItems(ShuffleQs, ReduceTo){
+	var QList = new Array();
+	var i, j, k, Selects, Options;
+
+//Remove all the table rows and put them in an array for processing
+	var Qs = document.getElementById('Questions');
+	
+//First, get a list of keys
+	GetUniqueKeys(Qs, OriginalKeys);
+
+//Remove the table rows to an array
+	while (Qs.getElementsByTagName('tr').length > 0){
+		QList.push(Qs.removeChild(Qs.getElementsByTagName('tr')[0]));
+	}
+
+	var Reducing = (QList.length > ReduceTo);
+	
+//If required, select random rows to delete
+	if (Reducing == true){
+		var DumpItem = 0;
+		while (ReduceTo < QList.length){
+	
+//Get a number to delete from the array
+			DumpItem = Math.floor(QList.length*Math.random());
+			for (i=DumpItem; i<(QList.length-1); i++){
+				QList[i] = QList[i+1];
+			}
+			QList.length = QList.length-1;
+		}
+	}
+//Shuffle the rows if necessary
+	if (ShuffleQs == true){
+		QList = Shuffle(QList);
+	}
+
+	TotalUnfixedLeftItems = QList.length;
+	
+//Write the rows back to the table body
+	for (i=0; i<QList.length; i++){
+		Qs.appendChild(QList[i]);
+	}
+	
+//Now we need to remove any drop-down options that no longer have associated select items
+	if (Reducing == true){
+		GetUniqueKeys(Qs, ReducedKeys);
+		
+		Selects = Qs.getElementsByTagName('select');
+		for (i=0; i<Selects.length; i++){
+			Options = Selects[i].getElementsByTagName('option');
+			for (j=Options.length-1; j>=0; j--){
+				if (OptionRequired(Options[j].value) == false){
+					Selects[i].removeChild(Options[j]);
+				}
+			}
+		}
+	}
+}
+
+function OptionRequired(Key){
+	if (ReducedKeys.indexOf(Key) > -1){
+		return true;
+	}
+	else{
+		if (OriginalKeys.indexOf(Key) > -1){
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+}
+
+//-->
+
+//]]>
+
+</script>
+
+
+</head>
+
+<body onload="StartUp()" id="TheBody">
+
+<!-- BeginTopNavButtons -->
+<div class="NavButtonBar" id="TopNavBar">
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="history.back(); return false;"> &lt;= </button>
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index.htm'; return false;"> Index </button>
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='nextpage.htm'; return false;">=&gt;</button>
+</div>
+<!-- EndTopNavButtons -->
+
+<div class="Titles">
+	<h2 class="ExerciseTitle">Exercise Title</h2>
+	<h3 class="ExerciseSubtitle">Exercise Subtitle</h3>
+</div>
+
+<div id="InstructionsDiv" class="StdDiv">
+	<p id="Instructions">Instructions</p>
+</div>
+
+<div id="MainDiv" class="StdDiv">
+
+<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;Check Button&nbsp;</button>
+
+<div id="MatchDiv" style="text-align: center;">
+
+<form id="QForm" method="post" action="" onsubmit="return false;">
+<table border="0" style="margin: 2em auto 2em auto;"><tbody id="Questions">
+
+<tr><td>Exercise Contents appear here</td></tr>
+<tr><td>Here's a link to the <a href="http://web.uvic.ca/hrd/hotpot/">Hot Potatoes home page</a></td></tr>
+<tr><td>Questions, Answers, etc.</td></tr>
+
+</tbody></table>
+</form>
+</div>
+
+<button id="CheckButton2" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;Check Button&nbsp;</button>
+
+</div>
+
+<div class="Feedback" id="FeedbackDiv">
+<div class="FeedbackText" id="FeedbackContent"></div>
+<button id="FeedbackOKButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="HideFeedback(); return false;">&nbsp;OK&nbsp;</button>
+</div>
+
+<!-- BeginBottomNavButtons -->
+<div class="NavButtonBar" id="BottomNavBar">
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" ; return false;"> &lt;= </button><!-- onclick="history.back() -->
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" ; return false;"> Index </button><!-- onclick="location='index.htm' -->
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" ; return false;"> =&gt; </button> <!-- onclick="location='nextpage.htm' -->
+/div>
+<!-- EndBottomNavButtons -->
+
+</body>
+
+</html>
