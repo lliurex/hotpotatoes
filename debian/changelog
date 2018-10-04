@@ -1,3 +1,9 @@
+hotpotatoes (6.1.0.1-0+lliurex21) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 04 Oct 2018 09:04:36 +0200
+
 hotpotatoes (6.1.0.1-0+lliurex11) xenial; urgency=medium
 
   * First release to xenial
