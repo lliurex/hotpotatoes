@@ -1,0 +1,23 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=143
+Upstream-Name: hotpotatoes
+Upstream-Source: http://hotpot.uvic.ca/
+
+Files: *, !debian/*
+Copyright: Half-Baked Software Inc.
+License: /usr/share/hotpotatoes/ReadMe6-1-0-1.txt
+
+Files: debian/*
+Copyright: Copyright 2010 Hector Garcia Huerta <lliurex_devel1@edu.gva.es>
+License: GPL-3+
+
+License: GPL-3+
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 3, or (at your option)
+   any later version.
+   on any Debian system you can find a copy of the newest GNU GPL at
+   '/usr/share/common-licenses/GPL'
+
+
+

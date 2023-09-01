@@ -1,0 +1,76 @@
+hotpotatoes (6.1.0.1-0+lliurex31) focal; urgency=medium
+
+  * Initial release for focal
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 15 Sep 2020 13:01:02 +0200
+
+hotpotatoes (6.1.0.1-0+lliurex22) bionic; urgency=medium
+
+  * Dummy upgrade
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 04 Oct 2018 09:13:07 +0200
+
+hotpotatoes (6.1.0.1-0+lliurex21) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 04 Oct 2018 09:04:36 +0200
+
+hotpotatoes (6.1.0.1-0+lliurex11) xenial; urgency=medium
+
+  * First release to xenial
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 02 Feb 2016 12:35:32 +0100
+
+hotpotatoes (6.1.0.1-0+lliurex8) trusty; urgency=medium
+
+  * first trusty release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 14 Jan 2015 11:35:26 +0100
+
+hotpotatoes (6.1.0.1-0+lliurex7) precise; urgency=low
+
+  * UNRELEASED
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jul 2013 11:27:19 +0200
+
+hotpotatoes (6.1.0.1-0+lliurex6) precise; urgency=low
+
+  * Fixed tarball ?
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jul 2013 10:27:05 +0200
+
+hotpotatoes (6.1.0.1-0+lliurex5) precise; urgency=low
+
+  * Pandora release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jul 2013 09:56:11 +0200
+
+hotpotatoes (6.1.0.1-0+lliurex4) unstable; urgency=low
+
+  [ Angel Berlanas Vicente ]
+  * fixed dependeces. or that's what we hope
+
+  [ Hector Garcia Huerta ]
+  * .-
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 10 Jul 2013 09:56:08 +0200
+
+hotpotatoes (6.1.0.1-0+lliurex2) lucid; urgency=low
+
+  [ Hector Garcia Huerta ]
+  * release for leia
+  * lliurex-java dependences
+  * fixed control
+
+  [ Angel Berlanas Vicente ]
+  * Uploaders Fixed
+  * ToNemo
+
+ -- Angel Berlanas Vicente <lliurex_devel2@edu.gva.es>  Thu, 08 Mar 2012 10:32:52 +0100
+
+hotpotatoes (6.1.0.1-0+lliurex1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Hector Garcia Huerta <lliurex_devel1@edu.gva.es>  Wed, 03 Mar 2010 13:18:12 +0100
