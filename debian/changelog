@@ -1,3 +1,9 @@
+hotpotatoes (6.1.0.1-0+lliurex41) jammy; urgency=medium
+
+  * Initial release for jammy
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 01 Sep 2023 14:01:46 +0200
+
 hotpotatoes (6.1.0.1-0+lliurex31) focal; urgency=medium
 
   * Initial release for focal
