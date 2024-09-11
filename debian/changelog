@@ -1,3 +1,9 @@
+hotpotatoes (6.1.0.1-0+lliurex51) noble; urgency=medium
+
+  * Initial release for noble
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 11 Sep 2024 12:45:28 +0200
+
 hotpotatoes (6.1.0.1-0+lliurex41) jammy; urgency=medium
 
   * Initial release for jammy
